@@ -1,0 +1,3871 @@
+#animateOff: undefined 
+#animateOn: undefined 
+#animationRangeChange: undefined 
+#assetBrowserPreNavigate: string 
+#beginRenderingActualFrame: undefined 
+#beginRenderingReflectRefractMap: undefined 
+#beginRenderingTonemappingImage: undefined 
+#bitmapChanged: string 
+#byCategoryDisplayFilterChanged: undefined 
+#colorChanged: undefined 
+#customDisplayFilterChanged: undefined 
+#D3DPostDeviceReset: undefined 
+#D3DPreDeviceReset: undefined 
+#exportFailed: undefined 
+#fileLinkPostAttach: undefined 
+#fileLinkPostBind: undefined 
+#fileLinkPostDetatch: undefined 
+#fileLinkPostReload: undefined 
+#filelinkPostReloadPrePrune: undefined 
+#fileLinkPreAttach: undefined 
+#fileLinkPreBind: undefined 
+#fileLinkPreDetatch: undefined 
+#fileLinkPreReload: undefined 
+#filePostMerge: integer 
+#filePostMergeProcess: undefined 
+#filePostOpen: (integer |undefined) 
+#filePostOpenProcess: undefined 
+#filePostSave: string 
+#filePostSaveOld: undefined 
+#filePostSaveProcess: #(integer, string) 
+#filePreMerge: integer 
+#filePreOpen:(integer | undefined) 
+#filePreOpenProcess: #(integer, string) 
+#filePreSave: string 
+#filePreSaveOld: undefined 
+#filePreSaveProcess: #(integer, string) 
+#heightMenuChanged: undefined 
+#importFailed: undefined 
+#layerCreated: BaseLayer (reftarg) 
+#layerDeleted: BaseLayer (reftarg) 
+#lightingUnitDisplaySystemChange: undefined 
+#manipulateModeOff: undefined 
+#manipulateModeOn: undefined 
+#modPanelObjPostChange: undefined 
+#modPanelObjPreChange: undefined 
+#modPanelSelChanged: undefined 
+#ModPanelSubObjectLevelChanged: #(newSOlevelIndex, oldSOlevelIndex) 
+#mtlLibPostMerge: undefined 
+#mtlLibPostOpen: materiallib 
+#mtlLibPostSave: undefined 
+#mtlLibPreMerge: undefined 
+#mtlLibPreOpen: undefined 
+#mtlLibPreSave: undefined 
+#mtlRefAdded: material 
+#mtlRefDeleted: material 
+#NamedSelSetCreated: string 
+#NamedSelSetDeleted: string 
+#NamedSelSetRenamed: string 
+#nodeCloned: node 
+#nodeCreated: node 
+#nodeFreeze: node 
+#nodeHide: node 
+#nodeLayerChanged: #(node, BaseLayer, BaseLayer) 
+#nodeLinked: Node 
+#nodeNameSet: #(name, name, node) 
+#nodePostDelete: undefined 
+#nodePostMaterial: Node 
+#nodePreDelete: Node 
+#nodePreMaterial: Node 
+#nodeRenamed: #(name, name) 
+#nodeUnfreeze: Node 
+#nodeUnhide: Node 
+#nodeUnlinked: Node 
+#objectXrefPostMerge: undefined 
+#objectXrefPreMerge: undefined 
+#pluginLoaded: string 
+#postExport: undefined 
+#postImageViewerDisplay: IVFB Interface 
+#postImport: undefined 
+#postMirrorNodes: Array of nodes 
+#postModifierAdded: #(node, modifier) 
+#postModifierDeleted: #(node, modifier) 
+#postNodeBonePropChanged: Array of nodes 
+#postNodeGeneralPropChanged: Array of nodes 
+#postNodeGiPropChanged: Array of nodes 
+#postNodeMentalrayPropChanged: Array of nodes 
+#postNodesCloned: #(array of nodes, array of nodes, name) 
+#postNodeUserPropChanged: Array of nodes 
+#postProgress: undefined 
+#postRender: undefined 
+#postRendererChange: undefined 
+#postRenderFrame: Array 
+#postSystemShutdown: undefined 
+#postSystemStartup: undefined 
+#preExport: undefined 
+#preImageViewerDisplay: IVFB Interface 
+#preImport: undefined 
+#preMirrorNodes: Array of nodes 
+#preModifierAdded: #(node, modifier) 
+#preModifierDeleted: #(node, modifier) 
+#preNodeBonePropChanged: Array of nodes 
+#preNodeGeneralPropChanged: Array of nodes 
+#preNodeGiPropChanged: Array of nodes 
+#preNodeMentalrayPropChanged: Array of nodes 
+#preNodesCloned: Array of nodes 
+#preNodeUserPropChanged: Array of nodes 
+#preProgress: undefined 
+#preRender: Array 
+#preRendererChange: undefined 
+#preRenderEval: time 
+#preRenderFrame: Array 
+#preSystemShutdown: undefined 
+#radiosityPluginChanged: undefined 
+#radiosityProcessDone: undefined 
+#radiosityProcessReset: undefined 
+#radiosityProcessStart: undefined 
+#radiosityProcessStopped: undefined 
+#renderParamsChanged: undefined 
+#sceneNodeAdded: node 
+#sceneRedo: string 
+#sceneUndo: string 
+#sceneXrefPostMerge: undefined 
+#sceneXrefPreMerge: undefined 
+#selectedNodesPostDelete: undefined 
+#selectedNodesPreDelete: Array of nodes 
+#spacemodeChange: undefined 
+#svDoubleClickGraphNode: undefined 
+#svPostLayoutChange: integer 
+#svPreLayoutChange: integer 
+#svSelectionSetChanged: integer 
+#systemPostDirChange: undefined 
+#systemPostNew: undefined 
+#systemPostReset: undefined 
+#systemPreDirChange: undefined 
+#systemPreNew: integer 
+#systemPreReset: undefined 
+#tabbedDialogCreated: #(integer, integer) 
+#tabbedDialogDeleted: #(integer, integer) 
+#timeunitsChange: undefined 
+#unitsChange: undefined 
+#viewportChange: undefined 
+#viewportSafeFrameToggle: integer
+$<NodeName>.TMcontroller
+$<NodeName>.transform.controller
+$<NodeName>[3].controller
+.MousePointer : MousePointerConstants( #ccDefault | #ccArrow | #ccCross | #ccIBeam | #ccIcon | #ccSize | #ccSizeNESW | #ccSizeNS | #ccSizeNWSE | #ccSizeEW | #ccUpArrow | #ccHourglass | #ccNoDrop | #ccArrowHourglass | #ccArrowQuestion | #ccSizeAll | #ccCustom )
+<angleAxis> as eulerAngles
+<angleaxis> as quat
+<Body_Object>.FastEditOP (Fast_Edit) :Boolean
+<Body_Object>.OP_NOT_USED1 (Update_Radio) : integer
+<Body_Object>.OP_NOT_USED2 (Update_Now) : boolean
+<Body_Object>.OP_NOT_USED3 (Save
+<Body_Object>.OP_NOT_USED4 (Save_Viewport_Mesh) : boolean
+<Body_Object>.RenderViewportMeshRA
+<Body_Object>.SaveBrepsOP (Save_NURBS_Breps) : boolean
+<Body_Object>.TwoSidedMeshesOP (Two_Sided_Mesh) : boolean
+<color> as point3 
+<color> as point4
+<eulerangle> as angleaxis
+<eulerangle> as quat
+<matrix3> as angleaxis
+<matrix3> as eulerAngles
+<matrix3> as quat
+<Membrane_Shader.coords>.spin Integer default: 1 -- animatable 
+<namesarray>ATSOps.GetFileStatus <index>ProviderIndex <string>Filename 
+<namesarray>ATSOps.GetFileSystemStatus <string>Filename 
+<point3> as point2-- created from the x and y components of the point3 
+<quat> as angleaxis
+<quat> as eulerAngles
+<startJoint>
+<utility_body> 
+<void>saveCurrentLayout() 
+<void>thePainterInterface.endPaintSession() 
+<void>thePainterInterface.getHitPressureData <&boolean>shift <&boolean>ctrl <&boolean>alt <&float>pressure <integer>tabIndex
+<void>thePainterInterface.getMirrorHitPointData <&point3>localMirrorHit <&point3>localMirrorNormal <&point3>worldMirrorHit <&point3>worldMirrorNormal <integer>tabIndex
+<void>thePainterInterface.startPaintSession() 
+<wpfmax:MaxRibbonColorSwatch Id="ID" MinWidth=<string>MinWidth Width=<string>Width Height=<string>Height MaxscriptCallback=<string>ColorSwatchCallbackStruct> 
+<wpfmax:MaxscriptCommand Maxscript=<string>Expression MaxscriptToggleOff=<string>OffExpression> 
+<wpfmax:MaxSpinnerFloat Id=<string>ID MinWidth=<string>MinWidth Width=<string>Width Height=<string>Height Min=<string>MinValur Max=<string>MaxValue Scale=<string>ScaleValue init=<string>InitValue ToolTip=<string>Tooltip MaxscriptCallback=<string>ColorSwatchCallbackStruct> 
+<wpfmax:MaxSpinnerInt Id=<string>ID MinWidth=<string>MinWidth Width=<string>Width Height=<string>Height Min=<string>MinValue Max=<string>MaxValue Scale=<string>ScaleValue init=<string>InitValue ToolTip=<string>Tooltip MaxscriptCallback=<string>ColorSwatchCallbackStruct> 
+about <matrix3> 
+about <node> 
+about <point3> 
+abs <number>
+abs <time>
+ackid must have one of the following values:#lftArm, #rgtArm, #lftHand, #rgtHand, #lftFoot, #rgtFoot, #lftLeg, #rgtLeg, #lftPony, #rgtPony, #head, #horizontal, #vertical, #rotation, #spine, #pelvis, #tail, #prop1, #prop2, #prop3. 
+acos <number>
+across: <number> default: 1
+ActionItemOverrideManager.overridesActive: boolean : Read|Write 
+ActionItemOverrideManager.timeToStartOverride: float : Read|Write 
+actionMan.numActionTables : integer : Read
+activeXControl <name> [<control_type>] [setupEvents:<boolean>] [releaseOnClose:<boolean>	] [prop1:<value>] [prop2:<value>] &ldots; 
+addAndWeld <to_shape> <from_shape> <weldthreshold_float>
+addAtmospheric <atmos> 
+addEaseCurve <controller> [<float_controller>] 
+added: 
+addEffect <renderEffect>
+addKnot <shape> <spline_index_integer> (#smooth | #corner | #bezier | #bezierCorner) (#curve | #line) <position_point3>
+addModifier <node> <modifier> [before:index] -- mapped
+addModifier <node> <modifier> [before:index] -- mapped 
+addMorphTarget <morph_controller> <target_node> <add_method> 
+addMultiplierCurve <controller> [<float_controller>] 
+addNewKey <controller> <time> [#select] 
+addNewKey <controller> <time> [#select] [#interpolate]
+addNewKey <key_array> <time> [#select] 
+addNewNoteKey <MAXNoteKeyArray> <time> [#select] 
+addNewNoteKey <NoteKeyArray> <time> 
+addNewSpline <shape>
+addNoteTrack <MAXWrapper_object> <NoteTrack> 
+addNURBSSet <node> <nurbsSet> 
+addPluginRollouts <obj>
+AddPModObjects <array>node_list <boolean>createNew <boolean>deleteAll [objList :<array>] 
+address: String default:"http:www.autodesk.com" 
+addRollout <rollout> [<rolloutFloater>] [rolledUp:<boolean>] [border:<boolean>]
+addRollout <rollout> [rolledUp:<boolean>]
+addRollout <rollout> [rolledUp:<boolean>] removeRollout <rollout>
+addScript <moflow> <name> 
+addScript <moflow> <script_name> 
+addSnippet <MoFlowScript> <MoFlowSnippet> 
+addSubRollout <subrollout> <rollout> [rolledUp:<boolean>] 
+addTrackViewController <maxtvnode> <controller> <name> 
+addTranInfo <MoFlowTransition> 
+addTransition <from_MoFlowSnippet> <to_MoFlowSnippet> <bool_optimize> 
+AffectRegionVal <distance> <falloff> <pinch> <bubble>
+aleType enums : {#linear|#logarithmic} 
+align:#center
+align:#left
+align:#right
+AlignObject <node>-- mapped method 
+AlignPivot <node>-- mapped method 
+AlignToParent <node>-- mapped method 
+all: 
+alwaysSuspend: <bool>
+amax ( <array> | {value} ) 
+amin ( <array> | {value} ) 
+amount <float> 
+Angle <name> [caption] [color:<color>] [degrees:<float>] [bitmap:<bitmap>] [diameter:<float>] [StartDegrees:<integer>] [StartRadians:<integer>] [dir:<#cw|#ccw>] [range:<point3>] 
+angleaxis <degrees_float> <axis_point3> 
+animateAll <FFDBox>
+animateAll <FFDCyl>
+animateAll <FFD_2x2x2>
+animateAll <FFD_3x3x3>
+animateAll <FFD_4x4x4>
+animateAll <ffd_modifier> 
+animateVertex <FFDBox> {<integer_index> | <integer_index_array> | #all}
+animateVertex <FFDCyl> { <integer_index> | <integer_index_array> | #all}
+animateVertex <FFD_2x2x2> {<integer_index> | <integer_index_array> | all}
+animateVertex <FFD_3x3x3> {<integer_index> | <integer_index_array> | all}
+animateVertex <FFD_4x4x4> {<integer_index> | <integer_index_array> | #all}
+animateVertex <mesh> <vertex_spec>
+animateVertex <node_or_ffd_modifier> <vertex_spec> 
+animateVertex <shape> <vertex_spec>
+AnimLayerManager.filterActiveOnly: bool : Read|Write 
+AnimLayerManager.justUpToActive: bool : Read|Write 
+ankleAttach:Float Default: 0.2 
+append <array> <item>
+append <array> <value> 
+append <bitarray> <integer> 
+append <edgeselection> (<edgeselection> | <integer>) 
+append <faceselection> (<faceselection> | <integer>) 
+append <key_array> <key> 
+append <mat_lib> <material> 
+append <MSCustAttribArray> <cust_attrib> 
+append <nodechildrenarray> <node>
+append <nurbsselection> (<nurbsselection> | <integer>) 
+append <vertexselection> (<vertexselection> | <integer>) 
+appendClip <track:mxtrack> <fname:string> <ZeroFootHgt:boolean> <interval:timevalue> 
+appendCurve <nurbs1railsweepsurface> <curve> [flip:<boolean>] [startPoint:<float>] 
+appendCurve <nurbs2railsweepsurface> <curve> [flip:<boolean>] [startPoint:<float>] 
+appendCurve <nurbsmulticurvetrimsurface> <curve> 
+appendCurve <nurbsuloftsurface> <curve> [flip:<boolean>] [startPoint:<float>] [tension:<float>] [useTangent:<boolean>] [flipTangent:<boolean>]
+appendCurveByID <nurbs1railsweepsurface> <curveID> [flip:<boolean>] [startPoint:<float>] 
+appendCurveByID <nurbs2railsweepsurface> <curveID> [flip:<boolean>] [startPoint:<float>] 
+appendCurveByID <nurbsmulticurvetrimsurface> <curveID> 
+appendCurveByID <nurbsuloftsurface> <curveID> [flip:<boolean>] [startPoint:<float>] [tension:<float>] [useTangent:<boolean>] [flipTangent:<boolean>] 
+appendGizmo <atmos> <node> 
+appendIfUnique <array> <value> 
+appendKey <key_array> <max_key> 
+appendMaxClip <track:MXtrack> <fname:string> <interval:timevalue> <mapName:string> 
+appendObject <nurbsset> <nurbsobj> 
+appendSubSelSet <string> 
+appendTrack <trackgroup: mxtrackgroup> <tracktype:string> 
+appendTrackgroup <mixer:mixer> 
+appendUCurve <nurbsuvloftsurface> <curve> 
+appendUCurveByID <nurbsuvloftsurface> <curveID> 
+appendVCurve <nurbsuvloftsurface> <curve> 
+appendVCurveByID <nurbsuvloftsurface> <curveID> 
+applyEaseCurve <controller> <time> 
+applyOffset <spline_shape_node> <offset_float> 
+apropos <pattern_string> [to:<stream>]
+arbAxis <point3>
+areMtlAndRendererCompatible {<mtlbase> | <maxclass>} [renderer:{<renderer> | <maxclass>}]
+areNodesInstances <node> <node> 
+Are_Modifiers_Applied: <fn>
+arms:Boolean Default: True 
+asin <number>
+assert <expression> [message:<string>] [options:#(#dialog |	#listener | #debug_output_window | #debugBreak | #c_break | #all)] [showstack:<bool>]
+assetBrowser.gotoURL <URL_string>
+assignKey <key_array> <max_key> <index> 
+assignNewName <material> 
+assignNewName <TextureMap> 
+atan <number>
+atan2 <number> <number>
+ATSOps.AutoLogin: bool : Read|Write 
+ATSOps.CheckNetworkPaths: bool : Read|Write 
+ATSOps.Disabled: bool : Read|Write 
+ATSOps.DisplayExcluded: bool : Read|Write 
+ATSOps.ExcludeOutputFiles: bool : Read|Write 
+ATSOps.Silent: bool : Read|Write 
+ATSOps.TableView: bool : Read|Write 
+ATSOps.TreeView: bool : Read|Write 
+ATSOps.Visible: bool : Read|Write 
+attach <mesh> <node> 
+attachNodesToGroup <node_collection> <targetNode> 
+attachObjects <node1> <node2> [move:<boolean>] 
+attributes <name> [version:n] [silentErrors:tf] [initialRollupState:0xnnnnn] [remap:#(<old_param_names_array>, <new_param_names_array>)]
+autoPromoteDelegateProps: <boolean>
+autosave.Enable : boolean : Read|Write 
+autosave.filename : string : Read|Write 
+autosave.Interval : float : Read|Write 
+autosave.NumberOfFiles : integer : Read|Write 
+AutoTangentMan.NewControllersAutoTangentAlgorithm : enum : Read|Write
+averageSelVertCenter <node>
+averageSelVertNormal <node>
+axis <Matrix3> 
+BaseObject: <bool>
+BaseObject: <bool> 
+BatchProOptimizer.ApplyModifier : boolean : Read|Write 
+BatchProOptimizer.AutoRename : bool : Read|Write 
+BatchProOptimizer.CompactFaces : bool : Read|Write 
+BatchProOptimizer.DestFileNameMode : integer : Read|Write 
+BatchProOptimizer.DestFileNamePrefix : string : Read|Write 
+BatchProOptimizer.DestFileNameSuffix : string : Read|Write 
+BatchProOptimizer.DestFolderName : string : Read|Write 
+BatchProOptimizer.DestFormatExt : string : Read|Write 
+BatchProOptimizer.DestFormatMode : integer : Read|Write 
+BatchProOptimizer.KeepMaterialBoundaries : bool : Read|Write 
+BatchProOptimizer.KeepNormals : bool : Read|Write 
+BatchProOptimizer.KeepTexture : bool : Read|Write 
+BatchProOptimizer.KeepUVBoundaries : bool : Read|Write 
+BatchProOptimizer.KeepVertexColors : bool : Read|Write 
+BatchProOptimizer.KeepVertexColorsBoundaries : bool : Read|Write 
+BatchProOptimizer.LogFilePath : string : Read|Write 
+BatchProOptimizer.MergeFaces : bool : Read|Write 
+BatchProOptimizer.MergeFacesThreshold : float : Read|Write 
+BatchProOptimizer.MergePoints : bool : Read|Write 
+BatchProOptimizer.MergePointsThreshold : float : Read|Write 
+BatchProOptimizer.NormalMode : integer : Read|Write 
+BatchProOptimizer.NormalThreshold : float : Read|Write 
+BatchProOptimizer.OptimizationLevel1 : integer : Read|Write 
+BatchProOptimizer.OptimizationLevel2 : integer : Read|Write 
+BatchProOptimizer.OptimizationLevel3 : integer : Read|Write 
+BatchProOptimizer.OptimizationLevel4 : integer : Read|Write 
+BatchProOptimizer.OptimizationLevel5 : integer : Read|Write 
+BatchProOptimizer.OptimizationLevelMode : integer : Read|Write 
+BatchProOptimizer.OptimizationLevelSteps : integer : Read|Write 
+BatchProOptimizer.OptimizeBordersMode : integer : Read|Write 
+BatchProOptimizer.OptimizeHidden : bool : Read|Write 
+BatchProOptimizer.PreventFlippedNormals : bool : Read|Write 
+BatchProOptimizer.RecreateFolderTree : bool : Read|Write 
+BatchProOptimizer.SourceFileDir : string : Read|Write 
+BatchProOptimizer.SourceFileFiles : filename by value array : Read|Write 
+BatchProOptimizer.SourceFileMode : integer : Read|Write 
+BatchProOptimizer.SourceFileSubDir : bool : Read|Write 
+BatchProOptimizer.SymmetryMode : integer : Read|Write 
+BatchProOptimizer.SymmetryTolerance : integer : Read|Write 
+BatchProOptimizer.UVTolerance : float : Read|Write 
+BatchProOptimizer.VertexColorsTolerance : integer : Read|Write 
+batchRenderMgr.displayRenderedViews : bool : Read|Write 
+batchRenderMgr.netRender : bool : Read|Write 
+batchRenderMgr.numViews : integer : Read 
+bgcolor: <color> -- default:(<system button color>) 
+BigMatrix <rows> <columns>
+bindKnot <shape> <isEnd_boolean> <splineId_integer> <segIndex_integer> <splineSegId_integer>
+bindSpaceWarp <node> <bomb_node>
+bindSpaceWarp <node> <conformSpaceWarp_node>
+bindSpaceWarp <node> <gravity_node>
+bindSpaceWarp <node> <motor_node> 
+bindSpaceWarp <node> <pbomb_node>
+bindSpaceWarp <node> <PDynaFlect_node> 
+bindSpaceWarp <node> <pushSpaceWarp_node> 
+bindSpaceWarp <node> <SDynaFlect_node> 
+bindSpaceWarp <node> <spaceBend_node>
+bindSpaceWarp <node> <spaceDisplace_node>
+bindSpaceWarp <node> <spaceFFDBox_node>
+bindSpaceWarp <node> <spaceFFDCyl_node>
+bindSpaceWarp <node> <spaceNoise_node>
+bindSpaceWarp <node> <spaceRipple_node> 
+bindSpaceWarp <node> <spaceSkew_node>
+bindSpaceWarp <node> <spaceStretch_node>
+bindSpaceWarp <node> <spaceStretch_node> 
+bindSpaceWarp <node> <spaceTaper_node>
+bindSpaceWarp <node> <spaceTwist_node>
+bindSpaceWarp <node> <spacewarp_node> 
+bindSpaceWarp <node> <spaceWave_node>
+bindSpaceWarp <node> <UDynaFlect_node> 
+bindSpaceWarp <node> <Vector_Field_node> 
+bindSpaceWarp <node> <wind_node> 
+bindSpaceWarp <particlesys_node> <deflector_node> 
+bindSpaceWarp <particlesys_node> <path_Follow_node>
+bindSpaceWarp <particlesys_node> <POmniFlect_node> 
+bindSpaceWarp <particlesys_node> <sdeflector_node>
+bindSpaceWarp <particlesys_node> <SOmniFlect_node> 
+bindSpaceWarp <particlesys_node> <uDeflector_node> 
+bindSpaceWarp <particlesys_node> <UOmniFlect_node> 
+biped.addFootprint <biped_ctrl> <matrix3> [append:<boolean>] 
+biped.addMultipleFootprints <biped_ctrl> <MultFprintParams> 
+biped.addNewKey <biped_controller> <time> [#select] 
+biped.addPrefClip <biped_ctrl> <name_string> <prob_integer> 
+biped.adjustTalentPose <biped_ctrl> 
+biped.bendFootprints <biped_ctrl> <float> --angle in degrees 
+biped.clearAllAnimation <biped_controller> 
+biped.clearPrefClips <biped_ctrl> 
+biped.clearSelectedAnimation <biped_controller> 
+biped.collapseAllPosSubAnims <biped_ctrl> <bool_perFrame> <bool_keep> 
+biped.collapseAllRotSubAnims <biped_ctrl> <bool_perFrame> <bool_keep> 
+biped.collapseAtLayer <biped_ctrl> <index>
+biped.collapseMoveAllMode <biped_ctrl> 
+biped.collapsePosSubAnims <biped_ctrl> <bool_perFrame> <bool_keep> <node> 
+biped.collapseRotSubAnims <biped_ctrl> <bool_perFrame> <bool_keep> <node> 
+biped.convertToFootSteps <biped_ctrl> [keyPerFrame:<false>] [flattenToZ:<true>] 
+biped.convertToFreeform <biped_ctrl> [keyPerFrame:<false>] 
+biped.copyBipPose <biped_ctrl> <ICC_MXCopyCollection>(#snapView |#snapAuto |#snapNone) 
+biped.copyBipPosture <biped_ctrl> <ICC_MXCopyCollection> <nodes_array> (#snapView |#snapAuto |#snapNone) 
+biped.copyBipTrack <biped_ctrl> <ICC_MXCopyCollection> <nodes_array>(#snapView |#snapAuto |#snapNone) 
+biped.copyPosture <biped_ctrl> (#posture | #pose | #track) <bool_horiz> <bool_vert> <bool_turn> 
+biped.createCopyCollection <biped_ctrl> <collection_name> 
+biped.createLayer <biped_ctrl> <index> <name> 
+biped.createNew <height_float> <angle_float> <wpos_point3>
+biped.createPosSubAnims <biped_ctrl> <control> <bool_checkIfExists>
+biped.createRotSubAnims <biped_ctrl> <control> <bool_checkIfExists>
+biped.createScaleSubAnims <biped_ctrl> <control> <bool_checkIfExists> 
+biped.createTwistPose <biped_ctrl> 
+biped.deleteAllCopies <biped_ctrl> (#posture | #pose | #track) 
+biped.deleteAllCopyCollections <biped_ctrl> 
+biped.deleteCopy <biped_ctrl> (#posture | #pose | #track) <string_name> 
+biped.deleteCopyCollection <biped_ctrl> <collection_index> 
+biped.deleteKeys <biped_controller> [#allKeys] [#selection] 
+biped.deleteLayer <biped_ctrl> <index> 
+biped.deletePrefClip <biped_ctrl> <name_string> 
+biped.deleteTwistPose <biped_ctrl> <pose_index> 
+biped.displayPrefsDlg <biped_ctrl>
+biped.dosetmultiplekeysdlg <biped_controller> 
+biped.fsAddSide Integer Default:0 
+biped.getClipAtTime <biped_ctrl> <time> 
+biped.getCopyName <biped_ctrl> (#posture | #pose | #track) <int_which> 
+biped.getCurrentClip <biped_ctrl> 
+biped.getCurrentLayer <biped_ctrl> 
+biped.getKey ( <biped_controller> | <footstep_ctrl> ) <index> 
+biped.getLayerActive <biped_ctrl> <index> 
+biped.getLayerName <biped_ctrl> <index> 
+biped.getLimbRetargetState <limb_node> 
+biped.getMultipleFSParams <gait_type_name> 
+biped.getNode <biped | biped_ctrl> <name | index> [link:<int_link>]
+biped.getPrefClip <biped_ctrl> <index_integer> 
+biped.getPrefClipProb <biped_ctrl> <index_integer> 
+biped.getRetargetRefBip <bipcontrol> 
+biped.getTransform <biped_node> (#pos | #rotation | #scale) [limb:<biped_node>] 
+Biped.getTwistStartId <biped | biped_ctrl>
+biped.isPrefClip <biped_ctrl> <name_string>
+biped.loadBipFile <biped_ctrl> <file_name> [#matchFileStruct] [#zeroHgt] [#noRedraw] [#loadMaxObjects] [#promptForDuplicates] [#retargetHeight] [#retargetLimbSizes] [#scaleIKObjectSize] [#loadSubAnimControllers] [#loadSelectedMaxObjects nodename_array] [#loadSelectedSubAnimControllers bipednodename_array int_array]
+biped.loadBipFileDlg <biped_ctrl> 
+biped.loadCopyPasteFile <biped_ctrl> <file_name> 
+biped.loadCopyPasteFile <biped_ctrl> <string_filename> 
+biped.LoadFigFile <biped_ctrl> <filename> [#noRedraw] 
+biped.loadFigJustTwists <biped_ctrl> <filename> [#noRedraw] 
+biped.loadFigNoTwists <biped_ctrl> <filename> [#noRedraw] 
+biped.loadMocapFile <biped_ctrl> <file_name> [#prompt] [#noRedraw] 
+biped.LoadStpFile <biped_ctrl> <filename> [#noRedraw] 
+biped.maxNumLinks <biped | biped_ctrl>
+biped.maxNumNodes <biped | biped_ctrl>
+Biped.maxTwistLinks <biped | biped_ctrl>
+Biped.maxTwistNodes <biped | biped_ctrl>
+biped.mirror <biped_controller> 
+biped.multipleFSDlg <biped_ctrl> 
+biped.newFootprintKeys <biped_ctrl> 
+biped.numCopies <biped_ctrl> (#posture | #pose | #track) 
+biped.numLayers <biped_ctrl> 
+biped.numPrefClips <biped_ctrl> 
+biped.pasteBipPose <biped_ctrl> <ICP_MXBipedCopy> <bool_opposite> (#pstdefault |#pstcopied |#pstinterp) <bool_hor> <bool_ver> <bool_trn> <bool_byvel> 
+biped.pasteBipPosture <biped_ctrl> <ICP_MXBipedCopy> <bool_opposite> (#pstdefault |#pstcopied |#pstinterp) <bool_hor> <bool_ver> <bool_trn> <bool_byvel> 
+biped.pasteBipTrack <biped_ctrl> <ICP_MXBipedCopy> <bool_opposite> <bool_hor> <bool_ver> <bool_trn> 
+biped.pastePosture <biped_ctrl> (#posture | #pose | #track) <bool_opposite> <string_name> 
+biped.resetAllLimbKeys <biped_ctrl> 
+biped.retargetToBaseLayer <bipcontrol> <IK_Only> 
+biped.retargetToReferenceBiped <bipcontrol> <IK_Only> 
+biped.saveBipFile <biped_ctrl> <file_name> [#saveSubAnimControllers] [#saveMaxObjects] [#saveSelectedMaxObjects node_array] [#saveSelectedSubAnimControllers node_array int_array] 
+biped.saveBipFileDlg <biped_ctrl> 
+biped.saveBipFileSegment <biped_ctrl> <file_name> <StartSeg> <EndSeg> [#keyPerFrame] [#saveSubAnimControllers] [#saveMaxObjects] [#saveSelectedMaxObjects node_array] [#saveSelectedSubAnimControllers node_array int_array] 
+biped.saveCopyPasteFile <biped_ctrl> <string_filename> 
+biped.SaveFigFile <biped_ctrl> <filename> 
+biped.SaveStpFile <biped_ctrl> <filename> 
+biped.saveTalentFigFile <biped_ctrl> <file_name> 
+biped.saveTalentPoseFile <biped_ctrl> <file_name> 
+biped.scaleFootprints <biped_ctrl> <float> --angle in degrees 
+biped.setCopyName <biped_ctrl> (#posture | #pose | #track) <int_which> <String_newName> 
+biped.setCurrentLayer <biped_ctrl> <index> 
+biped.setDefaultTwistPoses <biped_ctrl> 
+biped.setEulerActive <biped_ctrl> 
+biped.setEulerOrder <biped_ctrl> <enum> 
+biped.setFreeKey <node> 
+biped.setKey <biped_node> copyHor:<bool_setHoriz> copyVer:<bool> copyTrn:<bool> 
+biped.setLayerActive <biped_ctrl> <index> <bool_val> 
+biped.setLayerName <biped_ctrl> <index> <name> 
+biped.setLimbRetargetState <limb_node> <state> 
+biped.setmultiplekeys <biped_controller> 
+biped.setPlantedKey <node>
+biped.setPosSubAnim <biped_ctrl> <point3> <node> <bool_absolute> 
+biped.setQuaternionActive <biped_ctrl> 
+biped.setRetargetRefBip <bipcontrol> <refBipNode> 
+biped.setRotSubAnim <biped_ctrl> <quat> <node> <bool_absolute> 
+biped.setScaleSubAnim <biped_ctrl> <point3> <node> 
+biped.setSelectedKey <bipedCtrl> 
+biped.setSlidingKey <node>
+biped.setSnapKey <biped_node> 
+biped.setTransform <biped_node> #pos <point3> <bool_setkey> [limb:<biped_node>] 
+biped.setTransform <biped_node> #rotation <quat> <bool_setkey> [limb:<biped_node>] 
+biped.setTransform <biped_node> #scale <point3> <bool_setkey> [limb:<biped_node>] 
+biped.setTwistPose <biped_ctrl> <pose_index> 
+biped.setTwistPoseBias <biped_ctrl> <pose_index> <float_value> 
+biped.setTwistPoseName <biped_ctrl> <pose_index> <name_or_string> 
+biped.setTwistPoseTwist <biped_ctrl> <pose_index> <float_value> 
+biped.unifyMotion <biped_ctrl> 
+Biped_Object : GeometryClass
+BipSlave_Control : Matrix3Controller
+bit.and <integer1> <integer2>
+bit.charAsInt <string>
+bit.doubleAsInt64 <double> 
+bit.flip <integer1> <integer2>
+bit.floatAsInt <float>
+bit.get <integer1> <integer2>
+bit.int64AsDouble <int64> 
+bit.intAsChar <integer>
+bit.intAsFloat <integer>
+bit.intAsHex <integer>
+bit.isFinite <float> 
+bit.isNAN <float> 
+bit.not <integer1>
+bit.or <integer1> <integer2>
+bit.set <integer1> <integer2> <boolean>
+bit.shift <integer1> <integer2>
+bit.swapBytes <integer> <integer byte1> <integer byte2>
+bit.xor <integer1> <integer2>
+bitmap <name> fileName:<filename> 
+bitmap <name> [<caption>] [fileName:<filename_string> | bitmap:<bitmap>] 
+bitmap <width <height> [filename:<filename_string>] [numframes:<integer>] [color:<color>] [gamma:<float>] [pixelAspect:<float>] [channels:<channel_name array>] [hdr:<bool>] 
+bitmap: <bitmap> -- default:undefined 
+BitmapProxyMgr.globalProxyEnable : boolean : Read|Write 
+BitmapProxyMgr.globalProxyRenderMode : enum : Read|Write 
+BitmapProxyMgr.globalProxySizeFactor : enum : Read|Write 
+BitmapProxyMgr.globalProxySizeMin : integer : Read|Write 
+bmp.setType <enum>type 
+bmpstyle: <key> -- default:#bmp_center 
+boolObj.createBooleanObject <operand_A> [<operand_B> <add_method> <mat_method>] 
+boolObj.getBoolCutType <bool_obj> 
+boolObj.getBoolOp <bool_obj> 
+boolObj.getDisplayResult <bool_obj> 
+boolObj.getOperandSel <bool_obj> <integer> 
+boolObj.getOptimize <bool_obj> 
+boolObj.getShowHiddenOps <bool_obj> 
+boolObj.getUpdateMode <bool_obj> 
+boolObj.setBoolCutType <bool_obj> <integer> 
+boolObj.setBoolOp <bool_obj> <integer> 
+boolObj.setDisplayResult <bool_obj> <boolean> 
+boolObj.setOperandB <bool_obj> <operand_B> <add_method> <mat_method> 
+boolObj.setOperandSel <bool_obj> <integer> <boolean> 
+boolObj.setOptimize <bool_obj> <boolean> 
+boolObj.setShowHiddenOps <bool_obj> <boolean> 
+boolObj.setUpdateMode <bool_obj> <integer> 
+Box2 <upperleft_point2> <lowerRight_point2>
+Box2 <x_integer> <y_integer> <w_integer> <h_integer>
+boxPickNode <box2> [crossing:<boolean>] 
+break default value: false message default value: undefined setFocus default value: false 
+breakCurve <node> <nurbsId> <u_param> 
+breakSurface <node> <nurbsId> (#U |#V) <u_or_v_param> 
+bsearch <key> <array> <function> [start:<integer>] [end:<integer>] [user-defined key args passed to function] 
+buildTVFaces <mesh> [<boolean>]
+buildVCFaces <mesh> [<boolean>]
+button <name> images:<image_spec_array> 
+button <name> [<caption>] [images:<image_spec_array>] [toolTip:<string>] [border:<boolean>] 
+cacheOps.DisableBelow <PointCacheModifier> 
+cacheOps.DisableBelow <PointCacheWSM> 
+cacheOps.EnableBelow <PointCacheModifier> 
+cacheOps.EnableBelow <PointCacheWSM> 
+cacheOps.RecordCache <PointCacheModifier> 
+cacheOps.RecordCache <PointCacheWSM> 
+cacheOps.Reload <PointCacheModifier> 
+cacheOps.Reload <PointCacheWSM> 
+cacheOps.Unload <PointCacheModifier> 
+cacheOps.Unload <PointCacheWSM> 
+callbackBegin: 
+callbackEnd:
+callbacks.addScript <callback_type_name> (<script_string> | <script_stringstream> | fileName:<filename_string>) [id:<name>] [persistent:<boolean>]
+callbacks.broadcastCallback <callback_type_name>
+callbacks.removeScripts [<callback_type_name>] [id:<name>] 
+callbacks.show [<callback_type_name>] [id:<name>] 
+canConvertTo <node> <class> 
+CanSwitchTo_Border: <fn>
+CanSwitchTo_Edge: <fn>
+CanSwitchTo_Element: <fn>
+CanSwitchTo_Face: <fn>
+CanSwitchTo_Patch: <fn>
+CanSwitchTo_Polygon: <fn>
+CanSwitchTo_Segment: <fn>
+CanSwitchTo_Spline: <fn>
+CanSwitchTo_Vertex: <fn>
+capEnd: <boolean> 
+capStart: <boolean> 
+capType: <integer> 
+case [<expr>]of ( <cases> )
+category: <string>
+ccPoint <pt_point2> <in_point> <out_point2> \ [bezier:<false>] [corner:<false>] [lock_x:<false>] [lock_y:<false>] [select:<false>] [end:<false>] [noXConstraint:<false>] 
+ceil <number>
+center <Point3> 
+centerBoxType enums: {#screen|#activeGrid} 
+CenterObject <node>-- mapped method 
+CenterPivot <node>-- mapped method 
+ChannelInfo.lock : boolean : Read|Write 
+ChannelInfo.subComp : boolean : Read|Write 
+checkbox <name> [<caption>] [checked:<boolean>] [triState:<integer>] [tooltip:<string>] 
+checkButton <name> images:<image_spec_array> 
+checkbutton <name> [<caption>] [highlightColor:<color>] [toolTip:<string>] [checked:<boolean>] [images:<image_spec_array>][border:<boolean>]
+circlePickNode <box2> [crossing:<boolean>] 
+classID:#(<integer>,<integer>)
+ClassOf <MaxObject>
+classOf <node> 
+classOf <value>
+classOf ref -> ValueRef
+clear <BigMatrix>
+clearAllAppData <MAXWrapper_object> 
+clearControllerNewFlag <controller> 
+clearProdTess <nurbsset> <tessType_name> 
+clearProdTess <nurbssurface> <tessType_name> clearViewTess <nurbssurface> <tessType_name> 
+clearSelection() clearNodeSelection [redraw:<boolean>] 
+cleartrack <track:mxtrack> 
+cleartrackgroup <trackgroup: mxtrackgroup> 
+clearViewTess <nurbsset> <tessType_name> 
+cloneType default value: #copy
+cloneType enums: {#copy|#instance|#reference} 
+cloneType: <enum> 
+close <bitmap> 
+close <filestream>
+close <nurbscvcurve> 
+close <nurbspointcurve> 
+close <shape> <spline_index_integer>
+close <stringstream> 
+closeRolloutFloater <rolloutFloater>
+closeU <nurbscvsurface> 
+closeU <nurbspointsurface> 
+closeUtility <utility>
+closeV <nurbscvsurface> 
+closeV <nurbspointsurface> 
+close_enough <float> <float> <int>
+collapseFace <mesh> <face_index_integer>
+collapseStack <node> -- mapped
+collapseStack <node> -- mapped 
+color <r> <g> <b> [<a>]
+color: Color default:(color 0 0 255) 
+colorMan.getIconColorInvert <enum>type {#disabledIcon|#enabledIcon} 
+colorMan.repaintUI <enum>type {#repaintAll|#repaintTrackBar|#repaintTimeBar} 
+colorMan.setIconColorInvert <enum>type <boolean>value {#disabledIcon|#enabledIcon} 
+colorMan.setIconColorScale <enum>type {#disabledIcon|#enabledIcon} <enum>which {#saturationScale|#valueScale|#alphaScale} <float>value 
+colorMan.setUseStandardWindowsColors <boolean>onOff 
+colorpicker <name> [<caption>] [color:<color>] [alpha:<boolean>] [fieldWidth:<number>] [height:<number>] [modal:<boolean>] [title:<string>]
+colorPickerDlg <init_color> <title_string> alpha:<bool> pos:<&Point2>
+columns: <number> 
+combobox <name> [<caption>] [items:<array_of_strings>] [selection:<number>] [height:<number>]
+CompareBitmaps {<filename>File1 | <bitmap>bitmap1} {<filename>File2 | <bitmap>bitmap2} <int>tolerance(# different pixels) <int>variation(0-255) useAlpha:<boolean>errorMsg:<&string> 
+composite <color1> <color2>
+computeAnimation <moflow> [redraw:<true>] [incGlobals:<false>] 
+coneLimitMinAngle : float : Read|Write 
+conformToShape <FFDBox>
+conformToShape <FFDCyl>
+conformToShape <FFD_2x2x2>
+conformToShape <FFD_3x3x3>
+conformToShape <FFD_4x4x4>
+conjugate <quat>
+ContainerPreferences.displayStatusOverride : enum : Read|Write 
+ContainerPreferences.saveAsPreviousAccessType : enum : Read|Write 
+ContainerPreferences.updateCheck : boolean : Read|Write 
+ContainerPreferences.updateOnLoad : boolean : Read|Write 
+ContainerPreferences.updateOnReload : boolean : Read|Write 
+contains <Box2> <point2>
+controllerOtherEvent: 
+controllerStructured: 
+ConvertDirIDToInt <filetype_name> 
+convertTo <GeometryObject> Deformable_gPoly
+convertTo <node> <class> -- mapped 
+convertTo <node> Editable_Patch -- mapped
+convertTo <node> [TriMeshGeometry | Mesh] -- mapped
+convertToMesh <node> -- mapped
+convertToMesh <node> -- mapped 
+convertToNURBSCurve <node> -- mapped 
+convertToNURBSSurface <node> -- mapped 
+convertToNURBSSurface <node> -- mapped convertToNURBSCurve <node> -- mapped 
+convertToSplineShape <node> -- mapped 
+convertToSplineShape <shape>
+copy "<files>" to "<directory>" 
+copy "<from>" to "<to>" [noReplace] 
+copy <angleaxis>
+copy <array> [#noMap] -- mapped 
+copy <bitarray> 
+copy <color>
+copy <eulerAngles>
+copy <key>
+copy <matrix3>
+copy <MAXWrapper_object> 
+copy <name>
+copy <node> -- mapped 
+copy <number>
+copy <point2> 
+copy <point3>
+copy <point4>
+copy <quat>
+copy <ray>
+copy <SafeArrayWrapper>
+copy <source_bitmap> <dest_bitmap> 
+copy <stringstream> 
+copy <struct>
+copy <trimesh>
+copyFile <existing_filename_string> <new_filename_string> 
+copyMixdownToBiped <mixer:mixer> 
+copyPasteKeys <controller> (<map_struct> | <fn> <arg>) [#replacekeys] [#insertkeys] 
+cos <number>
+cosh <number>
+cost type:#float ui:cost default:100
+CreateDialog <Rollout> [<width> <height> <position_x> <position_y>]
+createFile <filename_string>
+createInstance <maxclass> [keyarg1:v] [keyarg2:v] 
+createLockKey <controller> <time> <rot_or_pos_integer> 
+createMorphObject <source_node> 
+createPreview outputAVI:<bool> percentSize:<int> start:<int> end:<int> skip:<int> fps:<int> dspGeometry:<bool> dspShapes:<bool> dspLights:<bool> dspCameras:<bool> dspHelpers:<bool> dspParticles:<bool> dspBones:<bool> dspGrid:<bool> dspSafeFrame:<bool> dspFrameNums:<true> dspBkg:<bool> rndLevel:<#smoothhighlights | #smooth | #facethighlights | #facet | #flat | #hiddenline | #litwireframe | #wireframe | #box> 
+createReaction <reactor_controller> 
+cross <point3> <point3>
+crowds.alignObjects <crowd_node> 
+crowds.assignControllers <crowd_node> 
+crowds.assignGridProximityPriorities <crowd_node> 
+crowds.assignObjectProximityPriorities <crowd_node> 
+crowds.assignRandomPriorities <crowd_node> 
+crowds.assignUniquePriorities <crowd_node> 
+crowds.genclones <crowd_node> 
+crowds.genlocations <crowd_node> 
+crowds.genrotations <crowd_node> 
+crowds.genscales <crowd_node> 
+crowds.incrementPriorities <crowd_node> 
+crowds.linkObjects <crowd_node> 
+crowds.scatterall <crowd_node> 
+crowds.smooth <crowd_node> 
+crowds.solve <crowd_node> 
+CRTCheckAssert <int>choice
+CRTCorruptHeap <int>offset
+cui.commandPanelOpen : Booleans 
+cui.DockDialogBar <RolloutFloater_or_Rollout> <dockflag> 
+cui.FloatDialogBar <RolloutFloater_or_Rollout> 
+cui.getDockState <RolloutFloater_or_Rollout> 
+cui.loadConfig <filename_string> 
+cui.RegisterDialogBar <RolloutFloater_or_Rollout> [minSize:<Point2>] [maxSize:<Point2>] [parent:<HWND>] [style:<Array>]
+cui.RegisterDialogBar <RolloutFloater_or_Rollout> [minSize:<Point2>] [maxSize:<Point2>] [style:<Array>] 
+cui.saveConfigAs <filename_string> 
+cui.setAppTitle <string> 
+cui.setConfigFile <filename_string> 
+cui.showToolbar <string>
+cui.UnRegisterDialogBar <RolloutFloater_or_Rollout> 
+curve <node> 
+curve <NURBSCurve> 
+CurveControl <name> [<caption>] [visible:<boolean>] [numCurves:<integer>] [x_range:<point2>] [y_range:<point2>] [x_value:<float>] [zoomValues:<point2>] [scrollValues:<point2>] [displayModes:<bitarray>] [commandMode:<#move_xy | #move_x | #move_y | #scale | #corner | #bezier] [uiFlags:<array_of_ui_flags>] [rcmFlags:<array_of_rcm_flags>] [asPopup:<boolean>]oom <curvecontrol> #all 
+curveLength <shape> [<curve_num>] 
+custAttribCollapseManager.surviveState : boolean : Read|Write 
+custAttributes.add <object_or_collection> <attributes_definition> [#unique] [BaseObject:<bool>] 
+custAttributes.count <obj> [BaseObject:<bool>] 
+custAttributes.delete <obj_or_collection> (<index> | <attrib_def>) [baseObject:<bool>] 
+custAttributes.deleteDef <attrib_def> 
+custAttributes.get <obj> (<index> | <attrib_def>)[BaseObject:<bool>] 
+custAttributes.getDef (<obj> <index>) | <custAttrib> [baseObject:<bool>] 
+custAttributes.getDefClass <attrib_def> 
+custAttributes.getDefData <attrib_def> 
+custAttributes.getDefInstances <attrib_def> 
+custAttributes.getDefs <obj> [baseObject:<bool>] 
+custAttributes.getDefSource <attrib_def> 
+custAttributes.getOwner <attrib_def> 
+custAttributes.getPBlockDefs <attrib_def> 
+custAttributes.makeUnique <obj> (<index> | <attrib_def>) [baseObject:<bool>] 
+custAttributes.redefine <def> <definition_string> 
+custAttributes.setDefData <def> <data> 
+DataPair <value1> <value2>
+DataPair <value1_name>:<value1> <value2_name>:<value2>
+DaylightSimulationUIOps.Visible : bool : Read|Write 
+deepCopy <array> 
+default: <number> 
+defaultVCFaces <mesh>
+degToRad <number>
+delay: 
+delete <edgeselection> 
+delete <faceselection> 
+delete <node> -- mapped 
+delete <nurbsselection> 
+delete <trimesh>
+delete <vertexselection> 
+delete <XRefScene> 
+deleteAllChangeHandlers [id:<name>]
+deleteAppData <MAXWrapper_object> <integer_ID> 
+deleteAtmospheric <index_integer> 
+deleteChangeHandler <change_handler>
+deleted: 
+deleteEaseCurve <controller> <index_integer> 
+deleteEffect <index_integer>
+deleteFace <mesh> <face_index_integer>
+deleteFile <filename_string> 
+deleteGizmo <atmos> <index_integer> 
+deleteitem <array> <itemnumber>
+deleteItem <array> <number> 
+deleteItem <bitarray> <integer> 
+deleteItem <key_array> <index_integer> 
+deleteItem <mat_lib> ( <integer> | <name> | <string> ) 
+deleteItem <MSCustAttribArray> (<cust_attrib> | <cust_attrib_name>) 
+deleteItem <nodechildrenarray> <node>
+deleteItem <selectionsetarray> [<set_name> | <selectionset>]
+deleteKey <controller> <index> 
+deleteKey <key_array> <index_integer> 
+deleteKeys <controller> [#allKeys | #selection] 
+deleteKeys <key_array> [#allKeys] [#selection] 
+deleteKnot <shape> <spline_index_integer> <knot_index_integer>
+deleteModifier <node> <modifier_or_index>
+deleteModifier <node> <modifier_or_index> -- mapped 
+deleteMorphTarget <morph_controller> <target_index_integer> 
+deleteMultiplierCurve <controller> <index_integer> 
+deleteNoteKey <NoteKeyArray> <index_integer> 
+deleteNoteKeys <NoteKeyArray> (#allKeys|#selection) 
+deleteNoteTrack <MAXWrapper_object> <NoteTrack> 
+deleteObjects <nurbsset> 
+deletePoint <ccCurve> <index> 
+deleteReaction <reactor_controller> <index_integer> 
+deleteScript <moflow> <index_integer> 
+deleteScript <moflow> <MoFlowScript> 
+deleteSnippet <MoFlowScript> <index_integer> 
+deleteSpline <shape> <spline_index_integer>
+deleteTime <controller> <interval> [#incLeft] [#incRight] [#noSlide] 
+deleteTrack <trackgroup: mxtrackgroup> <index:integer> 
+deleteTrackgroup <mixer:mixer> <index:integer> 
+deleteTrackViewController <maxtvnode> <controller> 
+deleteTrackViewNode [<parent_maxtvnode>] <maxtvnode> 
+deleteTranInfo <MoFlowTransition> <index_integer> 
+deleteTransition <MoFlowSnippet> <index_integer> 
+deleteTransitionsTo <from_MoFlowSnippet> <to_MoFlowSnippet> 
+DeleteTw <index:integer> 
+deleteVert <mesh> <vert_index_integer>
+deleteWeight <index:integer> 
+delIniSetting <filename_string> <section_string> 
+delIniSetting <filename_string> <section_string> <key_string> 
+description "<text>" 
+deselect <edgeselection> 
+deselect <faceselection> 
+deselect <node>-- mapped 
+deselect <nurbsselection> 
+deselect <PathName>
+deselect <vertexselection> 
+deselectHiddenEdges <mesh>
+deselectHiddenFaces <mesh>
+deselectKey <controller> <index_integer> 
+deselectKeys <controller> [<interval> | <time>] 
+deselectNode <node> 
+DestroyDialog <Rollout>
+detachNodesFromGroup <node_collection> 
+DialogMonitorOPS.Enabled : bool : Read|Write 
+DialogMonitorOPS.Interactive : bool : Read|Write 
+disableSceneRedraw()
+disconnect <nurbsset> 
+displacementToPreset <mesh> (#low | #medium | #high)
+display <bitmap> 
+displayControlDialog <controller> <string> 
+displayOtherEvent: 
+displayPropertiesChanged: 
+displayTempPrompt <string> <milliseconds_integer>
+DisplayType enums: {#StickFigure|#Segmented|#CrowdCustom|#CrowdSkin|#HighSkin}
+distance <node> <node> 
+distance <point2> <point2> 
+distance <point3> <point3>
+distance <point4> <point4>
+do <expr> while <expr>
+do <expr> while <expr> -- do loop while <expr> do <expr> -- while loop
+doesFileExist <filename_string> 
+DOF.addCam <Depth_of_Field> <camera_node_name_string> 
+DOF.addFocalNode <Depth_of_Field> <node_name_string> 
+DOF.deleteCam <Depth_of_Field> <index_integer> 
+DOF.deleteCamByName <Depth_of_Field> <camera_node_name_string> 
+DOF.deleteFocalNode <Depth_of_Field> <index_integer> 
+DOF.deleteFocalNodeByName <Depth_of_Field> <node_name_string> 
+DosCommand "path>env.txt"
+DOSCommand <command_string> 
+dot <point3> <point3>
+dotNet.addEventHandler <dotNetControl> <EventNameString> <function>
+dotnet.combineEnums {<dotNetObject> | <number>}+
+dotnet.CompareEnums{<dotNetObject> | <number>} {<dotNetObject> | <number>}
+dotNet.getType <type_string>
+dotNet.removeAllEventHandlers <dotNetControl>
+dotNet.removeEventHandler <dotNetControl> <EventNameString> <function>
+dotNet.removeEventHandlers <dotNetControl> <EventNameString>
+dotNet.setLifetimeControl {<dotNetObject> | <dotNetClass>} {#mxs | #dotnet}
+dotNet.showConstructors <dotNetClass> [to:<stream>]
+dotNet.showConstructors <dotNetClass> [to:<stream>] 
+dotNet.showConstructors [<dotNetClass> | <dotNetObject> | <dotNetControl>] [to:<stream>]
+dotNet.ValueToDotNetObject <value> { <dotNetClass> | <dotNetObject> }
+dotNetClass {<dotNetObject> | <dotNetControl> | <class_type_string>}
+dotNetControl <name> <class_type_string> [{<property_name>:<value>}] 
+dotNetObject { <dotNetClass> | <class_type_string> } additional args as needed 
+dotNetObject:Autodesk.Max.StateSets.Plugin
+Double : Number
+drop "<dropScript_file_name>" 
+dropdownlist <name> [<caption>] [items:<array_of_strings>] [selection:<number>] [height:<number>] [tooltip:<string>] 
+dropdownlist sound_dd "Sound" items:# ("boom","sparkle","zap","fizzle")
+dupMtlNameAction enums: {#prompt|#useXRefed|#useScene|#autoRename} 
+dupObjNameAction enums: {#prompt|#xref|#skip|#deleteOld|#autoRename} 
+edit <filename_string>
+Editable_Mesh: meshOp.getFaceArea 
+Editable_Mesh: theNode.numfaces
+Editable_Poly: getNumFaces theNode
+Editable_Poly: polyOp.getFaceArea
+editAtmosphere <atmos> <node> 
+editAtmospheric <atmos> [gizmo: <node>] 
+editEffect <renderEffect> [gizmo: <node>]
+EditRenderRegion.IsEditable : boolean : Read|Write 
+EditRenderRegion.IsEditing : boolean : Read|Write 
+editScript <filename> 
+edittext <name> [<caption>] [text:<string>] [fieldWidth:<integer>] [height:<integer>] [bold:<boolean>] [labelOnTop:<boolean>] [readOnly:<boolean>]
+empty <Box2>
+enableCoordCenter <boolean> 
+enabledIn:#("max")
+enableHardwareMaterial <material> [<texmap>|<material>] <boolean> 
+enableORTs <controller> <boolean>
+enableRefCoordSys <boolean> 
+enableSceneRedraw() 
+enableShowEndRes <boolean> 
+enableSubObjSel <boolean> 
+enableUndo <boolean> 
+encryptFile <in_filename_string> <out_filename_string> <key_integer> 
+encryptScript <filename_string> [version:<int>]
+end <float> 
+endU <float> 
+endV <float> 
+enumerateFiles [<maxwrapper_obj>] <function> [<arg>]
+enumerateFiles [<MAXWrapper_obj>] <function> [<arg>] [#inactive] [#videoPost] [#render] [#missing] [#localOnly] 
+enums: {#paletted|#true24|#true48|#gray8|#gray16} 
+eof <filestream>
+eof <stringstream> 
+erMode enums: {#Max|#Maya|#Customized}
+eulerAngles <x_degrees> <y_degrees> <z_degrees>
+eulerToQuat <eulerAngle> order:<eulertype_integer>
+evalPos <nurbscurve> <u_param> 
+evalPos <nurbssurface> <u_param> <v_param> 
+evalTangent <nurbscurve> <u_param> 
+evalUTangent <nurbssurface> <u_param> <v_param> 
+evalVTangent <nurbssurface> <u_param> <v_param> 
+execute <filestream>
+execute <string>
+execute <stringstream> 
+exit [with <expr>] 
+exp <number>
+exp <quat>
+expandHierarchy default value: false 
+expandHierarchy: <boolean> 
+explodeGroup <group_head_node> -- mapped 
+exportFile <filename_string> [#noPrompt] [selectedOnly:<boolean>] [using:<maxclass>] 
+exprForMAXObject <MAXWrapper_object> [explicitNames: <boolean>] 
+extends: <maxClass>
+extentionChannelChanged: 
+extract to "<directory>" 
+extrudeFace <mesh> ( <index> | <bitarray> | <integer_array> | #selection) <amount> <scale> [dir:(<point3> | #common | #independent)]
+FbxExporterSetParam <String>arg <Value>val
+FbxImporterSetParam <String>arg <Value>val
+fencePickNode <point2_array> [crossing:<boolean>]
+fetchMaxFile [quiet:<boolean>] 
+fflush <binStream>
+fgcolor: <color> -- default:(color 0 0 0) 
+fileIn <filename_string> [quiet:<boolean>]
+fileIn <mzpFileName>
+FileLinkMgr.numLinks: integer : Read 
+filenameFromPath <filename_string> 
+filePos <filestream>
+filePos <stringstream> 
+fileProperties.addProperty <set_name> <prop_name_string> <prop_value> [#date] 
+fileProperties.deleteProperty <set_name> <prop_name_string> 
+fileProperties.findProperty <set_name> <prop_name_string> 
+fileProperties.getItems <header_string> 
+fileProperties.getNumProperties <set_name> 
+fileProperties.getPropertyName <set_name> <index> 
+fileProperties.getPropertyValue <set_name> <index> 
+fileSaveMatLib [quiet:<bool>] 
+filter enums: {#position | #rotation | #scale | #ikParams | #objParams | #custAttribs | #modifiers | #materials} 
+findAll <&material array>mtlsFound 
+findItem <array> <value> 
+findItem <bitarray> <integer> 
+findItem <edgeselection> (<edgeselection[<integer>] | <integer>) 
+findItem <faceselection> (<faceselection[<integer>] | <integer>) 
+findItem <mat_lib> <material> 
+findItem <MSCustAttribArray> <cust_attrib> 
+findItem <nurbsselection> (<nurbsselection[<integer>] | <integer>) 
+findItem <vertexselection> (<vertexselection[<integer>] | <integer>) 
+findLengthSegAndParam <shape> <curve_num> <param>
+findPathSegAndParam <shape> <curve_num> <param>
+FindPMod <node>source 
+fingerLinks:Integer Default: 3 
+fingers:Integer Default: 1 
+fix <&material array>mtls [prompt:bool] 
+fixAll [prompt:bool] 
+flagChanged <XRefScene> 
+flagForeground <node> <boolean> -- mapped 
+flashNodes <node_array> 
+flexOps.AddForce <flex> <force> 
+flexOps.addSpring <flex> <a> <b> <flag> <addDupes> 
+flexOps.addSpringButton <flex> 
+flexOps.AddSpringFromSelection <flex> <flag> <addDupes> 
+flexOps.ClearEdgeVertices <Flex> (<vertex_index_integer> | <index_integer_array>) 
+flexOps.createSimpleSoftButton <flex> 
+flexOps.GetEdgeList <flex> 
+flexOps.getIndex <flex> <a> <b> 
+flexOps.GetNumberVertices <Flex> 
+flexOps.GetSelectedVertices <flex> 
+flexOps.getSpringGroup <flex> <index> 
+flexOps.getSpringLength <flex> <index> 
+flexOps.GetVertexWeight <flex> <index> 
+flexOps.GetVertexWeight <Flex> <vertex_index_integer> 
+flexOps.isEdgeVertex <Flex> <vertex_index_integer> 
+flexOps.numberSprings <flex> 
+flexOps.NumberVertices <flex> 
+flexOps.optionsButton <flex> 
+flexOps.Paint <flex> 
+flexOps.removeAllSprings <flex> 
+flexOps.RemoveForce <flex> <force> 
+flexOps.RemoveSpringButton <flex> 
+flexOps.RemoveSpringByEnd <flex> <a> 
+flexOps.removeSpringByEnds <flex> <a> <b> 
+flexOps.removeSpringByIndex <flex> <index> 
+flexOps.Reset <flex> 
+flexOps.SelectVertices <Flex> (<vertex_index_integer> | <index_integer_array> | <bitarray>) 
+flexOps.SelectVertices <flex> <sel> <update> 
+flexOps.SetEdgeList <flex> <sel> <update> 
+flexOps.SetEdgeVertices <Flex> (<vertex_index_integer> | <index_integer_array>) 
+flexOps.SetReference <flex> 
+flexOps.setSpringGroup <flex> <index> <group> 
+flexOps.setSpringLength <flex> <index> <length> 
+flexOps.SetVertexWeight <flex> <Index_tab> <values_tab> 
+flexOps.SetVertexWeights <Flex> (<vertex_index_integer> | <index_integer_array>) (<weight_integer> | <weight_integer_array>) 
+FlightStudio.OverrideColors : integer : Read 
+FlightStudio.OverrideLightPoints : integer : Read 
+FlightStudio.OverrideLightSources : integer : Read 
+FlightStudio.OverrideLineStyles : integer : Read 
+FlightStudio.OverrideMaterials : integer : Read 
+FlightStudio.OverrideSounds : integer : Read 
+FlightStudio.OverrideTextures : integer : Read 
+flipNormals: <boolean> 
+Float default: 0.0 -- animatable
+float_Reactor : floatControllerpoint3_Reactor : point3Controller position_Reactor : positionController rotation_Reactor : rotationController scale_Reactor : scaleController 
+float_script : floatControllerpoint3_script : point3Controller position_script : positionController rotation_script : rotationController scale_script : scaleController 
+floor <number>
+flush <filestream>
+flush <stringstream> 
+Footsteps : Matrix3Controller
+forceCompleteRedraw [doDisabled:<boolean>] 
+forearmTwistLinks:Integer Default: 0 
+format "<fmt_string>" {values} to:<stringstream> 
+format "<fmt_string>" {values} to:<windowstream>
+format <fmt_string> { <value> } to:<filestream>
+format <format_string> { <value> } [to:<stream>]
+formattedPrint <value> format:<string>
+fractalNoise <color> <H_float> <lacunarity_float> <octaves_float>
+fractalNoise <point3> <H_float> <lacunarity_float> <octaves_float>
+free <array>
+free <bitmap>
+free <filestream>
+free <string>
+free <stringStream>
+freeze <node> -- mapped 
+freezeChanged: 
+frmOpenFileDialog.Filter = "txt files (*.txt)|*.txt|Script Files (*.ms)|*.ms|ini files (*.ini)|*.ini|XML files (*.xml)|*.xml|All files (*.*)|*.*"
+gc [light:false] [delayed:false] 
+genClassID [returnValue:<boolean>]
+genClassID [returnValue:<boolean>] 
+geometryChanged: 
+getAfterORT <controller>
+getAppData <MAXWrapper_object> <integer_ID> 
+getAtmospheric <index_integer> 
+getBackGround [<time>] 
+GetBaseObjectProperty: <fn> 
+getBeforeORT <controller>
+getBipedExportInterface <biped_node>
+getBitmapInfo {<filename> | <bitmap>} 
+getBitmapOpenFileName [caption:<title>] [filename:<seed_filename_string>] [metadata:&dataArray]
+getBitmapSaveFileName [caption:<title>] [filename:<seed_filename_string>] [metadata:&dataArray]
+getBkgFrameNum <time> 
+getBkgORType <start_end_integer> 
+getChannel <bitmap> <coord_point2> <chan_name> (#zDepth: <float>, #matID: <integer>, #objectID: <integer>, #UVCoords: <point2>, #normal: <point3>, #unClamped: <color>, #coverage: <float>, #node: <node>, #shaderColor: <color>, #shaderTransparency: <color>, #velocity: <point2>, #weight: <color> )
+getChannelAsMask <bitmap> <chan_name> [to:<bitmap>] [fileName:"filename_string"] [pixelAspect:<float>] [gamma:<float>] [layer:<integer>] [invert:<boolean>] [node:<node> |objectID:<integer> |matID:<integer>] [velocity:#angle | #magnitude] | [angle:<float>] to:<bitmap> fileName:"filename_string" gamma:<float> pixelAspect:<float> layer: <integer> invert:<boolean> node:<node> objectID:<integer> matID:<integer> velocity:#angle | #magnitude angle:<float> velocity:#angle velocity:#magnitude angle:<float> 
+getClassInstances <MAXClass> processAllAnimatables:<bool> target:<MAXObject> asTrackViewPick:<bool> processChildren:<bool>
+getClassName <MAXWrapper> 
+getclip <track:mxtrack> <index:integer> 
+getCoordCenter() setCoordCenter <name> 
+getCursorPos <ActiveXControl>
+getCurve <nurbs1railsweepsurface> <index> 
+getCurve <nurbs2railsweepsurface> <index> setCurve <nurbs2railsweepsurface> <index> <curve> 
+getCurve <nurbsuloftsurface> <index> 
+getCurveID <nurbs1railsweepsurface> <index> 
+getCurveID <nurbs2railsweepsurface> <index> setCurveByID <nurbs2railsweepsurface> <index> <curveID> 
+getCurveID <nurbsuloftsurface> <index> 
+getCurveStartPoint <nurbs1railsweepsurface> <index> 
+getCurveStartPoint <nurbs2railsweepsurface> <index> setCurveStartPoint <nurbs2railsweepsurface> <index> <float> 
+getCV <nurbscvcurve> <cv_index> 
+getCV <nurbscvcurve> <index> 
+getCV <nurbscvsurface> <u_index> <v_index> 
+getCVertMode <node> 
+GetDefaultUIColor <index_integer>
+getDimensions <FFDBox>
+getDimensions <FFDCyl>
+GetDir <filetype_name> 
+getDirectories <wild_card_directory_name_string> 
+getDisplacementMapping <mesh>
+getEdge <nurbsblendsurface> <index> setEdge <nurbsblendsurface> <index> <edge> 
+getEdge <nurbsnblendsurface> <index> setEdge <nurbsnblendsurface> <index> <edge> 
+getEdgeSelection <mesh>
+getEdgeSelection <node> [<modifier_or_index>] [name:<name>]
+getEdgeVis <mesh> <face_index_integer> <edge_index_integer>
+getEffect <index_integer>
+getEulerQuatAngleRatio <quat1> <quat2> <eulerAngles1> <eulerAngles2> [angle:<eulertype_integer>]
+getFace <mesh> <face_index_integer>
+getFaceMatID <mesh> <face_index_integer>
+getFaceNormal <mesh> <face_index_integer>
+getFaceSelection <mesh>
+getFaceSelection <node> [<modifier_or_index>] [name:<name>]
+getFaceSmoothGroup <mesh> <face_index_integer>
+getFileAttribute <filename_string> <attribute> 
+getFileCreateDate <filename_string> 
+getFileModDate <filename_string> 
+getFilenameFile <filename_string> 
+getFilenamePath <filename_string> 
+getFilenameType <filename_string> 
+getFiles <wild_card_filename_string> 
+getFileSecurityInfo <file_name> <attribute> testFileAttribute: <bool> 
+getFileSize <filename_string> 
+getFileVersion <filename_string> 
+getFilter <trackgroup: mxtrackgroup> <trackid:string> 
+getFlip <nurbs1railsweepsurface> <index> 
+getFlip <nurbs2railsweepsurface> <index> setFlip <nurbs2railsweepsurface> <index> <boolean> 
+getFlip <nurbsuloftsurface> <index> 
+getFlipTrim <nurbsfilletsurface> <index> setFlipTrim <nurbsfilletsurface> <index> <bool> 
+getGenerateUVs <nurbssurface> <channel_index> setGenerateUVs <nurbssurface> <channel_index> <boolean> 
+getGizmo <atmos> <index_integer> 
+getHashValue <value> <Integer oldHashValue>
+getImageBlurMultController <node> 
+getIndexedPixels <bitmap> <coord_point2> <num_pixels> 
+getIndexedProperty <activeXControl : MSDispatch> <propName> <index>
+getInheritanceFlags <node> 
+getInheritVisibility <node> 
+getINISetting <filename_string> <section_string> <key_string>
+getInterface {<MAXWrapper> | <MAXClass>} <InterfaceNameString> 
+getInterfaces {<MAXWrapper> | <MAXClass>}
+getInVec <shape> <spline_index_integer> <knot_index_integer>
+getKBChar [prompt:<string>]
+getKBLine [prompt:<string>]
+getKBPoint [prompt:<string>]
+getKBValue [prompt:<string>]
+getKey <controller> <index_integer>
+getKey <controller> <index_integer> 
+getKeyIndex <controller> <time> 
+getKeyTime <controller> <index_integer> 
+getKnot <nurbscvcurve> <index> setKnot <nurbscvcurve> <index> <float> 
+getKnotPoint <shape> <spline_index_integer> <knot_index_integer>
+getKnotSelection <shape> <spline_index_integer>
+getKnotType <shape> <spline_index_integer> <knot_index_integer>
+getLastRenderedImage [copy:<bool>] 
+GetMasterController <System>
+getMaterialID <splineShape> <spline_index> <seg_index>
+getMAXFileAssetMetadata <filename>
+getMAXFileObjectNames <filename> 
+getMAXFileObjectNames <max_filename_string> [quiet:<bool>] 
+getMAXOpenFileName <seed_filename_string> [dir:<seed_directory_string>] 
+getMAXSaveFileName <seed_filename_string> 
+getMeditMaterial <slot_index> 
+getMeditMaterial <slot_index_integer> 
+getMKKey <morph_controller> <time> 
+getMKKeyIndex <morph_controller> <time> 
+getMKTargetNames <morph_controller> 
+getMKTargetWeights <morph_controller> <time> <dest_array> 
+getMKTime <morph_key>
+getMKWeight <morph_key> <target_index_integer>
+getModContextBBoxMax <node> <modifier> 
+getModContextBBoxMin <node> <modifier> 
+getModContextBBoxMin <node> <modifier> getModContextBBoxMax <node> <modifier>
+getModContextTM <node> <modifier>
+getModContextTM <node> <modifier> 
+getMTLMEditFlags ( <material> | <texture> ) setMTLMEditFlags ( <material> | <texture> ) <bitarray> 
+getMTLMeditObjType ( <material> | <texture> ) setMTLMeditObjType ( <material> | <texture> ) <integer> 
+getMTLMeditTiling ( <material> | <texture> ) setMTLMeditTiling ( <material> | <texture> ) <integer> 
+getMultiplierValue <controller> <time> 
+getNamedSelSetItem <set_index> <node_index>
+getNamedSelSetItemCount <set_index>
+getNamedSelSetName <set_index>
+getNodeByName <string> exact:<bool> ignoreCase:<bool> all:<bool> 
+getNodeTM {<node> | <rootnode>} 
+getNormal <mesh> <vert_index_integer>
+getNoteKeyIndex <notetrack> <time> 
+getNoteKeyTime <notetrack> <index> 
+getNoteTrack <MAXWrapper_object> <index_integer> 
+getNumCPVVerts <mesh>
+getNumFaces <mesh>
+getNumSubMtls <material> 
+getNumSubTexmaps (<material> | <texture>) 
+getNumTVerts <mesh>
+getNumVerts <mesh>
+getNURBSSet <node> [#relational] 
+getObject <nurbsset> (<index> | <NURBSSelection>) 
+getObject <nurbsset> <index>
+getObject <nurbsset> <index> 
+getOpenFileName [caption:<title>] [filename:<seed_filename_string>] [types:<description1>|<pattern1>|<description2>|<pattern2>||] [historyCategory:<string>] 
+GetOrgTimeAtWarpedTime <wtime:timevalue> 
+getOutVec <shape> <spline_index_integer> <knot_index_integer>
+getParent <nurbsblendsurface> <index> setParent <nurbsblendsurface> <index> <curve> 
+getParent <nurbsfilletsurface> <index> setParent <nurbsfilletsurface> <index> <curve> 
+getParent <nurbsmulticurvetrimsurface> <index> 
+getParent <nurbsnblendsurface> <index> 
+getParentID <nurbsblendsurface> <index> setParentID <nurbsblendsurface> <index> <curveID> 
+getParentID <nurbsmulticurvetrimsurface> <index> 
+getParentID <nurbsnblendsurface> <index> 
+getPatchSteps <editable_patch_node>
+getPixels <bitmap> <coord_point2> <num_pixels> linear:<bool>
+getPluginKeysEnabled()setPluginKeysEnabled <boolean>
+GetPModObjectNames <projectionMod>modifier 
+getPoint <ccCurve> <index> 
+getPoint <nurbspointcurve> <index> 
+getPoint <nurbspointcurveonsurface> <index> 
+getPoint <nurbspointsurface> <index> 
+getPoint <nurbspointsurface> <u_index> <v_index> 
+getPoint <NURBSTextureSurface> <u_index> <v_index> 
+getPointController <editable_mesh_node> <vertex_index_integer> 
+getPointController <editable_spline_node> <spline_index_integer> <vertex_index_integer> 
+getPointControllers {<editable_mesh_node> | <editable_spline_node>} 
+getPointPos <node> <index> 
+getPolygonCount <node> 
+getPosTaskWeight <node> 
+getProdTess <nurbsset> <tessType_name> 
+getProdTess <nurbssurface> <tessType_name> setProdTess <nurbssurface> <tessType_name> <NURBSSurfaceApproximation> getViewTess <nurbssurface> <tessType_name> setViewTess <nurbssurface> <tessType_name> <NURBSSurfaceApproximation> 
+getProperty <dotNetClass> <prop name> [asDotNetObject:<bool>]
+getProperty <dotNetControl> <prop name> [asDotNetObject:<bool>] 
+getProperty <dotNetObject> <prop name> [asDotNetObject:<bool>] 
+getProperty <obj> <property_name>
+getProperty <struct> <propname>
+getPropertyController <value> <string_or_name>
+getPropNames <axControl> [showHidden:<false>] 
+getPropNames <dataPair>
+getPropNames <dotNetClass> [showStaticOnly:<bool>] [declaredOnTypeOnly:<bool>]
+getPropNames <dotNetControl> [showStaticOnly:<bool>] [declaredOnTypeOnly:<bool>] 
+getPropNames <dotNetObject> [showStaticOnly:<bool>] [declaredOnTypeOnly:<bool>] 
+getPropNames <maxwrapper_obj> [#dynamicOnly]
+getPropNames <struct>
+getRadius <nurbsfilletsurface> <index> setRadius <nurbsfilletsurface> <index> <float> 
+getReactionCount <reactor_controller> 
+getReactionFalloff <reactor_controller> <index_integer> 
+getReactionInfluence <reactor_controller> <index_integer> 
+getReactionName <reactor_controller> <which> 
+getReactionState <reactor_controller> <index_integer> 
+getReactionStrength <reactor_controller> <index_integer> 
+getReactionValue <reactor_controller> <index_integer> 
+getRefCoordSys()
+getRenderID <node> 
+getRotTaskWeight <node> 
+getSaveFileName [caption:<title>] [filename:<seed_filename_string>] [types:<description1>|<pattern1>|<description2>|<pattern2>||] [historyCategory:<string>] 
+getSavePath [caption:<window_caption_string>] [initialDir:<pathname>] 
+getScriptIndex <moflow> <MoFlowScript> 
+getSeed <nurbsfilletsurface> <index> setSeed <nurbsfilletsurface> <index> <point2> 
+getSegLengths <splineShape> <spline_index> [cum:<boolean>] [byVertex:<boolean>] [numArcSteps:<integer>]
+getSegmentType <shape> <spline_index_integer> <seg_index_integer>
+getSegSelection <shape> <spline_index_integer>
+getSelectedReactionNum <reactor_controller> 
+getSelectionLevel <maxobject> 
+getShadeCVerts <node> 
+getSlicePlane <&point3>planeNormal <&point3>planeCenter <*float>planeSize
+getSnippetIndex <moflow> <MoFlowSnippet> 
+getSplineSelection <shape>
+getSplitMesh <mesh>
+getSubAnim <maxwrapper_object> <index> 
+getSubAnim <subAnim> <index> 
+getSubAnimName <maxwrapper_object> <index> [asString:<Boolean>] 
+getSubAnimNames <maxwrapper_object> 
+getSubdivisionDisplacement <mesh>
+getSubMtl <material> <index> 
+getSubMtlSlotName <material> <index> 
+getSubTexmap (<material> | <texture>) <index> 
+getSubTexmapSlotName (<material> | <texture>) <index> 
+getTaskAxisState <node> <pos_or_rot_integer> <axis_integer> 
+getTextExtent <string>
+getTextureSurface <nurbssurface> <channel_index> 
+getTextureSurface <nurbssurface> <channel_index> setTextureSurface <nurbssurface> <channel_index> <NURBSTextureSurface> 
+getTextureUVs <nurbssurface> <index> [channel:<index>] setTextureUVs <nurbssurface> <index> <point2> [channel:<index>] 
+getTiling <nurbssurface> [channel:<index>] setTiling <nurbssurface> <ut> <vt> [channel:<index>] 
+getTilingOffset <nurbssurface> [channel:<index>] setTilingOffset <nurbssurface> <uo> <vo> [channel:<index>] 
+getTimeRange <controller> [#selOnly] [#allKeys] [#children]
+getTMController <node> 
+getToolbtnState <name> 
+getTrack <trackgroup:mxtrackgroup> <index:integer> 
+getTrackgroup <mixer:mixer> <index:integer>
+getTrajectoryOn <node> 
+getTransformAxis (<node>|undefined) <index> 
+getTransformLockFlags <node> -- mapped 
+GetTriMeshFaceCount <node> 
+getTrimSurface <nurbsfilletsurface> <index> setTrimSurface <nurbsfilletsurface> <index> <bool> 
+getTVert <mesh> <tvert_index_integer>
+getTVFace <mesh> <face_index_integer>
+getTwOrgTime <index:integer> 
+getTwWarpTime <index:integer> 
+getType enums: {#floatReaction | #positionalReaction | #rotationalReaction | #scaleReaction} 
+getType enums: {#floatReaction|#positionalReaction|#rotationalReaction|#scaleReaction} 
+getType enums: {#noType|#paletted|#true24}
+getType enums: {#paletted|#true24|#true48|#gray8|#gray16} 
+getUCurve <nurbsuvloftsurface> <index> 
+getUCurveID <nurbsuvloftsurface> <index> 
+GetUIColor <index_integer>
+getUKnot <nurbscvsurface> <u_index> 
+getUserProp <node> <key_string> 
+getUserPropBuffer <node> 
+getValue ccCurve <time_value> <float_x> [lookup:<false>] 
+getVCFace <mesh> <CPVface_index_integer>
+getVCurve <nurbsuvloftsurface> <index> 
+getVCurveID <nurbsuvloftsurface> <index> 
+getVert <mesh> <vert_index_integer>
+getVertColor <mesh> <CPVvert_index_integer>
+getVertSelection <mesh>
+getVertSelection <node> [<modifier_or_index>] [name:<name>]
+getViewTess <nurbsset> <tessType_name> 
+getVisController <node> 
+getVKnot <nurbscvsurface> <v_index> 
+GetWarpedTimeAtOrgTime <otime:timevalue> 
+getWeight <index:integer> 
+getWeightAtTime <time:timevalue> 
+getWeightTime <index:integer> 
+getXYZControllers <controller> 
+GhostingManager.DisplayGhostInWireframe : bool : Read|Write
+GhostingManager.GhostFrameIncrement : integer : Read|Write
+GhostingManager.GhostType : integer : Read|Write
+GhostingManager.ShowGhostFrameNumbers : bool : Read|Write
+GhostingManager.ShowGhosting : bool : Read|Write
+GhostingManager.TotalGhostFrames : integer : Read|Write
+gizmoActiveViewportOnly 
+gizmoDontDisplay 
+gizmoDontHitTest 
+gizmoUseRelativeScreenSpace 
+gizmoUseScreenSpace 
+globalDXDisplayManager.forceSelected : boolean : Read|Write 
+globalDXDisplayManager.forceSoftware : boolean : Read|Write 
+globalDXDisplayManager.sceneEffectActive : boolean : Read|Write 
+GlobalInpoint <clip:mxclip> 
+globalMotionClipOps.loadfile <global_motion_clip> <filename_string> 
+globalMotionClipOps.savefile <global_motion_clip> <filename_string> 
+globalMotionClipOps.synthesize <global_motion_clip> 
+GlobalOutpoint <clip:mxclip> 
+GlobalToLocal <clip:mxclip> <frame:integer> 
+GlobalToScaledLocal <clip:mxclip> <frame:integer> 
+globalVars.get <global var name> 
+globalVars.getTypeTag <var name> 
+globalVars.getValueTag <var name>
+globalVars.isglobal <var name> 
+globalVars.remove <var name> 
+globalVars.set <global var name> <value> 
+gotoFrame <bitmap> <frame>
+gravityMode enums: {#none|#directional|#object}
+gridPrefs.dynamicUpdateAllVpts : boolean : Read|Write 
+gridPrefs.inhibitGridSubdivision : boolean : Read|Write 
+gridPrefs.inhibitPerspViewGridResize : boolean : Read|Write 
+gridPrefs.majorLines : integer : Read|Write 
+gridPrefs.perspViewGridExtents : integer : Read|Write 
+gridPrefs.spacing : float : Read|Write 
+Grip.CenterOnSelected : bool : Read|Write 
+Grip.CenterXPos : float : Read|Write 
+Grip.CenterYPos : float : Read|Write 
+Grip.HoverTransparency : float : Read|Write 
+Grip.SelectedXOffset : integer : Read|Write 
+Grip.SelectedYOffset : integer : Read|Write 
+Grip.Show : bool : Read|Write 
+Grip.Transparency : float : Read|Write 
+Grip.WidgetSpacing: float : Read|Write 
+group <group_label_string> 
+group <node_collection> [name:<string>] [prefix:<string>] [select:<boolean>] 
+groupBox <name> [caption] [pos:<point2>] [width:<integer>] [height:<integer>] 
+groupChanged: 
+gw.clearScreen <Box2> [useBkg:<boolean>] 
+gw.enlargeUpdateRect ( <Box2> | #whole ) 
+gw.getTextExtent <string> 
+gw.hMarker <point3> <marker_name> [color:<color>] 
+gw.hPolygon <vertex_point3_array> <color_array> <uvw_point3_array> 
+gw.hPolyline <vertex_point3_array> <isClosed_boolean> [rgb:<color_array>] 
+gw.hRect <box2> <color> 
+gw.hText <point3> <string> [color:<color>] 
+gw.hTransPoint <point3> 
+gw.hTriStrip <vertex_point3_array> <color_array> <uvw_point3_array> gw.wTriStrip <vertex_point3_array> <color_array> <uvw_point3_array> 
+gw.Marker <point3> <marker_name> [color:<color>] 
+gw.Polygon <vertex_point3_array> <color_array> <uvw_point3_array> 
+gw.Polyline <vertex_point3_array> <isClosed_boolean> [rgb:<color_array>] 
+gw.querySupport <feature_name> 
+gw.setColor <type_name> <color_value> 
+gw.setDirectXDisplayAllTriangle <bool> 
+gw.setPos <x_integer> <y_integer> <w_integer> <h_integer> 
+gw.setRndLimits 
+gw.setSkipCount <skip_count_integer> 
+gw.setTransform <matrix3> 
+gw.text <point3> <string> [color:<color>] 
+gw.transPoint <point3> 
+gw.triangle <vertex_point3_array> <color_array> 
+gw.triStrip <vertex_point3_array> <color_array> <uvw_point3_array> 
+gw.wMarker <point3> <marker_name> [color:<color>] 
+gw.wPolygon <vertex_point3_array> <color_array> <uvw_point3_array> 
+gw.wPolyline <vertex_point3_array> <isClosed_boolean> [rgb:<color_array>] 
+gw.wRect <box2> <color> 
+gw.wText <point3> <string> [color:<color>] 
+gw.wTransPoint <point3> 
+handleAt: #redrawViews|#timeChange]
+HasBaseObjectProperty: <fn>
+hasINISetting <filename_string> <section_string> [<key_string>] 
+hasNoteTracks <MAXWrapper_object> 
+hasProperty <obj> <prop_name_or_pattern_string>
+HDIKSys.ikChain <startJoint> <endJoint> <assignEE>
+height <float> 
+height: <integer> -- default:dynamic on control extents 
+height: <number> default: varies by type
+HelpSystem.defaultLocalProductHelpPath : string:Read
+HelpSystem.localProductHelpPath : string:Read|Write
+HelpSystem.productHelpLocation : enum:Read|WritehelpLocation enums: {#onlineHelp|#localHelp}
+HiddenDOSCommand <command string to execute> [startpath:unsupplied] [prompt:unsupplied] [donotwait:false] [ExitCode:&variable] 
+hide <node> -- mapped 
+hideChanged: 
+hideselectedsegments <shape>
+hideselectedsplines <shape>
+hideselectedverts <shape>
+hierarchyOtherEvent: 
+hitPoints type:#float ui:hits default:10
+HKey <HKey parentKey> <string keyName> <int writeAccess> 
+Hotspot_Manipulator - superclass: helper; super-superclass:Node 
+hoverColor: Color default:(color 0 255 255) 
+hyperLink <name> [caption] [color:<color>] [hoverColor:<color>] [visitedColor:<color>] [address:<string>] 
+IBitmapPager.enabled : boolean : Read|Write 
+IBitmapPager.memoryAvailablePadded_megabytes : integer : Read 
+IBitmapPager.memoryLimitAutoMode : boolean : Read|Write 
+IBitmapPager.memoryLimit_megabytes : integer : Read 
+IBitmapPager.memoryLimit_percent : float : Read|Write|Validated by Range: 0.0 to 1.0 
+IBitmapPager.memoryPadding_megabytes : integer : Read 
+IBitmapPager.memoryPadding_percent : float : Read|Write|Validated by Range: 0.0 to 1.0 
+IBitmapPager.memoryTotalForPager_megabytes : integer : Read 
+IBitmapPager.memoryUsedForPager_megabytes : integer : Read 
+IBitmapPager.pageFilePath : filename : Read|Write 
+identity <BigMatrix> -- mapped function
+identity <matrix3> -- mapped function
+IDisplayGamma.affectColorPickers : boolean : Read|Write 
+IDisplayGamma.affectMEdit : boolean : Read|Write 
+IDisplayGamma.colorCorrectionMode : enum : Read|Write 
+IDisplayGamma.colorCorrectionPrefMode : enum : Read|Write 
+IDisplayGamma.gamma : float : Read|Write 
+IDisplayGamma.LUTFileName : filename : Read|Write 
+IInteractionMode.CurrentMode : enum : Read|Write 
+ik.getAxisActive {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisDamping {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisEase {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisLimit {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisMax {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisMin {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisPreferredAngle {<node> | <controller>} 
+ik.getAxisSpring {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisSpringOn {<node> | <controller>} {#rotational | #sliding} 
+ik.getAxisSpringTension {<node> | <controller>} {#rotational | #sliding} 
+ik.getBindOrient <node> 
+ik.getBindPos <node> 
+ik.GetEndTime <node> 
+ik.getIsTerminator <node> 
+ik.GetIterations <node> 
+ik.getPinNode <node> 
+ik.GetPosThreshold <node>
+ik.getPrecedence <node> 
+ik.GetRotThreshold <node> 
+ik.GetStartTime <node> 
+ik.setAxisActive {<node> | <controller>} {#rotational | #sliding} <bitarray> 
+ik.setAxisDamping {<node> | <controller>} {#rotational | #sliding} <point3> 
+ik.setAxisEase {<node> | <controller>} {#rotational | #sliding} <bitarray> 
+ik.setAxisLimit {<node> | <controller>} {#rotational | #sliding} <bitarray> 
+ik.setAxisMax {<node> | <controller>} {#rotational | #sliding} <point3> 
+ik.setAxisMin {<node> | <controller>} {#rotational | #sliding} <point3> 
+ik.setAxisPreferredAngle {<node> | <controller>} <point3> 
+ik.setAxisSpring {<node> | <controller>} {#rotational | #sliding} <point3> 
+ik.setAxisSpringOn{<node> | <controller>} {#rotational | #sliding} <bitarray> 
+ik.setAxisSpringTension {<node> | <controller>} {#rotational | #sliding} <point3> 
+ik.setBindOrient <node> <boolean> 
+ik.setBindPos <node> <boolean> 
+ik.SetEndTime <node> <time> 
+ik.setIsTerminator <node> <boolean> 
+ik.SetIterations <node> <integer> 
+ik.setPinNode <node> (<node> | undefined) 
+ik.SetPosThreshold <node> <float> 
+ik.setPrecedence <node> <number> 
+ik.SetStartTime <node> <time> 
+images:#(<image>, <maskImage>, <count_integer>, <enabled_out_image_index>, <enabled_in_image_index>, <disabled_out_image_index>, <disabled_in_image_index>)
+imgTag <name> [caption] [tooltip:<string>] [style:<key>] [bitmap:<bitmap>] [opacity:<float>] [transparent:<color>] 
+import <importable_file_name> 
+importFile <filename> 
+importFile <filename_string> [#noPrompt] [using:<maxclass>] 
+include <filename_string>
+initialRollupState: <0xnnnnn>
+INodeShadingProperties.LockedViewportIllumination : bool : Read|Write 
+INodeShadingProperties.ViewportIllumination : bool : Read|Write 
+INodeShadingProperties.ViewportShadowCasting : bool : Read|Write 
+insertItem <value> <array> <integer> 
+insertPoint <ccCurve> <index> <ccpoint> 
+insertSnippet <MoFlowScript> <MoFlowSnippet> <index_integer> 
+insertTime <controller> <at_time> <amount_time> 
+insertTrack <trackgroup: mxtrackgroup> <index:integer> <tracktype:string> 
+insertTrackgroup <mixer:mixer> <index:integer> 
+InsertWarpAtOrgTime <otime:timevalue> 
+instance <node> -- mapped 
+InstanceMgr.autoMtlPropagation : boolean : Read|Write 
+instanceReplace <dest_node> <src_node> -- mapped 
+Integer : Number Float : Number Double : Number Integer64 : Number IntegerPtr : Number
+Integer64 : Number
+IntegerPtr : Number
+internet.CheckConnection url:<string> [force:<bool>]
+interpBezier3D <splineShape> <spline_index> <segment_index> <param_float> pathParam:<boolean>
+interpCurve3D <splineShape> <spline_index> <param_float> [pathParam:<boolean>]
+intersectRay <node> <ray> 
+intersectRayEx <node> <ray> 
+intersectRayScene <ray> 
+intersects <node> <node> 
+interval <start_time> <end_time>
+invalidateTM <node> -- mapped 
+invalidateTreeTM <node> -- mapped 
+invalidateWS <node> -- mapped 
+InventorImport.AppendObjectName : boolean : Read|Write
+InventorImport.AssignMaterialIDs : boolean : Read|Write
+InventorImport.ImportBody : boolean : Read|Write
+InventorImport.ImportMaterials : boolean : Read|Write
+InventorImport.LayerByMaterial : boolean : Read|Write
+InventorImport.MeshResolution : integer : Read|Write
+InventorImport.ReferenceDuplicatedParts : boolean : Read|Write
+InventorImport.ReplaceScene : boolean : Read|Write
+InventorImport.VerticalAxis : enum : Read|Write
+inverse <matrix3>
+inverse <quat>
+invert <BigMatrix>
+invisible: <boolean>
+isActive <atmos> 
+IsActive <renderEffect>
+isAnimated ccCurve <index> 
+isBoneOnly <node> 
+isClosed <shape> <spline_index_integer>
+isController <value>
+isCreatingObject [<maxclass>] 
+isDeformable <node> 
+isDeleted <MAXWrapper_object>
+isDeleted <MAXWrapper_object> 
+isDeleted <selectionset>
+isDirectoryWriteable <dir_name> 
+isEmpty <Box2>
+isGroupHead <node> 
+isGroupMember <node> 
+isIdentity <matrix3>
+isIdentity <quat>
+isKeySelected <controller> <index_integer> 
+isKindOf <value> <class>
+isMSCustAttrib <value>
+isMSCustAttribClass <value>
+isMSPlugin <value>
+isMSPluginClass <value>
+isOpenGroupHead <node> 
+isOpenGroupMember <node> 
+isPointSelected <node> <point_index> 
+isProperty <MAXWrapper_object> <property_name_or_string>
+isPropertyAnimatable <obj> <string_or_name>
+isShapeObject <node> 
+isStruct <value>
+isStructDef <value>
+isSurfaceUVClosed <node> <surface_index_integer> 
+IsValidNode <var> 
+isValidObj <value> 
+Is_Bone: <fn>
+Is_Camera: <fn>
+Is_IKChain: <fn>
+Is_Light: <fn>
+is_Parent: <fn>
+Is_Point: <fn>
+Is_Target: <fn>
+IViewportShadingMgr.AutoDisplaySelLights : bool : Read|Write 
+IViewportShadingMgr.DefaultLightCastShadows : bool : Read|Write 
+IViewportShadingMgr.GlobalShadowIntensity : float : Read|Write 
+IViewportShadingMgr.MaxActiveLight : integer : Read|Write 
+IViewportShadingMgr.ShadingLimits : enum : Read|Write 
+IViewportShadingMgr.ShadowFilterSize : float : Read|Write 
+IViewportShadingMgr.UpdateShadowsInActiveViewportOnly : bool : Read|Write 
+IViewportShadingMgr.UseGITransparency : bool : Read|Write 
+IViewportShadingMgr.UseTransparencyInShadows : bool : Read|Write 
+join <array> <collection> 
+join <bitarray> <bitarray> 
+joinCurves <node> <nurbsId1> <nurbsId2> <tolerance_float> [flip1:<boolean>] [flip2:<boolean>] 
+joinSurfaces <node> <nurbsId1> <nurbsId2> <edge1_integer> <edge2_integer> <tolerance_float> 
+label <name> [<string>] [style_sunkenedge:<bool>] 
+labels: <array_of_strings> 
+layerChanged: 
+LayerManager.count : integer : Read 
+LayerManager.current : Interface : Read 
+le.addASec <Lens_Effects>
+le.addASec <Lens_Effects> 
+le.addGlow <Lens_Effects> 
+le.addLight <Lens_Effects> <light_node_name_string> 
+le.addLightNode <Lens_Effects> <light_node> 
+le.addMSec <Lens_Effects> 
+le.addRay <Lens_Effects> 
+le.addRing <Lens_Effects> 
+le.addStar <Lens_Effects> 
+le.addStreak <Lens_Effects> 
+le.deleteElement <Lens_Effects> <index_integer> 
+le.deleteElementByName <element_name_string> 
+le.deleteLight <Lens_Effects> <index_integer> 
+le.deleteLightByName <light_node_name_string> 
+le.lightIndex <Lens_Effects> <light_node_name_string> 
+le.lightName <Lens_Effects> <index> 
+le.load <Lens_Effects> <filename_string> 
+le.numLights <Lens_Effects> 
+le.save <Lens_Effects> <filename_string> 
+legLinks:Integer Default: 3 
+length <point3>
+length <point4>
+lengthInterp <shape> [<curve_num>] <parameter> [steps:<integer>] 
+lengthTangent <shape> [<curve_num>] <parameter> [steps:<integer>] 
+lengthToPathParam <shape> [<curve_num>] <parameter> [steps:<integer>] 
+licenseBehavior enums: {#licenseBehaviorPermanent|#licenseBehaviorExtendable|#licenseBehaviorNonextendable} 
+LightMeterManager.deleteCacheBeforeCalculation : bool : Read|Write 
+linear_float : floatController linear_position : positionController linear_rotation : rotationController linear_scale : scaleController
+linkChanged: 
+listbox <name> [<caption>] [items:<array_of_strings>] [selection:<number>] [height:<number>] [readOnly:<boolean>] 
+listCtrl.getActive <list_controller> 
+listCtrl.getName <list_controller> <index_integer> 
+listCtrl.setActive <list_controller> <index_integer> 
+listCtrl.setName <list_controller> <index_integer> <string> 
+Listview.getIndent <hWnd> <index>
+Listview.hittest <hWnd> <point2_pos>
+Listview.setIndent <hWnd> <index> <int_indent>
+LnDif <p_quat> <q_quat>
+loadDllsFromDir <directory_path_string> <filename_wildcard_string> 
+loadFile <clip:mxclip> <loadOption:name> <filename:string> <ZeroFootHeight:boolean> 
+loadMaterialLibrary <filename> 
+loadMaterialLibrary <filename_string> 
+loadMAXFile <filename> 
+loadMixFile <filename:string> 
+loadMoFlowFile <moflow> <file_name> [quiet:<boolean>] 
+loadPicture <filename_string>
+loadSnippetFiles <moflow> 
+LocalToGlobal <clip:mxclip> <frame:integer> 
+LocalToScaledLocal <clip:mxclip> <frame:integer> 
+lockAxisTripods <boolean> 
+LockedTracksMan.unLockOverride : bool : Read|Write 
+log <number>
+log10 <number>
+logN <quat>
+logsystem.logEntry <string> [debug:<bool>] [info:<bool>] [warning:<bool>] [error:<bool>]
+logsystem.quietMode SystemGlobal:quietMode default:false
+lorCorrectionMode enums: {#LUT|#gamma|#none} 
+lorCorrectionPrefMode enums: {#LUT|#gamma|#none} 
+macros.edit <category_string> <name_string> macros.edit <macro_id_integer> 
+macros.load [<path_name_string>] 
+macros.run <category_string> <name_string> 
+macros.run <macro_id_integer> 
+macroScript <name> [category:<string>] [buttonText:<string>] [toolTip:<string>] [icon:#(<string>, <index>)] [silentErrors:<boolean>] [autoUndoEnabled:boolean>] (<macro_script_body>)
+majorRad <float> 
+makeDir <directory_path_string> all:<boolean> 
+makeIndependent <node> <nurbsId> 
+MakeNURBSConeSurface <radius1> <radius2> <height> <origin> <sym_axis> <ref_axis> <start> <end> [open:<boolean>] 
+MakeNURBSCylinderSurface <radius> <height> <origin> <sym_axis> <ref_axis> <start> <end> [open:<boolean>] 
+MakeNURBSLatheSurface <curve> <origin> <north> <start> <end> 
+MakeNURBSSphereSurface <radius> <center> <north_axis> <ref_axis> <startU> <endU> <startV> <endV> [open:<boolean>] 
+MakeNURBSTorusSurface <majorRad> <minorRad> <origin> <sym_axis> <ref_axis> <startU> <endU> <startV> <endV> [open:<boolean>] 
+makeUniqueArray <array> 
+manip.msXYPlane : Interface : Read 
+manip.msXZPlane : Interface : Read 
+manip.msYZPlane : Interface : Read 
+mapbutton <name> [<caption>] [map:<texturemap>] [toolTip:<string>] [border:<boolean>] images:#(<image>, <maskImage>, <count_integer>, <enabled_out_image_index>, <enabled_in_image_index>, <disabled_out_image_index>, <disabled_in_image_index>) 
+mapCoords: <boolean> 
+mapKeys <max_object> (<map_struct> | <fn> <arg>) [#allKeys] [#selection] [#slide] [#rightToLeft]
+mapPaths.add <path_string> 
+mapPaths.delete <index> 
+mapPaths.get <index> 
+mapPaths.getFullFilePath <filename> 
+mappingChanged: 
+mapPoint <ActiveXControl> <Point2>
+materialbutton <name> [<caption>] [material:<material>] [images:<image_spec_array>] [toolTip:<string>] [border:<boolean>] material: images:#(<image>, <maskImage>, <count_integer>, <enabled_out_image_index>, <enabled_in_image_index>, <disabled_out_image_index>, <disabled_in_image_index>)toolTip:border:
+materialID <shape> <spline_index_integer> <segment_index_integer>
+materialLibrary { <material> } 
+materialOtherEvent: 
+materialStructured: 
+matIDs: <boolean> 
+matrix3 <row1_point3> <row2_point3> <row3_point3> <row4_point3>
+matrixFromNormal <point3>
+max <command_name>
+MaxCustomControls.SceneExplorerControls.ModalSceneExplorerDialog() MaxCustomControls.SceneExplorerControls.ModalSceneExplorerDialog <ExplorerFramework.DataFacade>aFacade
+maxDecline1 <Multiple_Delegate_Settings>. Float default: 90.0 -- float; Maximum_Decline 
+maxOps.autoGrid : boolean : Read|Write 
+maxOps.autoKeyDefaultKeyOn: boolean : Read|Write 
+maxOps.autoKeyDefaultKeyTime : time : Read|Write 
+maxOps.getNodeByHandle <DWORD>handle 
+maxOps.getNodeByHandle <number> 
+maxOps.GetRenderElementMgr <enum> 
+maxOps.getSetKeyFilterState <enum>filter 
+maxOps.hideFrozenObjects : boolean : Read|Write 
+maxOps.inProgressiveMode : boolean : Read 
+maxOps.isFeatureLicensed <integer>featureNumber 
+maxOps.licenseBehavior : enum : Read 
+maxOps.licenseDaysLeft : integer : Read 
+maxOps.overrideControllerRangeDefault : boolean : Read|Write 
+maxOps.paintSelBrushSize : integer : Read|Write 
+maxOps.pivotMode : enum : Read|Write 
+maxOps.productAppID : enum : Read productAppID enums: {#none|#max|#viz|#gmax} 
+maxOps.productAppID: enum : Read
+maxOps.productID : enum : Read 
+maxOps.productVersion : enum : Read 
+maxOps.setActiveViewportTransparencyDisplay <integer>transparencyLevel 
+maxOps.setKeyFilters : enum by value array : Read 
+maxOps.setKeyMode : boolean : Read|Write 
+maxOps.setKeyNodeSetCurrent : String : Read|Write 
+maxOps.setKeyNodeSets : String array : Read 
+maxOps.setKeySuspend : boolean : Read|Write 
+maxOps.setSelectionType <boolean>auto <enum>method {#window|#crossing|#leftToRight|#rightToLeft} 
+maxOps.setSetKeyFilterState <enum>filter <bool>onOff 
+maxOps.springQuickEditMode : boolean : Read|Write 
+maxOps.springRollingStart : integer : Read|Write 
+maxOps.startNewShapeLock : boolean : Read|Write 
+maxOps.trackbar : Interface : Read 
+maxOps.trajectoryAddKeyMode : bool : Read|Write 
+maxOps.trajectoryKeySubMode : bool : Read|Write 
+maxOps.trajectoryMode : bool : Read|Write 
+maz <filename>archiveFile <filename or filename array>input
+measureOffset <spline_shape_node> <point3> 
+meditMaterials[<slot_index_integer>]
+mental_ray_Preferences.mrExtensionsActive : bool : Read|Write 
+mental_ray_string_options.AddOption "environment dome ground glossiness" <Float>glossiness 
+mental_ray_string_options.AddOption "environment dome ground position" <Point3>position
+mental_ray_string_options.AddOption "environment dome ground reflectivity" <Point3>reflectivity 
+mental_ray_string_options.AddOption "environment dome ground" <Boolean>onOff
+mental_ray_string_options.AddOption "environment dome mode" <String>mode 
+mental_ray_string_options.AddOption "environment dome position" <Point3>position
+mental_ray_string_options.AddOption "environment dome radius" <Float>radius 
+mental_ray_string_options.AddOption "environment dome rotation axis" <Point3>axis 
+mental_ray_string_options.AddOption "environment lighting blur" <Boolean>onOff
+mental_ray_string_options.AddOption "environment lighting mode" <String>mode 
+mental_ray_string_options.AddOption "environment lighting quality" <Float>quality
+mental_ray_string_options.AddOption "environment lighting resolution" <Integer>resolution
+mental_ray_string_options.AddOption "environment lighting shadow" <String>shadowMode 
+mental_ray_string_options.AddOption "finalgather" <String>mode 
+mental_ray_string_options.AddOption "importon density" <Float>density
+mental_ray_string_options.AddOption "importon merge" <Float>merge 
+mental_ray_string_options.AddOption "importon trace depth" <Integer>traceDepth
+mental_ray_string_options.AddOption "importon traverse" <Boolean>traverse 
+mental_ray_string_options.AddOption "importon" <Boolean>OnOff 
+mental_ray_string_options.AddOption "iray background color" <Point3>backgroundColor
+mental_ray_string_options.AddOption "iray devices" <String>devicesToUse
+mental_ray_string_options.AddOption "iray threads" <Integer>threadsCount
+mental_ray_string_options.AddOption "irradiance particles env rays" <Integer>rays
+mental_ray_string_options.AddOption "irradiance particles env scale" {<Float>Scale|<Point3>RGBScale} 
+mental_ray_string_options.AddOption "irradiance particles env" <Boolean>OnOff 
+mental_ray_string_options.AddOption "irradiance particles file" <String>filename
+mental_ray_string_options.AddOption "irradiance particles indirect passes" <Integer>indirectPasses 
+mental_ray_string_options.AddOption "irradiance particles interpolate" {<Integer>index|<String>modeName} 
+mental_ray_string_options.AddOption "irradiance particles interppoints" <Integer>points 
+mental_ray_string_options.AddOption "irradiance particles rays" <Integer>Rays
+mental_ray_string_options.AddOption "irradiance particles rebuild" <Boolean>OnOff
+mental_ray_string_options.AddOption "irradiance particles scale" {<Float>Scale|<Point3>RGBScale}
+mental_ray_string_options.AddOption "irradiance particles" <Boolean>OnOff 
+mental_ray_string_options.AddOption "progressive error threshold" <Float>threshold 
+mental_ray_string_options.AddOption "progressive max samples" <Integer>maxSamples 
+mental_ray_string_options.AddOption "progressive max time" <Integer>maxTime 
+mental_ray_string_options.AddOption "progressive min samples" <Integer>minSamples 
+mental_ray_string_options.AddOption "progressive sampling mode" <String>modeName 
+mental_ray_string_options.AddOption "progressive sampling pattern" <String>patternName 
+mental_ray_string_options.AddOption "progressive subsampling size" <Integer>Size 
+mental_ray_string_options.AddOption "progressive" <Boolean>OnOff 
+mental_ray_string_options.numOptions : integer : Read 
+menu: <RCMenu>
+menu: <RCMenu> -- default:undefined 
+menuItem <name> <label> [checked:<boolean>] [enabled:<boolean>] [filter:<function>]
+merge <max_file_name> 
+merge <XRefScene> 
+mergeMAXFile <filename> 
+mergeModifiers enums: {#xrefModifiers|#ignoreModifiers|#mergeModifiers} 
+mesh vertices:<array_of_point3s> faces:<array_of_point3s> [materialIDs:<array_of_integers>] [tverts:<array_of_point3s>] 
+mesh vertices:vert_array faces:face_array
+mesh [length:<integer>] [width:<integer>] [lengthsegs:<integer>] [widthsegs:<integer>] 
+mesh [mesh:<TriMesh>] 
+mesh [numverts:<number>] [numfaces:<number>] 
+MeshInspector.Enable : bool : Read|Write
+MeshInspector.RepairMesh : bool : Read|Write
+MeshInspector.ShowDialog : bool : Read|Write
+meshop.applyUVWMap <TriMesh mesh> {#planar | #cylindrical | #spherical | #ball | #box> | #face}utile:<float=1.0> vtile:<float=1.0> wtile:<float=1.0> uflip:<boolean=false> vflip:<boolean=false> wflip:<boolean=false> cap:<boolean=true> tm:<Matrix3=identity matrix> channel:<int=1>
+meshop.attach{<target_editable_mesh_node> | <target_mesh>} {<source_node> | <source_mesh>} targetNode:<node=unsupplied> sourceNode:<node=unsupplied> attachMat:<{#neither | #MatToID | #IDToMat}=#neither> condenseMat:<boolean=true> deleteSourceNode:<boolean=true> 
+meshop.autoEdge <Mesh mesh> <edgelist> <float threshold> type:<{#SetClear| #Set| #Clear}=#SetClear> 
+meshop.autoSmooth <Mesh mesh> <facelist> <float threshold>
+meshop.bevelFaces <Mesh mesh> <facelist> <float height> <float outline> dir:<{<point3 dir> | #independent | #common}=#independent> node:<node=unsupplied>
+meshop.breakVerts <Mesh mesh> <vertlist>
+meshop.buildMapFaces <Mesh mesh> <Integer mapChannel> <Boolean keep>
+meshop.chamferEdges <Mesh mesh> <edgelist> <float amount> 
+meshop.chamferVerts <Mesh mesh> <vertlist> <float amount>
+meshop.cloneEdges <Mesh mesh> <edgelist> 
+meshop.cloneFaces <Mesh mesh> <facelist>
+meshop.cloneVerts <Mesh mesh> <vertlist>
+meshop.collapseEdges <Mesh mesh> <edgelist> 
+meshop.collapseFaces <Mesh mesh> <facelist>
+meshop.createPolygon <Mesh mesh> <vertIndex array> smGroup:<int=0> matID:<int=1>
+meshop.cut <Mesh mesh> <int edge1Index> <float edge1f> <int edge2Index> <float edge2f> <point3 normal> fixNeighbors:<boolean=true> split:<boolean=true> node:<node=unsupplied>
+meshop.defaultMapFaces <Mesh mesh> <Integer mapChannel>
+meshop.deleteEdges <Mesh mesh> <edgelist> delIsoVerts:<boolean=true> 
+meshop.deleteFaces <Mesh mesh> <facelist> delIsoVerts:<boolean=true>
+meshop.deleteIsoMapVertsAll <Mesh mesh>
+meshop.deleteIsoVerts <Mesh mesh>
+meshop.deleteMapVertSet <Mesh mesh> <Integer mapChannel> {<BitArray set> | <Integer index> | <integer array>}
+meshop.deleteVerts <Mesh mesh> <vertlist>
+meshop.detachFaces <Mesh mesh> <facelist> delete:<boolean=true> asMesh:<boolean=false>
+meshop.detachVerts <Mesh mesh> <vertlist> delete:<boolean=true> asMesh:<boolean=false>
+meshop.divideEdges <Mesh mesh> <edgelist> 
+meshop.divideFace <Mesh mesh> <int faceIndex> baryCoord:<point3=unsupplied>
+meshop.divideFaceByEdges <Mesh mesh> <int faceIndex> <int edge1Index> <float edge1f> <int edge2Index> <float edge2f> fixNeighbors:<boolean=true> split:<boolean=false>
+meshop.divideFaces <Mesh mesh> <facelist>
+meshop.edgeTessellate <Mesh mesh> <facelist> <float tension> 
+meshop.explodeAllFaces <Mesh mesh> <float threshold>
+meshop.explodeFaces <Mesh mesh> <facelist> <float threshold>
+meshop.extrudeEdges <Mesh mesh> <edgelist> <float height> dir:<{<point3 dir> | #independent | #common}=#independent> node:<node=unsupplied> 
+meshop.extrudeFaces <Mesh mesh> <facelist> <float height> <float outline> dir:<{<point3 dir> | #independent | #common}=#independent> node:<node=unsupplied>
+meshop.flipNormals <Mesh mesh> <facelist>
+meshop.freeMapChannel <Mesh mesh> <int mapChannel>
+meshop.freeMapFaces <Mesh mesh> <Integer mapChannel>
+meshop.freeMapVerts <Mesh mesh> <Integer mapChannel>
+meshop.freeVAlphas <Mesh mesh>
+meshop.freeVData <Mesh mesh> <Integer vdChannel>
+meshop.freeVertCorners <Mesh mesh>
+meshop.freeVertWeights <Mesh mesh>
+meshop.freeVSelectWeights <Mesh mesh>
+meshop.getAffectBackfacing <Mesh mesh>
+meshop.getBubble <Mesh mesh>
+meshop.getDisplacementMapping <Mesh mesh>
+meshop.getEdgesReverseEdge <Mesh mesh> <edgelist> 
+meshop.getEdgesUsingFace <Mesh mesh> <facelist>
+meshop.getEdgesUsingVert <Mesh mesh> <vertlist> 
+meshop.getElementsUsingFace <Mesh mesh> <facelist> fence:<facelist=unsupplied>
+meshop.getExtrusionType <Mesh mesh>
+meshop.getFaceRNormals <Mesh mesh> <int faceIndex> node:<node=unsupplied>
+meshop.getFacesUsingEdge <Mesh mesh> <edgelist> 
+meshop.getFacesUsingVert <Mesh mesh> <vertlist>
+meshop.getFalloff <Mesh mesh>
+meshop.getHiddenFaces <Mesh mesh>
+meshop.getHiddenVerts <Mesh mesh>
+meshop.getIgnoreBackfacing <Mesh mesh>
+meshop.getIgnoreVisEdges <Mesh mesh>
+meshop.getIsoMapVerts <Mesh mesh> <Integer mapChannel>
+meshop.getIsoVerts <Mesh mesh>
+meshop.getMapFace <Mesh mesh> <Integer mapChannel> <Integer index>
+meshop.getMapFacesUsingMapVert <Mesh mesh> <int mapChannel> <mapVertlist>
+meshop.getMapSupport <Mesh mesh> <Integer mapChannel>
+meshop.getMapVert <Mesh mesh> <Integer mapChannel> <Integer index>
+meshop.getMapVertsUsingMapFace <Mesh mesh> <int mapChannel> <mapFacelist>
+meshop.getNormalSize <Mesh mesh>
+meshop.getNumCPVVerts <Mesh mesh>
+meshop.getNumMapFaces <Mesh mesh> <Integer mapChannel>
+meshop.getNumMaps <Mesh mesh>
+meshop.getNumMapVerts <Mesh mesh> <Integer mapChannel>
+meshop.getNumTVerts <Mesh mesh>
+meshop.getNumVDataChannels <Mesh mesh>
+meshop.getNumVerts <Mesh mesh>
+meshop.getOpenEdges <Mesh mesh> 
+meshop.getPinch <Mesh mesh>
+meshop.getPlanarThreshold <Mesh mesh>
+meshop.getPolysUsingEdge <Mesh mesh> <edgelist> ignoreVisEdges:<boolean=false> threshhold:<float=45.> 
+meshop.getPolysUsingFace <Mesh mesh> <facelist> ignoreVisEdges:<boolean=false> threshhold:<float=45.>
+meshop.getPolysUsingVert <Mesh mesh> <vertlist> ignoreVisEdges:<boolean=false> threshhold:<float=45.>
+meshop.getSelByVertex <Mesh mesh>
+meshop.getShowFNormals <Mesh mesh>
+meshop.getShowVNormals <Mesh mesh>
+meshop.getSoftSel <Mesh mesh>
+meshop.getSplitMesh <Mesh mesh>
+meshop.getSSEdgeDist <Mesh mesh>
+meshop.getSSUseEdgeDist <Mesh mesh>
+meshop.getSubdivisionAngle <Mesh mesh>
+meshop.getSubdivisionDisplacement <Mesh mesh>
+meshop.getSubdivisionDistance <Mesh mesh>
+meshop.getSubdivisionEdge <Mesh mesh>
+meshop.getSubdivisionMaxLevels <Mesh mesh>
+meshop.getSubdivisionMaxTriangles <Mesh mesh>
+meshop.getSubdivisionMethod <Mesh mesh>
+meshop.getSubdivisionMinLevels <Mesh mesh>
+meshop.getSubdivisionSteps <Mesh mesh>
+meshop.getSubdivisionStyle <Mesh mesh>
+meshop.getSubdivisionView <Mesh mesh>
+meshop.getUIParam <mesh> <param_name> 
+meshop.getUIParam <node> [<modifier_or_index>] <param_name> 
+meshop.getVAlpha <Mesh mesh> <int vertIndex>
+meshop.getVDataChannelSupport <Mesh mesh> <Integer vdChannel>
+meshop.getVDataValue <Mesh mesh> <Integer vdChannel> <Integer vert_index>
+meshop.getVert <Mesh mesh> <int vertIndex> node:<node=unsupplied>
+meshop.getVertCorner <Mesh mesh> <int vertIndex>
+meshop.getVertexAngles <Mesh mesh> <vertlist>
+meshop.getVertsByColor <Mesh mesh> <color color> <float red_thresh> <float green_thresh> <float blue_thresh> channel:<int=0>
+meshop.getVertsByColor <Mesh mesh> <point3 uvw> <Float u_thresh> <Float v_thresh> <Float w_thresh> channel: <int=0>
+meshop.getVertsUsedOnlyByFaces <Mesh mesh> <facelist>
+meshop.getVertsUsingEdge <Mesh mesh> <edgelist> 
+meshop.getVertsUsingFace <Mesh mesh> <facelist>
+meshop.getVertWeight <Mesh mesh> <int vertIndex>
+meshop.getVSelectWeight <Mesh mesh> <int vertIndex>
+meshop.getWeldPixels <Mesh mesh>
+meshop.getWeldThreshold <Mesh mesh>
+meshop.makeFacesPlanar <Mesh mesh> <facelist>
+meshop.makeMapPlanar <Mesh mesh> <Integer mapChannel>
+meshop.makeVertsPlanar <Mesh mesh> <vertlist>
+meshop.minVertexDistanceFrom <Mesh mesh> <int vertIndex> <vertlist>
+meshop.minVertexDistancesFrom <Mesh mesh> <vertlist> <int iterations>
+meshop.moveVert <Mesh mesh> <vertlist> {<point3 offset> | <point3 offset_array>} node:<node=unsupplied> useSoftSel:<bool>
+meshop.moveVertsToPlane <Mesh mesh> <vertlist> <point3 normal> <float offset> node:<node=unsupplied>
+meshop.optimize <Mesh mesh> <float normalThreshold> <float edgeThreshold> <float bias> <float maxEdge> saveMatBoundries:<boolean=true> saveSmoothBoundries:<boolean=true> autoEdge:<boolean=true>
+meshop.removeDegenerateFaces <Mesh mesh>
+meshop.removeIllegalFaces <Mesh mesh>
+meshop.resetVAlphas <Mesh mesh>
+meshop.resetVertCorners <Mesh mesh>
+meshop.resetVertWeights <Mesh mesh>
+meshop.resetVSelectWeights <Mesh mesh>
+meshop.setAffectBackfacing <Mesh mesh> <boolean>
+meshop.setBubble <Mesh mesh> <float>
+meshop.setDisplacementMapping <Mesh mesh> <boolean>
+meshop.setExtrusionType <Mesh mesh> <int>
+meshop.setFaceAlpha <Mesh mesh> <int mapChannel> <facelist> <float alpha>
+meshop.setFaceColor <Mesh mesh> <int mapChannel> <facelist> <color color>
+meshop.setFalloff <Mesh mesh> <float>
+meshop.setHiddenFaces <Mesh mesh> <facelist>
+meshop.setHiddenVerts <Mesh mesh> <vertlist>
+meshop.setIgnoreBackfacing <Mesh mesh> <boolean>
+meshop.setIgnoreVisEdges <Mesh mesh> <boolean>
+meshop.setMapFace <Mesh mesh> <Integer mapChannel> <Integer index> <Point3 face>
+meshop.setMapSupport <Mesh mesh> <Integer mapChannel> <Boolean support>
+meshop.setMapVert <Mesh mesh> <Integer mapChannel> <Integer index> <Point3 xyz>
+meshop.setNormalSize <Mesh mesh> <float>
+meshop.setNumCPVVerts <Mesh mesh> <int>
+meshop.setNumFaces <Mesh mesh> <int>
+meshop.setNumMapFaces <Mesh mesh> <Integer mapChannel> <Integer count> keep:<boolean=false> keepCount:<int=0>
+meshop.setNumMaps <Mesh mesh> <int count> keep:<bool1ean=false>
+meshop.setNumMapVerts <Mesh mesh> <Integer mapChannel> <Integer count> keep:<boolean=FALSE>
+meshop.setNumTVerts <Mesh mesh> <int>
+meshop.setNumVDataChannels <Mesh mesh> <Integer count> [keep:<boolean=false>]
+meshop.setNumVerts <Mesh mesh> <int>
+meshop.setPinch <Mesh mesh> <float>
+meshop.setPlanarThreshold <Mesh mesh> <float>
+meshop.setSelByVertex <Mesh mesh> <boolean>
+meshop.setShowFNormals <Mesh mesh> <boolean>
+meshop.setShowVNormals <Mesh mesh> <boolean>
+meshop.setSoftSel <Mesh mesh> <boolean>
+meshop.setSplitMesh <Mesh mesh> <boolean>
+meshop.setSSEdgeDist <Mesh mesh> <int>
+meshop.setSSUseEdgeDist <Mesh mesh> <boolean>
+meshop.setSubdivisionAngle <Mesh mesh> <float>
+meshop.setSubdivisionDisplacement <Mesh mesh> <boolean>
+meshop.setSubdivisionDistance <Mesh mesh> <float>
+meshop.setSubdivisionEdge <Mesh mesh> <float>
+meshop.setSubdivisionMaxLevels <Mesh mesh> <int>
+meshop.setSubdivisionMaxTriangles <Mesh mesh> <int>
+meshop.setSubdivisionMethod <Mesh mesh> {#regular | #spatial | #curvature | #spatialAndCurvature}
+meshop.setSubdivisionMinLevels <Mesh mesh> <int>
+meshop.setSubdivisionSteps <Mesh mesh> <int>
+meshop.setSubdivisionStyle <Mesh mesh> {#tree | #grid | #delaunay}
+meshop.setSubdivisionView <Mesh mesh> <boolean>
+meshop.setUIParam <mesh> <param_name> { <float> | <boolean> } 
+meshop.setUIParam <node> [<modifier_or_index>] <param_name> { <number> | <boolean> } 
+meshop.setVAlpha <Mesh mesh> <vertlist> <float alpha>
+meshop.setVDataChannelSupport <Mesh mesh> <Integer vdChannel> <Boolean support>
+meshop.setVDataValue <Mesh mesh> <Integer vdChannel> <Integer vert_index> <Float value>
+meshop.setVert <Mesh mesh> <vertlist> {<point3 pos> | <point3 pos_array>} node:<node=unsupplied>
+meshop.setVertAlpha <Mesh mesh> <intmapChannel> <vertlist> <float alpha>
+meshop.setVertColor <Mesh mesh> <int mapChannel> <vertlist> <color color>
+meshop.setVertCorner <Mesh mesh> <vertlist> <float weight>
+meshop.setVertWeight <Mesh mesh> <vertlist> <float weight>
+meshop.setVSelectWeight <Mesh mesh> <vertlist> <float weight>
+meshop.setWeldPixels <Mesh mesh> <int>
+meshop.setWeldThreshold <Mesh mesh> <float>
+meshop.slice <Mesh mesh> <facelist> <point3 normal> <float offset> separate:<boolean=false> delete:<boolean=false> node:<node=unsupplied>
+meshop.supportVAlphas <Mesh mesh>
+meshop.supportVertCorners <Mesh mesh>
+meshop.supportVertWeights <Mesh mesh>
+meshop.supportVSelectWeights <Mesh mesh>
+meshop.turnEdge <Mesh mesh> <int edgeIndex> 
+meshop.unifyNormals <Mesh mesh> <facelist>
+meshop.weldVertsByThreshold <Mesh mesh> <vertlist> <float threshold>
+meshop.weldVertSet <Mesh mesh> <vertlist> weldpoint:<point3=unsupplied> node:<node=unsupplied>
+meshOps.autoEdge <editable_mesh_node_or_modifier>
+meshOps.break <editable_mesh_node_or_modifier>
+meshOps.collapse <editable_mesh_node_or_modifier>
+meshOps.createShapeFromEdges <editable_mesh_node_or_modifier>
+meshOps.delete <editable_mesh_node_or_modifier>
+meshOps.detach <editable_mesh_node_or_modifier>
+meshOps.explode <editable_mesh_node_or_modifier>
+meshOps.flipNormal <editable_mesh_node_or_modifier>
+meshOps.gridAlign <editable_mesh_node_or_modifier>
+meshOps.hide <editable_mesh_node_or_modifier>
+meshOps.invisibleEdge <editable_mesh_node_or_modifier>
+meshOps.makePlanar <editable_mesh_node_or_modifier>
+meshOps.removeIsolatedVerts <editable_mesh_node_or_modifier>
+meshOps.selectOpenEdges <editable_mesh_node_or_modifier>
+meshOps.slice <editable_mesh_node_or_modifier>
+meshOps.startAttach <editable_mesh_node_or_modifier>
+meshOps.startBevel <editable_mesh_node_or_modifier>
+meshOps.startChamfer <editable_mesh_node_or_modifier>
+meshOps.startCreate <editable_mesh_node_or_modifier>
+meshOps.startCut <editable_mesh_node_or_modifier>
+meshOps.startDivide <editable_mesh_node_or_modifier>
+meshOps.startExtrude <editable_mesh_node_or_modifier>
+meshOps.startFlipNormalMode <editable_mesh_node_or_modifier>
+meshOps.startSlicePlane <editable_mesh_node_or_modifier>
+meshOps.startTurn <editable_mesh_node_or_modifier>
+meshOps.startWeldTarget <editable_mesh_node_or_modifier>
+meshOps.tessellate <editable_mesh_node_or_modifier>
+meshOps.unhideAll <editable_mesh_node_or_modifier>
+meshOps.unifyNormal <editable_mesh_node_or_modifier>
+meshOps.viewAlign <editable_mesh_node_or_modifier>
+meshOps.visibleEdge <editable_mesh_node_or_modifier>
+meshOps.weld <editable_mesh_node_or_modifier>
+messageBox <message_string> [title:<window_title_string>] [beep:<boolean>] 
+mGizmos.scalePlaneHandleSize : float : Read|Write 
+minorRad <float> 
+mirrorIKConstraints <node> <axis_integer> <pos_or_rot_integer> 
+missingDLLsAction: <actions> 
+missingDLLsList: &variable 
+missingExtFilesAction: <actions> 
+missingExtFilesList: &variable 
+missingUVWAction: <actions> 
+missingUVWList: &variable 
+missingXRefsAction: <actions> 
+missingXRefsList: &variable 
+mixdown <mixer> <KeyPerFrame:boolean> <EnforceIkConstraints:boolean> <ContinuityRange:integer> <FilterHyperExtLegs:boolean> <MaxKneeAngle:float> 
+mocap.allFilter Boolean Default: False 
+mocap.allSpacing Integer Default: 3 -- range: 0+
+mocap.allTol Float Default: 0.0 -- range: 0+
+mocap.dispKnownMarkers Boolean Default: False 
+mocap.dispKnownMarkersType Boolean Default: False 
+mocap.dispPropMarkers Boolean Default: False 
+mocap.dispUnKnownMarkers Boolean Default: False 
+mocap.elbowOrient Integer Default: 1 
+mocap.endFrame Integer Default:0 
+mocap.footOrient Integer Default: 0 
+mocap.fsConversionMode Integer Default: 0 
+mocap.fsExtractionMode Integer Default: 0
+mocap.fsExtractionTol Float Default: 0.07 -- range: 0+
+mocap.fsSlidingAngle Float Default: 0.0 -- range: 0-360
+mocap.fsSlidingDist Float Default: 25.0 -- range: 0+
+mocap.fsUseFlatten Boolean Default: False 
+mocap.fsUseVerticalTol Boolean Default: False 
+mocap.fsVerticalTol Float Default: 0.5 -- range: 0+
+mocap.fsZLevel Float Default: 0.0 
+mocap.handOrient Integer Default: 0 
+mocap.horzFilter Boolean Default: True 
+mocap.horzSpacing Integer Default: 3 -- range: 0+
+mocap.horzTol Float Default: 1.0 -- range: 0+
+mocap.jointNameFile String Default: "" --bvh marker name file (.mnm) 
+mocap.kneeOrient Integer Default: 1 
+mocap.leftArmFilter Boolean Default: True 
+mocap.leftArmSpacing Integer Default: 3 -- range: 0+
+mocap.leftArmTol Float Default: 6.0 -- range: 0+
+mocap.leftLegFilter Boolean Default: True 
+mocap.leftLegSpacing Integer Default: 3 -- range: 0+
+mocap.leftLegTol Float Default: 6.0 -- range: 0+
+mocap.loadParameters <file_name> mocap.saveParameters <file_name> 
+mocap.loop Boolean Default: False 
+mocap.loopFrameCount IntegerDefault: 0 -- range: 0+
+mocap.markerNameFile String Default: "" -- csm marker name file (.mnm) 
+mocap.neckFilter Boolean Default: True 
+mocap.neckSpacing Integer Default: 3 -- range: 0+
+mocap.neckTol Float Default: 6.0 -- range: 0+
+mocap.pelvisFilter Boolean Default: True 
+mocap.pelvisSpacing Integer Default: 3 -- range: 0+
+mocap.pelvisTol Float Default: 6.0 -- range: 0+
+mocap.rightArmFilter Boolean Default: True 
+mocap.rightArmSpacing Integer Default: 3 -- range: 0+
+mocap.rightArmTol Float Default: 6.0 -- range: 0+
+mocap.rightLegFilter Boolean Default: True 
+mocap.rightLegSpacing Integer Default: 3 -- range: 0+
+mocap.rightLegTol Float Default: 6.0 -- range: 0+
+mocap.rotFilter Boolean Default: True 
+mocap.rotSpacing Integer Default: 3 -- range: 0+
+mocap.rotTol Float Default: 1.0 -- range: 0+
+mocap.scaleFactor Float Default: 1.0 -- range: 0+
+mocap.spineFilter Boolean Default: True 
+mocap.spineSpacing Integer Default: 3 -- range: 0+
+mocap.spineTol Float Default: 6.0 -- range: 0+
+mocap.startFrame Integer Default: 0 
+mocap.tailFilter Boolean Default: True 
+mocap.tailSpacing Integer Default: 3 -- range: 0+
+mocap.tailTol Float Default: 6.0 -- range: 0+
+mocap.talentFigStrucFile String Default: ""--figure structure file (.fig) 
+mocap.talentPoseAdjFile String Default: "" -- pose adjustment file (.cal) 
+mocap.upVector Integer Default: 2 
+mocap.useJointNameFile Boolean Default: False 
+mocap.useMarkerNameFile Boolean Default: False 
+mocap.useTalentFigStrucFile Boolean Default: False 
+mocap.useTalentPoseAdjFile Boolean Default: False 
+mocap.vertFilter Boolean Default: True 
+mocap.vertSpacing Integer Default: 4 -- range: 0+
+mocap.vertTol Float Default: 1.0 -- range: 0+
+mod <number1> <number2>
+modal:<boolean
+modelOtherEvent: 
+modelStructured: 
+modPanel.addModToSelection <modifier> 
+modPanel.getModifierIndex <node> <modifier> 
+modPanel.setCurrentObject <modifier | node | node_baseobject> [node:<node>] [ui:<boolean>] 
+modpanel.setPinStack <bool> 
+modPanel.validModifier (<modifier> | <modifier_class>). 
+MouseConfigManager.ArcRotateLocked : bool : Read|Write
+MouseConfigManager.AutoFocusViewportOnKeyPress : bool : Read|Write
+MouseConfigManager.MayaSelectionMode : bool : Read|Write
+MouseConfigManager.MiddleMouseStrokeMode : bool : Read|Write
+MouseConfigManager.RightClickMenuOverSelectedOnly : bool : Read|Write
+MouseConfigManager.UserMode : enum : Read|Write 
+MouseConfigManager.ZoomAboutMousePointOrthographic : bool : Read|Write
+MouseConfigManager.ZoomAboutMousePointPerspective : bool : Read|Write
+MouseConfigManager.ZoomInDirection : enum : Read|Write
+MouseConfigManager.ZoomWheelIncrement : float : Read|Write
+mouseMoveCallback:#(fn, arg)
+mouseMoveCallback:fn
+mouseTrack [on:<node>] [prompt:<message_string>] [snap:#2D|#3D] [trackCallback:fn|#(fn,arg)]
+mouseup: 
+move "<from>" to "<to>" [noReplace] 
+move <edgeselection> <point3> 
+move <faceselection> <point3> 
+move <node> <point3> -- mapped 
+move <nurbsselection> <point3> 
+move <vertexselection> <point3> 
+moveClip <clip:mxclip> <timeInc:timevalue> 
+moveKey <controller> <index_integer> <time> 
+moveKeys <controller> <time> [#selection] 
+moveKeys <key_array> <time> [#selection] 
+mtlBrowser.browseFrom [#mtlLibrary | #mtlEditor | #activeSlot | #selected | #scene | #new] 
+MultiListBox <name> [<caption>] [items:<array_of_strings>] [selection:{<bitarray> | <number_array> | <number>}] [height:<number>] items: selection: height: 
+multimaterial [numsubs:<integer>]
+multiSubMaterial [numsubs:<integer>] 
+MXSDebugger.allowBreakOnThrow : boolean : Read|Write 
+MXSDebugger.allowUnsafeMethods : boolean : Read|Write 
+MXSDebugger.breakCyclePeriod : DWORD : Read|Write 
+MXSDebugger.breakOnError : boolean : Read|Write 
+MXSDebugger.breakOnException : boolean : Read|Write 
+MXSDebugger.breakTimeoutPeriod : DWORD : Read|Write 
+MXSDebugger.clearOutputOnOpen : boolean : Read|Write 
+MXSDebugger.commandTimeOutPeriod : DWORD : Read|Write 
+MXSDebugger.defaultBreakOnThrow : boolean : Read|Write 
+MXSDebugger.enabledInNetRender : boolean : Read|Write 
+MXSDebugger.enabledInQuietMode : boolean : Read|Write 
+MXSDebugger.gcTimeoutPeriod : DWORD : Read|Write 
+MXSDebugger.hWnd : HWND : Read 
+MXSDebugger.ignoreCaughtErrors : boolean : Read|Write 
+MXSDebugger.ignoreCaughtExceptions : boolean : Read|Write 
+MXSDebugger.ignoreCaughtThrows : boolean : Read|Write 
+MXSDebugger.isDialogOpen : boolean : Read 
+MXSDebugger.showFirstFrameOnly : boolean : Read|Write 
+MXSDebugger.showGlobalConstants : boolean : Read|Write 
+MXSDebugger.stayOnTop : boolean : Read|Write 
+name "<package_name>" 
+name default value: "scriptCreated" 
+name: <string>
+nameChanged: 
+nearestPathParam <shape> [<curve_num>] <point3> [steps:<integer>] 
+neckLinks:Integer Default: 1 
+NetworkLicenseStatusManager.minimumIdleDuration : float : Read|Write|Validated by Range: 120.0 to 10000.0 
+newNodes: <node array> newNodes default value: #() 
+newRolloutFloater <title_string> <width_integer> <height_integer> [<top_integer> <left_integer>]
+newSnippet <moflow> <filename> <point2_pos> <redraw:true> <load:true> 
+newSnippet <moflow> <filename> <point2_pos> [redraw:<true>] [load:<true>] 
+newTrackViewNode [<maxtvnode>] <name_string> [#hidden] 
+NitrousGraphicsManager.BackfaceCullWireframeEnabled : bool : Read|Write
+NitrousGraphicsManager.BackgroundProgressiveRenderingEnabled : bool : Read|Write
+NitrousGraphicsManager.ChangeCursorOnMouseMove : bool : Read|Write
+NitrousGraphicsManager.MakePreviewQuality : integer : Read|Write
+NitrousGraphicsManager.MultiThreadedShaderCompileMode : bool : Read|Write
+NitrousGraphicsManager.NormalBumpMode : integer : Read|Write
+NitrousGraphicsManager.ShadowmapSizeLimit : integer : Read|Write
+nodeGetBoundingBox <node> <matrix3> 
+nodeIKParamsChanged <node> 
+nodeInvalRect <node> 
+nodeLocalBoundingBox <node>
+noise3 <color>
+noise3 <point3>
+noise4 <color> <phase_float>
+noise4 <point3> <phase_float>
+normalize <point2> 
+normalize <point3>
+normalize <point4>
+normalize <quat>
+normTime <float>
+north <point3> 
+north_axis <Point3> 
+not <boolean>
+notetrack <name_string> 
+notifyDependents <MAXObject> partIDmsg: <name>: <int> propogate: <bool> 
+numEaseCurves <controller> 
+numKeys <controller> 
+numKnots <shape> [<spline_index_integer>]
+numKnots <shape> [<spline_index_integer>] 
+numMapsUsed <mesh>
+numMultiplierCurves <controller> 
+numNoteTracks <MAXWrapper_object> 
+numPoints <node> 
+numSegments <shape> <spline_index_integer>
+numSelKeys <controller> 
+numSplines <shape>
+numSurfaces <node> 
+NURBS1RailSweepSurface [<property>:<val>] 
+NURBS2RailSweepSurface [<property>:<val>] 
+NURBSBlendCurve [<property>:<val>] 
+NURBSBlendSurface [<property>:<val>] 
+NURBSChamferCurve [<property>:<val>] 
+NURBSControlVertex <point3> [<weight_float>] 
+NURBSCurveConstPoint [<property>:<val>] 
+NURBSCurveIntersectPoint [<property>:<val>] 
+NURBSCurveOnSurface [<property>:<val>] [closed:<boolean>] 
+NURBSCurveSurfaceIntersectPoint [<property>:<val>] 
+NURBSCVCurve [<property>:<val>] [closed:<boolean>] 
+NURBSCVSurface[<property>:<val>] 
+NURBSDisplay [<property>:<val>] 
+NURBSExtrudeNode <shape> <amount> [capStart:<boolean>] [capEnd:<boolean>] [capType:<integer>] [mapCoords:<boolean>] [matIDs:<boolean>] [shapeIDs:<boolean>] {node_creation_parameters} 
+NURBSExtrudeSurface [<property>:<val>] 
+NURBSFilletCurve [<property>:<val>] 
+NURBSFilletSurface [<property>:<val>] 
+NURBSIndependentPoint <point3> 
+NURBSIsoCurve [<property>:<val>] 
+NURBSLatheNode <curve> <axis> <sweep> [capStart:<boolean>] [capEnd:<boolean>] [capType:<integer>] [weldCore:<boolean>] [flipNormals:<boolean>] [mapCoords:<boolean>] [segs:<integer>] [matIDs:<boolean>] [shapeIDs:<boolean>] \ {node_creation_parameters} 
+NURBSLatheSurface [<property>:<val>] 
+NURBSMirrorCurve [<property>:<val>] 
+NURBSMirrorSurface [<property>:<val>] 
+NURBSMultiCurveTrimSurface [<property>:<val>] 
+NURBSNBlendSurface [<property>:<val>] 
+NURBSNode <nurbsset> {node_creation_parameters} 
+NURBSNode <nurbs_set> 
+NURBSOffsetCurve [<property>:<val>] 
+NURBSOffsetSurface [<property>:<val>] 
+NURBSPointConstPoint [<property>:<val>] 
+NURBSPointCurve [<property>:<val>] 
+NURBSPointCurveOnSurface [<property>:<val>] 
+NURBSPointSurface [<property>:<val>] 
+NURBSProjectNormalCurve [<property>:<val>] 
+NURBSProjectVectorCurve [<property>:<val>] 
+NURBSRuledSurface [<property>:<val>] 
+NURBSSet [<property>:<val>] 
+NURBSSurfaceApproximation [<property>:<val>] 
+NURBSSurfaceEdgeCurve [<property>:<val>] 
+NURBSSurfaceNormalCurve[<property>:<val>] 
+NURBSSurfConstPoint [<property>:<val>] 
+NURBSSurfSurfIntersectionCurve [<property>:<val>] 
+NURBSTexturePoint <point2> [indices:<point2>] 
+NURBSTextureSurface [<property>:<val>] 
+NURBSUloftSurface [<property>:<val>] 
+NURBSUVLoftSurface [<property>:<val>] 
+NURBSXFormCurve [<property>:<val>] 
+NURBSXFormSurface [<property>:<val>] 
+nvpx.gravityMode : enum : Read|Write
+nvpx.gravityObject : node : Read|Write
+nvpx.UseAdaptiveForce : boolean : Read|Write
+nvpxConsts.PX_ACTORTYPE_CLOTH : integer : Read
+nvpxConsts.PX_ACTORTYPE_CLOTHING : integer : Read
+nvpxConsts.PX_ACTORTYPE_D6 : integer : Read
+nvpxConsts.PX_ACTORTYPE_DESTRUCTION : integer : Read
+nvpxConsts.PX_ACTORTYPE_DYNAMIC : integer : Read
+nvpxConsts.PX_ACTORTYPE_FLUID : integer : Read
+nvpxConsts.PX_ACTORTYPE_FORCEFIELD : integer : Read
+nvpxConsts.PX_ACTORTYPE_KINEMATIC : integer : Read
+nvpxConsts.PX_ACTORTYPE_METAL_CLOTH : integer : Read
+nvpxConsts.PX_ACTORTYPE_RB : integer : Read
+nvpxConsts.PX_ACTORTYPE_RB_BONE : integer : Read
+nvpxConsts.PX_ACTORTYPE_RB_OVER : integer : Read
+nvpxConsts.PX_ACTORTYPE_RB_RAGDOLL : integer : Read
+nvpxConsts.PX_ACTORTYPE_RIGIDSHAPE : integer : Read
+nvpxConsts.PX_ACTORTYPE_SBCLOTHING : integer : Read
+nvpxConsts.PX_ACTORTYPE_SOFTBODY : integer : Read
+nvpxConsts.PX_ACTORTYPE_STATIC : integer : Read
+nvpxConsts.PX_ACTORTYPE_UNDEFINED : integer : Read
+nvpxConsts.PX_CONSTRAINT_BALLSOCK : integer : Read
+nvpxConsts.PX_CONSTRAINT_GEAR : integer : Read
+nvpxConsts.PX_CONSTRAINT_HINGE : integer : Read
+nvpxConsts.PX_CONSTRAINT_RIGID : integer : Read
+nvpxConsts.PX_CONSTRAINT_SLIDE : integer : Read
+nvpxConsts.PX_CONSTRAINT_TWIST : integer : Read
+nvpxConsts.PX_CONSTRAINT_UNIV : integer : Read
+nvpxConsts.PX_DOF_FREE : integer : Read
+nvpxConsts.PX_DOF_LIMITED : integer : Read
+nvpxConsts.PX_DOF_LOCKED : integer : Read
+nvpxConsts.PX_HOST_BAKE : integer : Read
+nvpxConsts.PX_HOST_EXPORT : integer : Read
+nvpxConsts.PX_HOST_PLAYBACK : integer : Read
+nvpxConsts.PX_HOST_SETTLE : integer : Read
+nvpxConsts.PX_HOST_UNBAKE : integer : Read
+nvpxConsts.PX_LOOP_CONTINUE : integer : Read
+nvpxConsts.PX_LOOP_RESET : integer : Read
+nvpxConsts.PX_ONLASTFRAME_CONTINUE : integer : Read
+nvpxConsts.PX_ONLASTFRAME_LOOP : integer : Read
+nvpxConsts.PX_ONLASTFRAME_STOP : integer : Read
+nvpxConsts.PX_RBTYPE_DYNAMIC : integer : Read
+nvpxConsts.PX_RBTYPE_KINEMATIC : integer : Read
+nvpxConsts.PX_RBTYPE_STATIC : integer : Read
+nvpxConsts.PX_SHAPE_BOX : integer : Read
+nvpxConsts.PX_SHAPE_CAPSULE : integer : Read
+nvpxConsts.PX_SHAPE_COMPOSITE : integer : Read
+nvpxConsts.PX_SHAPE_CONVEX : integer : Read
+nvpxConsts.PX_SHAPE_CUSTOM : integer : Read
+nvpxConsts.PX_SHAPE_ORIGINAL : integer : Read
+nvpxConsts.PX_SHAPE_SPHERE : integer : Read
+nvpxConsts.PX_SIM_DISABLED : integer : Read
+nvpxConsts.PX_SIM_PREPARING : integer : Read
+nvpxConsts.PX_SIM_REWINDING : integer : Read
+nvpxConsts.PX_SIM_RUNNING : integer : Read
+obalProxyRenderMode enums: {#renderMode_UseProxies | #renderMode_UseFullRes_KeepInMemory | #renderMode_UseFullRes_FlushFromMemory} 
+obalProxySizeFactor enums: {#full|#half|#third|#quarter|#eighth} 
+objXRefMgr.dupMtlNameAction : enum : Read|Write 
+objXRefMgr.dupObjNameAction : enum : Read|Write 
+objXRefMgr.getAutoUpdate : bool : Read|Write
+objXRefMgr.mergeManipulators : bool : Read|Write 
+objXRefMgr.mergeMaterials : bool : Read|Write 
+objXRefMgr.mergeModifiers : enum : Read|Write 
+objXRefMgr.mergeTransforms : bool : Read|Write 
+objXRefMgr.recordCount: DWORD : Read 
+offset: <point2> default: [0,0]
+offsets: <array_of_point2s>
+OGSDiagnostics.HardwareReport : string : Read
+okMtlForScene <material> 
+OKToBindToNode <ik_node> <node> 
+okToCreate <maxclass> 
+omInDirection enums: {#North|#NorthEast|#East|#SouthEast|#South|#SouthWest|#West|#NorthWest
+on <Angle> changed <arg> do <expr> 
+on <Angle> rightClick do <expr> 
+on <button> pressed do <expr> 
+on <button> rightclick do <expr> 
+on <checkbox> changed <arg> do <expr> 
+on <checkbox> rightClick do <expr> 
+on <checkbutton> changed <arg> do <expr>
+on <checkbutton> rightclick do <expr>
+on <colorpicker> changed <arg> do <expr>
+on <combobox> changed <arg> do <expr>
+on <combobox> doubleClicked <arg> do <expr>
+on <combobox> entered <arg> do <expr>
+on <combobox> rightClick do <expr>
+on <combobox> selected <arg> do <expr>
+on <control_name> AfterLabelEdit Cancel:integer NewString:string do ( ) 
+on <control_name> BeforeLabelEdit Cancel:integer do ( ) 
+on <control_name> Click do ( ) 
+on <control_name> Collapse Node:Node do ( ) 
+on <control_name> ColumnClick ColumnHeader:ColumnHeader do ( ) 
+on <control_name> DblClick do ( ) 
+on <control_name> DisplayModeChange do ( ) 
+on <control_name> Error SCode:integer Description:string Source:string CancelDisplay:boolean do ( ) 
+on <control_name> Expand Node:Node do ( ) 
+on <control_name> ItemCheck Item:ListItem do ( ) 
+on <control_name> ItemClick Item:ListItem do ( ) 
+on <control_name> KeyDown KeyCode:integer Shift:integer do ( ) 
+on <control_name> KeyPress KeyAscii:integer do ( ) 
+on <control_name> KeyUp KeyCode:integer Shift:integer do ( ) 
+on <control_name> MouseDown Button:integer Shift:integer x:OLE_XPOS_PIXELS y:OLE_YPOS_PIXELS do ( ) 
+on <control_name> MouseMove Button:integer Shift:integer x:OLE_XPOS_PIXELS y:OLE_YPOS_PIXELS do ( ) 
+on <control_name> MouseUp Button:integer Shift:integer x:OLE_XPOS_PIXELS y:OLE_YPOS_PIXELS do ( ) 
+on <control_name> NodeCheck Node:Node do ( ) 
+on <control_name> NodeClick Node:Node do ( ) 
+on <control_name> OLECompleteDrag &Effect:integer do ( ) 
+on <control_name> OLEDragDrop &Data:DataObject &Effect:integer &Button:integer &Shift:integer &x:float &y:float do ( ) 
+on <control_name> OLEDragOver &Data:DataObject &Effect:integer &Button:integer &Shift:integer &x:float &y:float &State:integer do ( ) 
+on <control_name> OLEGiveFeedback &Effect:integer &DefaultCursors:boolean do ( ) 
+on <control_name> OLESetData &Data:DataObject &DataFormat:integer do ( ) 
+on <control_name> OLEStartDrag &Data:DataObject &AllowedEffects:integer do ( ) 
+on <control_name> OpenComplete do ( ) 
+on <control_name> PositionChange oldPosition:float newPosition:float do ( ) 
+on <control_name> ReadyStateChange ReadyState:ReadyStateConstants( #amvUninitialized | #amvLoading | #amvInteractive | #amvComplete ) do ( ) 
+on <control_name> ScriptCommand bstrType:string bstrText:string do ( ) 
+on <control_name> StateChange oldState:integer newState:integer do ( ) 
+on <control_name> Timer do ( ) 
+on <curvecontrol> deleted <ci> <val> do <expr> 
+on <curvecontrol> ptChanged <ci> <val> do <expr> 
+on <curvecontrol> reset <ci> do <expr> 
+on <curvecontrol> rightClick do <expr> 
+on <curvecontrol> selChanged <ci> <val> do <expr> 
+on <curvecontrol> tangentChanged <ci> <val> type do <expr> 
+on <dropdownlist> rightClick do <expr> 
+on <dropdownlist> selected <arg> do <expr> 
+on <edittext> changed <arg> do <expr> 
+on <edittext> entered <arg> do <expr> 
+on <HyperLink> rightClick do <expr> 
+on <ImgTag> click do <expr> 
+on <ImgTag> dblclick do <expr> 
+on <ImgTag> lbuttondblclk <Point2> <Flags> do <expr> 
+on <ImgTag> lbuttondown <Point2> <Flags> do <expr> 
+on <ImgTag> lbuttonup <Point2> <Flags> do <expr> 
+on <ImgTag> mbuttondblclk <Point2> <Flags> do <expr> 
+on <ImgTag> mbuttondown <Point2> <Flags> do <expr> 
+on <ImgTag> mbuttonup <Point2> <Flags> do <expr> 
+on <ImgTag> mousedown do <expr> 
+on <ImgTag> mouseout do <expr> 
+on <ImgTag> mouseover do <expr> 
+on <ImgTag> mouseup do <expr> 
+on <ImgTag> rbuttondblclk <Point2> <Flags> do <expr> 
+on <ImgTag> rbuttondown <Point2> <Flags> do <expr> 
+on <ImgTag> rbuttonup <Point2> <Flags> do <expr> 
+on <ImgTag> rightclick do <expr> 
+on <item_name> <event_name> do <expr>
+on <item_name> <event_name> [<argument>] do <expr>
+on <listbox> doubleClicked <arg> do <expr> 
+on <listbox> rightClick do <expr> 
+on <listbox> rightClick [<arg>] do <expr> 
+on <listbox> selected <arg> do <expr> 
+on <listbox> selectionEnd do <expr> 
+on <mapbutton> picked <arg> do <expr> 
+on <mapbutton> rightclick do <expr> 
+on <materialbutton> picked <arg> do <expr> 
+on <materialbutton> rightclick do <expr> 
+on <menuitem> picked do <expr>
+on <name> get <arg1> [<arg2>] do <expr>
+on <name> get <arg> do <expr>
+on <name> set <arg1> [<arg2>] do <expr>
+on <name> set <arg> do <expr>
+on <name> tabChanged <arg1> <arg2> <arg3> do <expr>
+on <pickbutton> picked <arg> do <expr> 
+on <pickbutton> rightclick do <expr> 
+on <progressbar> clicked <arg> do <expr> 
+on <progressbar> rightClick do <expr> 
+on <radiobuttons> changed <arg> do <expr> 
+on <radiobuttons> rightClick do <expr> 
+on <rcmenu> open do <expr>
+on <Rollout> close do 
+on <Rollout> lbuttondblclk <Point2> do 
+on <Rollout> lbuttondown <Point2> do 
+on <Rollout> lbuttonup <Point2> do 
+on <Rollout> mbuttondblclk <Point2> do 
+on <Rollout> mbuttondown <Point2> do 
+on <Rollout> mbuttonup <Point2> do 
+on <Rollout> mousemove <Point2> do 
+on <rollout> moved <arg> do <expr>
+on <Rollout> moved <Point2> do 
+on <Rollout> open do 
+on <Rollout> rbuttondblclk <Point2> do 
+on <Rollout> rbuttondown <Point2> do 
+on <Rollout> rbuttonup <Point2> do 
+on <rollout> reload do
+on <rollout> resized <arg> do <expr>
+on <Rollout> resized <Point2> do 
+on <rollout> setTime <val> do
+on <rollout_or_utility> close do <expr>
+on <rollout_or_utility> help do <expr>
+on <rollout_or_utility> oktoclose do <expr>
+on <rollout_or_utility> open do <expr>
+on <rollout_or_utility> rolledUp <arg> do <expr>
+on <slider> buttondown do <expr> 
+on <slider> buttonup do <expr> 
+on <slider> changed <arg> do <expr> 
+on <slider> rightClick do <expr> 
+on <spinner> buttondown do <expr> 
+on <spinner> buttonup [<inCancel_arg>] do <expr> 
+on <spinner> changed <arg> [<inSpin_arg>] do <expr> 
+on <spinner> entered [<inSpin_arg>] [<inCancel_arg>] do <expr> 
+on <timer> tick do <expr> 
+on altExecute <type> do <expr> 
+on apply <bitmap> do <expr> 
+on apply <bitmap> progressCB: do <fn>
+on applyForce <delegate> <behavior> <time> <numSubSamples> <displayHelpers> <weight>do <expr> 
+on attachedToNode <nodeVar> do 
+on behaviorStarted <delegate> <behavior> <time>do <expr> 
+on channelsRequired do <expr> 
+on clone <original> do
+on clone do <expression>
+on closeDialogs do <expr> 
+on constraint <delegate> <behavior> <time> <numSubSamples> <displayHelpers> <finalSet> <velocity> <speed> <pos>do <expr> 
+on create do <expr>
+on create do <expression>
+on detachedFromNode <node> do
+on display <behavior> <time>do <expr> 
+on drop <window> node: point: do
+on drop <window> node:point:do 
+on droppable <window> node: point do
+on droppable <window> node:point:do 
+on execute do <expr> 
+on filterAnim <anim>subAnim <anim>client <index>index do 
+on freeMove do <expr>
+on hasUVW do <boolean_expr>
+on Init <value> do 
+on initAtThisTime <behavior> <time> 
+on isChecked do <expr> 
+on isEnabled do <expr> 
+on isVisible do <expr> 
+on load do <expr>
+on map <index> <point>	do <expr> 
+on modLimitAxis do <expr> 
+on modLimitZMax do <expr> 
+on modLimitZMin do <expr> 
+on mouseAbort <arg> do <expr>
+on mouseMove <arg> do <expr>
+on mousePoint <arg> do <expr>
+on OKtoDisplay do <boolean_expr>
+on orient <delegate> <behavior> <time> <velocity> do <expr> 
+on postCreate do <expr>
+on postLoad do <expr>
+on preApply <bitmap> do <expr> 
+on setGenUVW <onOff> do <expr>
+on setupDelegates <delegates> <behavior>do <expr> 
+on start do <expr>
+on stop do <expr>
+on update do <nodeVar>
+open <max_file_name> 
+open <shape> <spline_index_integer>
+open: <boolean> 
+openBitMap <filename_string> 
+openEncryptedFile <filename> <key>
+openEncryptedFile <filename_string> <key_integer> 
+openFile <filename_string> [mode:<mode_string>]
+openLog <filename_string> [mode: "w" | "a"] [outputOnly:<boolean>]
+openUtility <utility>
+optimizeClipTransition <track:mxtrack> <PreferredTransLength:integer> <SearchEntireClip:boolean> <SearchRangeBefore:integer> <SearchRangeAfter:integer> <ClipIndex:integer> 
+optimizeTransitions <track:mxtrack> <PreferredTransLength:integer> <SearchEntireClip:boolean> <SearchRangeBefore:integer> <SearchRangeAfter:integer> 
+origin <point3> 
+orthogonalize <matrix3> -- mapped function
+OverlappingFaces.tolerance : float : Read|Write 
+OverlappingVertices.tolerance : float : Read|Write 
+ParamCollectorOps.hideOtherKeys : bool : Read|Write 
+ParamCollectorOps.isAbsolute : bool : Read|Write 
+ParamCollectorOps.multiEdits : bool : Read|Write 
+ParamCollectorOps.showTrackBarKeys : bool : Read|Write 
+ParamCollectorOps.showTrackBarSelectedKeys : bool : Read|Write 
+ParamCollectorOps.visible : bool : Read|Write 
+parameters <name> [type:#class] [rollout:<name>] ( 
+parameters main rollout:params
+parent: <HWND> -- default:<MAX_HWND>
+particleAge <particlesys_node> <particle_index_integer> 
+particleCenter <particlesys_node> <particle_index_integer> 
+particleCount <particlesys_node> 
+particleLife <particlesys_node> <particle_index_integer> 
+particlePos <particlesys_node> <particle_index_integer> 
+particleSize <particlesys_node> 
+particleSize2 <particlesys_node> <particle_index_integer> 
+particleVelocity <particlesys_node> <particle_index_integer> 
+pasteBitmap <src_bitmap> <dest_bitmap> (<src_box2> | <src_point2>) <dest_point2>[maskColor:<color>type:{#paste|#composite|#blend|#function}] [function:<composite_fn>] [alphaMultiplier:<float>] 
+patch.addQuadPatch <obj>
+patch.addTriPatch <obj>
+patch.autoSmooth <obj> <angle> <useSel_bool> <preventIndirectSmoothing_bool>
+patch.changePatchInteriorType <obj> <patch> #automatic|#manual patch.getPatchInteriorType <obj> <patch> -> #automatic or #manual
+patch.changePatchInteriorType <obj> <patch> #automatic|#manual patch.getPatchInteriorType <obj> <patch> ->#automaticor#manual
+patch.changeVertType <obj> <vert> #corner|#coplanar patch.getVertType <obj> <vert> -> #corner or #coplanar
+patch.changeVertType <obj> <vert> #corner|#coplanar patch.getVertType <obj> <vert> ->#corneror#coplanar
+patch.clonePatchParts <obj> <patch_bit_array>
+patch.deletePatchParts <obj> <del_vert_bitarray> <del_patches_bitarray>
+patch.edgeNormal <obj> <edge>
+patch.flipPatchNormal <obj> <patch>
+patch.getAdaptive <obj>
+patch.getEdgeVec12 <obj> <index> -> integer
+patch.getEdgeVec21 <obj> <index> -> integer
+patch.getEdgeVert1 <obj> <index> -> integer
+patch.getEdgeVert2 <obj> <index> -> integer
+patch.getMeshSteps <obj>
+patch.getMeshStepsRender <obj>
+patch.getNumEdges <obj>
+patch.getNumPatches <obj>
+patch.getNumVecs <obj>
+patch.getNumVerts <obj>
+patch.getPatchType <patch_object>
+patch.getShowInterior <obj>
+patch.getVec <obj> <index>
+patch.getVecPatches <obj> <index> -> integer_array
+patch.getVecVert <obj> <index> -> integer
+patch.getVert <obj> <index>
+patch.getVertEdges <obj> <index> -> integer_array
+patch.getVertPatches <obj> <index> -> integer_array
+patch.getVertVecs <obj> <index> -> integer_array
+patch.makeQuadPatch <obj> <index> <va> <vab> <vba> <vb> <vbc> <vcb> <vc> <vcd> <vdc> <vd> <vda> <vad> <i1> <i2> <i3> <i4> <sm>
+patch.makeTriPatch <obj> <index> <va> <vab> <vba> <vb> <vbc> <vcb> <vc> <vca> <vac> <i1> <i2> <i3> <sm>
+patch.patchNormal <obj> <patch>
+patch.setAdaptive <obj> <bool>
+patch.setMeshSteps <obj> <steps>
+patch.setMeshStepsRender <obj> <steps>
+patch.setNumEdges <obj> <num> [keep:<boolean>]
+patch.setNumPatches <obj> <num> [keep:<boolean>]
+patch.setNumVecs <obj> <num> [keep:<boolean>]
+patch.setNumVerts <obj> <num> [keep:<boolean>]
+patch.setShowInterior <obj> <bool>
+patch.setVec <obj> <index> <point3>
+patch.setVert <obj> <index> <point3>
+patch.subdivideEdges <obj> <propagate>
+patch.subdivideEdges <obj> <propogate>
+patch.subdividePatches <obj> <propagate>
+patch.subdividePatches <obj> <propogate>
+patch.transform <obj> <matrix3>
+patch.unifyNormals <obj>
+patch.update <obj>
+patch.updatePatchNormals <obj>
+patch.weld2Verts <obj> <v1> <v2>
+patch.weldEdges <obj>
+patch.weldVerts <obj> <threshold> <weldIdentical_bool> <startVert>
+patchOps.addQuad <editable_patch_node_or_modifier>
+patchOps.addTri <editable_patch_node_or_modifier>
+patchOps.break <editable_patch_node_or_modifier>
+patchOps.clearAllSG <editable_patch_node_or_modifier>
+patchOps.createShapeFromEdges <editable_patch_node_or_modifier>
+patchOps.delete <editable_patch_node_or_modifier>
+patchOps.detach <editable_patch_node_or_modifier>
+patchOps.flipNormal <editable_patch_node_or_modifier>
+patchOps.growSelection <editable_patch_node_or_modifier>
+patchOps.hide <editable_patch_node_or_modifier>
+patchOps.patchSmooth <editable_patch_node_or_modifier>
+patchOps.selectByID <editable_patch_node_or_modifier>
+patchOps.selectBySG <editable_patch_node_or_modifier>
+patchOps.selectEdgeLoop <editable_patch_node_or_modifier>
+patchOps.selectEdgeRing <editable_patch_node_or_modifier>
+patchOps.selectOpenEdges <editable_patch_node_or_modifier>
+patchOps.shrinkSelection <editable_patch_node_or_modifier>
+patchOps.startAttach <editable_patch_node_or_modifier>
+patchOps.startBevel <editable_patch_node_or_modifier>
+patchOps.startBind <editable_patch_node_or_modifier>
+patchOps.startCreate <editable_patch_node_or_modifier>
+patchOps.startExtrude <editable_patch_node_or_modifier>
+patchOps.startFlipNormalMode <editable_patch_node_or_modifier>
+patchOps.startWeldTarget <editable_patch_node_or_modifier>
+patchOps.subdivide <editable_patch_node_or_modifier>
+patchOps.toggleShadedFaces <editable_patch_node_or_modifier>
+patchOps.unbind <editable_patch_node_or_modifier>
+patchOps.unhideAll <editable_patch_node_or_modifier>
+patchOps.unifyNormal <editable_patch_node_or_modifier>
+patchOps.weld <editable_patch_node_or_modifier>
+pathConfig.addProjectDirectoryCreateFilter <#directory_type> #font | #Scene | #export | #import | #help | #expression | #preview | #image | #Sound | #plugcfg | #maxstart | #vpost | #drivers | #autoback | #matlib | #scripts | #startupScripts | #defaults | #renderPresets | #ui | #maxroot | #renderoutput | #animations | #archives | #Photometric | #renderassets | #userScripts | #userMacros | #userStartupScripts | #temp | #userIcons | #maxData | #downloads | #proxies 
+pathConfig.appendPath <path1> <path2> 
+pathConfig.convertPathToAbsolute <relative_path> 
+pathConfig.convertPathToLowerCase <path> 
+pathConfig.convertPathToRelativeTo <path1> <path2> 
+pathConfig.convertPathToUnc <path> 
+pathConfig.doProjectSetupStepsUsingDirectory <ProjectPath> 
+pathConfig.GetDir <#directory_type> #font | #Scene | #export | #import | #help | #expression | #preview | #image | #Sound | #plugcfg | #maxstart | #vpost | #drivers | #autoback | #matlib | #scripts | #startupScripts | #defaults | #renderPresets | #ui | #maxroot | #renderoutput | #animations | #archives | #Photometric | #renderassets | #userScripts | #userMacros | #userStartupScripts | #temp | #userIcons | #maxData | #downloads | #proxies | #pageFile 
+pathConfig.getProjectFolderPath <ProjectPath> 
+pathConfig.getProjectSubDirectory <subdir_index> 
+pathConfig.isAbsolutePath <path_string> 
+pathConfig.isLegalPath <path_string> 
+pathConfig.isPathRootedAtBackslash <path> 
+pathConfig.isPathRootedAtDriveLetter <path> 
+pathConfig.isProjectFolder <path> 
+pathConfig.isRootPath <path> 
+pathConfig.isUncPath <path> 
+pathConfig.isUncSharePath <path> 
+pathConfig.load <filename> 
+pathConfig.mapPaths #Struct:mapPaths 
+pathConfig.merge <filename> 
+pathConfig.normalizePath <path> 
+pathConfig.pathsResolveEquivalent <path1> <path2> 
+pathConfig.pluginPaths #Struct:pluginPaths 
+pathConfig.removePathLeaf <path> 
+pathConfig.removePathTopParent <path> 
+pathConfig.resolvePathSymbols <path> 
+pathConfig.resolveUNC SystemGlobal:resolveUNC false 
+pathConfig.SaveTo <filename> 
+pathConfig.sessionPaths #Struct:sessionPaths 
+pathConfig.setCurrentProjectFolder <ProjectPath> 
+pathConfig.stripPathToLeaf <path_or_filename> 
+pathConfig.xrefPaths #Struct:xrefPaths 
+pathInterp <shape> [<curve_num>] <parameter> 
+pathIsNetworkPath <file_path> 
+pathTangent <shape> [<curve_num>] <parameter> 
+pathToLengthParam <shape> [<curve_num>] <parameter> [steps:<integer>] 
+persistents.isPersistent <global var name> 
+persistents.make <global var name> 
+persistents.remove <var_name>
+PhysXPanelInterface.instance : maxObject : Read
+pickbutton <name> [<caption>] [message:<string>] [filter:<function>] [toolTip:<string>] [autoDisplay:<boolean>] 
+pickObject [message:<string>] [prompt:<string>] [count:n|#multiple] [filter:fn] [select:<boolean>] [pickFrozen:<boolean>] [rubberBand:<point3>] [rubberBandColor:<color>] [forceListenerFocus:<boolean>] 
+pickOffsetDistance [prompt:<string>] [pt2Prompt:<string>] [errPrompt:<string>] [snap:#2D|#3D] [keyword:<string>]
+pickPoint [prompt:<string>] [snap:#2D|#3D] [rubberBand:<start_point3>] [mouseMoveCallback:fn | #(fn,arg)] [relativeTo:<relativePt_point3>] [terminators:#(<string>,<string>,)]
+pivotMode enums: {#none | #pivotOnly | #objectOnly | #hierarchyOnly} 
+playAnimation [#selOnly] immediateReturn:<boolean>
+plugin <superclass> <varname> {keyword:val}( <plugin_body> )
+pluginManager.loadClass <class> 
+pluginManager.visible : boolean : Read|Write 
+pluginPaths.get <index>
+point2 <x> <y>
+point3 <x> <y> <z> 
+point4 <x> <y> <z> <w>
+pointSelection <node> <point_index> 
+polyop.applyUVWMap <Poly poly> <#planar | #cylindrical | #spherical | #ball | #box> | <#face> utile:<float=1.0> vtile:<float=1.0> wtile:<float=1.0> uflip:<boolean=false> vflip:<boolean=false> wflip:<boolean=false> cap:<boolean=true> tm:<Matrix3=identity matrix> channel:<integer=1>
+polyop.attach <Poly poly> <source>targetNode:<node=unsupplied> sourceNode:<node=unsupplied>
+polyop.autoSmooth <Poly poly>
+polyop.bevelFaces <Poly poly> <facelist> <float height> <float outline>
+polyop.breakVerts <Poly poly> <vertlist>
+polyop.capHolesByEdge <Poly poly> <edgelist>
+polyop.capHolesByFace <Poly poly> <facelist>
+polyop.capHolesByVert <Poly poly> <vertlist>
+polyop.chamferEdges <Poly poly> <edgelist> <float amount>
+polyop.chamferVerts <Poly poly> <vertlist> <float amount>
+polyop.CollapseDeadStructs <Poly poly>
+polyop.collapseEdges <Poly poly> <edgelist>
+polyop.collapseFaces <Poly poly> <facelist>
+polyop.collapseVerts <Poly poly> <vertlist>
+polyop.createEdge <Poly poly> <int vert1> <int vert2>
+polyop.createPolygon <Poly poly> <vertex array>
+polyop.createShape <Poly poly> <edgelist>smooth:<boolean=false> name:<string="Shape01"> node:<node=unsupplied>
+polyop.createVert <Poly poly> <point3 pos>node:<node=unsupplied>
+polyop.cutEdge <Poly poly> <int edge1> <float prop1> <int edge2> <float prop2> <point3 projdir> node:<node=unsupplied>
+polyop.cutFace <Poly poly> <int face> <point3 start> <point3 destination> <point3 projdir>node:<node=unsupplied>
+polyop.cutVert <Poly poly> <int start_vert> <point3 destination> <point3 projdir>node:<node=unsupplied>
+polyop.defaultMapFaces <Poly poly> <int mapChannel>
+polyop.deleteEdges <Poly poly> <edgelist>delIsoVerts:<boolean=true>
+polyop.deleteFaces <Poly poly> <facelist>delIsoVerts:<boolean=true>
+polyop.deleteIsoVerts <Poly poly>
+polyop.deleteVerts <Poly poly> <vertlist>
+polyop.detachEdges <Poly poly> <edgelist> delete:<boolean=true> asNode:<boolean=false> name:<string="Object01"> node:<node=unsupplied>
+polyop.detachFaces <Poly poly> <facelist> delete:<boolean=true>asNode:<boolean=false> name:<string="Object01"> node:<node=unsupplied>
+polyop.detachVerts <Poly poly> <vertlist> delete:<boolean=true>asNode:<boolean=false> name:<string="Object01"> node:<node=unsupplied>
+polyop.divideEdge <Poly poly> <int edge> <float fraction>
+polyop.divideFace <Poly poly> <int face> <point3 pos> node:<node=unsupplied>
+polyop.extrudeFaces <Poly poly> <facelist> <float amount>
+polyop.fillInMesh <Poly poly>
+polyop.flipNormals <Poly poly> <facelist>
+polyop.forceSubdivision <Poly poly>
+polyop.freeEData <Poly poly> <int edChannel>
+polyop.freeVData <Poly poly> <int vdChannel>
+polyop.getBorderFromEdge <Poly poly> <int edge>
+polyop.getDeadEdges <Poly poly>
+polyop.getDeadFaces <Poly poly>
+polyop.getDeadVerts <Poly poly>
+polyop.getEDataChannelSupport <Poly poly> <int edChannel>
+polyop.getEDataValue <Poly poly> <int edChannel> <int edge_index>
+polyop.getEdgeFaces <Poly poly> <int edge>
+polyop.getEdgeFlags <Poly poly> <int edge>
+polyop.getEdgesByFlag <Poly poly> <int flag>mask:<int maskflag>
+polyop.getEdgeSelection <Poly poly>
+polyop.getEdgesUsingFace <Poly poly> <facelist>
+polyop.getEdgesUsingVert <Poly poly> <vertlist>
+polyop.getEdgeVerts <Poly poly> <int edge>
+polyop.getEdgeVis <Poly poly> <int edge>
+polyop.getElementsUsingFace <Poly poly> <facelist> fence:<fence_facelist>
+polyop.getFaceArea <Poly poly> <int face>
+polyop.getFaceCenter <Poly poly> <int face>node:<node=unsupplied>
+polyop.getFaceDeg <Poly poly> <int face>
+polyop.getFaceEdges <Poly poly> <int face>
+polyop.getFaceFlags <Poly poly> <int face>
+polyop.getFaceMatID <Poly poly> <int face>
+polyop.getFaceNormal <Poly poly> <int face>node:<node=unsupplied>
+polyop.getFacesByFlag <Poly poly> <int flag> mask:<int maskflag>
+polyop.getFaceSelection <Poly poly>
+polyop.getFaceSmoothGroup <Poly poly> <int face>
+polyop.getFacesUsingEdge <Poly poly> <edgelist>
+polyop.getFacesUsingVert <Poly poly> <vertlist>
+polyop.getFaceVerts <Poly poly> <int face>
+polyop.GetHasDeadStructs <Poly poly>
+polyop.getHiddenFaces <Poly poly>
+polyop.getHiddenVerts <Poly poly>
+polyop.getMapFace <Poly poly> <int mapChannel> <int index>
+polyop.getMapSupport <Poly poly> <int mapChannel>
+polyop.getMapVert <Poly poly> <int mapChannel> <int index>
+polyop.getNumEDataChannels <Poly poly>
+polyop.getNumEdges <Poly poly>
+polyop.getNumFaces <Poly poly>
+polyop.getNumMapFaces <Poly poly> <int mapChannel>
+polyop.getNumMaps <Poly poly>
+polyop.getNumMapVerts <Poly poly> <int mapChannel>
+polyop.getNumVDataChannels <Poly poly>
+polyop.getNumVerts <Poly poly>
+polyop.getOpenEdges <Poly poly>
+polyop.getSafeFaceCenter <Poly poly> <int face>node:<node=unsupplied>
+polyop.getSlicePlane <Poly poly>size:<&size_float_var> node:<node=unsupplied>
+polyop.getVDataChannelSupport <Poly poly> <int vdChannel>
+polyop.getVDataValue <Poly poly> <int vdChannel> <int vertex_index>
+polyop.getVert <Poly poly> <int vertex>node:<node=unsupplied>
+polyop.getVertFlags <Poly poly> <int vert>
+polyop.getVertsByColor <Poly poly> <Color color> <Float red_thresh> <Float green_thresh> <Float blue_thresh> channel:<int=0>
+polyop.getVertsByColor <Poly poly> <Point3 uvw> <Float u_thresh> <Float v_thresh> <Float w_thresh> channel:<int=0>
+polyop.getVertsByFlag <Poly poly> <int flag> mask:<int maskflag>
+polyop.getVertSelection <Poly poly>
+polyop.getVertsUsedOnlyByFaces <Poly poly> <facelist>
+polyop.getVertsUsingEdge <Poly poly> <edgelist>
+polyop.getVertsUsingFace <Poly poly> <facelist>
+polyop.inSlicePlaneMode <Poly poly>
+polyop.isEdgeDead <Poly poly> <int edge>
+polyop.isFaceDead <Poly poly> <int face>
+polyop.isMeshFilledIn <Poly poly>
+polyop.isVertDead <Poly poly> <int vert>
+polyop.makeEdgesPlanar <Poly poly> <edgelist>
+polyop.makeFacesPlanar <Poly poly> <facelist>
+polyop.makeVertsPlana <Poly poly> <vertlist>
+polyop.meshSmoothByEdge <Poly poly> <edgelist>
+polyop.meshSmoothByFace <Poly poly> <facelist>
+polyop.meshSmoothByVert <Poly poly> <vertlist>
+polyop.moveEdgesToPlane <Poly poly> <edgelist> <Point3 planeNormal> <float planeOffset>node:<node=unsupplied>
+polyop.moveFacesToPlane <Poly poly> <facelist> <Point3 planeNormal> <float planeOffset>node:<node=unsupplied>
+polyop.moveVert <Poly poly> <vertlist> {<point3 offset>|<point3 offset_array>}node:<node> useSoftSel:<bool>
+polyop.moveVertsToPlane <Poly poly> <vertlist> <Point3 planeNormal> <float planeOffset>node:<node>
+polyop.propagateFlags <Polypoly> <toSOLevel> <toFlag_int> <fromSOLevel> <fromFlag_int>ampersand:<boolean=false> set:<boolean=true> undoable:<boolean=true>
+polyop.resetSlicePlane <Poly poly>
+polyop.resetVData <Poly poly> <int vdChannel>
+polyop.retriangulate <Poly poly> <facelist>
+polyop.setDiagonal <Poly poly> <int face> <int face_vert1> <int face_vert2>
+polyop.setEDataChannelSupport <Poly poly> <int edChannel> <Boolean support>
+polyop.setEDataValue <Poly poly> <int edChannel> <edgelist> <float>
+polyop.setEdgeFlags <Poly poly> <edgelist> <int flag>mask:<int=0> undoable:<boolean=false>
+polyop.setEdgeSelection <Poly poly> <edgelist>
+polyop.setEdgeVis <Poly poly> <edgelist> <boolean>
+polyop.SetFaceColor <Poly poly> <int mapChannel> <facelist> <Color color>
+polyop.setFaceFlags <Poly poly> <facelist> <int flag>mask:<int=0> undoable:<boolean=false>
+polyop.setFaceMatID <Poly poly> <facelist> <int MatID>
+polyop.setFaceSelection <Poly poly> <facelist>
+polyop.setFaceSmoothGroup <Poly poly> <facelist> <int smoothing_group> add:<boolean=false>
+polyop.setHiddenFaces <Poly poly> <facelist>
+polyop.setHiddenVerts <Poly poly> <vertlist>
+polyop.setMapFace <Poly poly> <int mapChannel> <int map face index> <map vertex array>
+polyop.setMapSupport <Poly poly> <int mapChannel> <Boolean support>
+polyop.setMapVert <Poly poly> <int mapChannel> <int index> <Point3 uvw>
+polyop.setNumEDataChannels <Poly poly> <int count> keep:<boolean=true>
+polyop.setNumMapFaces <Poly poly> <int mapChannel> <int count> keep:<boolean=false>
+polyop.setNumMaps <Poly poly> <int count> keep:<boolean=true>
+polyop.setNumMapVerts <Poly poly> <int mapChannel> <int count> keep:<boolean=false>
+polyop.setNumVDataChannels <Poly poly> <int count> keep:<boolean=true>
+polyop.setSlicePlane <Poly poly> <ray plane_and_dir> <float size>node:<node=unsupplied>
+polyop.setVDataChannelSupport <Poly poly> <int vdChannel> <boolean support>
+polyop.setVDataValue <Poly poly> <int vdChannel> <vertlist> <float>
+polyop.setVert <Poly poly> <vertlist> {<point3 pos>|<point3 pos_array>}node:<node=unsupplied>
+polyop.setVertColor <Poly poly> <int mapChannel> <vertlist> <Color color>
+polyop.setVertFlags <Poly poly> <vertlist> <int flag>mask:<int=0> undoable:<boolean=false>
+polyop.setVertSelection <Poly poly> <vertlist>
+polyop.slice <Poly poly> <facelist> <ray plane_and_dir>node:<node=unsupplied>
+polyop.splitEdges <Poly poly> <edgelist>
+polyop.tessellateByEdge <Poly poly> <edgelist>
+polyop.tessellateByFace <Poly poly> <facelist>
+polyop.tessellateByVert <Poly poly> <vertlist>
+polyop.unHideAllFaces <Poly poly>
+polyop.unHideAllVerts <Poly poly>
+polyop.weldEdges <Poly poly> <int edge1> <int edge2>
+polyop.weldEdgesByThreshold <Poly poly> <edgelist>
+polyop.weldVerts <Poly poly> <int vert1> <int vert2> <point3 location>node:<node=unsupplied>
+polyop.weldVertsByThreshold <Poly poly> <vertlist>
+PolyToolsPaintDeform.CapOffset: bool : Read|Write
+PolyToolsPaintDeform.NormalDirection: integer : Read|Write
+PolyToolsPolyDraw.BranchTaper: float : Read|Write 
+PolyToolsPolyDraw.DistanceType: integer : Read|Write 
+PolyToolsPolyDraw.MinDistance: float : Read|Write 
+PolyToolsPolyDraw.offset: float : Read|Write 
+PolyToolsPolyDraw.SurfaceDoQuads: bool : Read|Write 
+PolyToolsPolyDraw.TopoAutoWeld: bool : Read|Write 
+PolyToolsShift.Falloff: integer : Read|Write 
+PolyToolsShift.FullStrength: integer : Read|Write 
+PolyToolsShift.IgnoreBackfacing: bool : Read|Write 
+PolyToolsShift.Strength: integer : Read|Write 
+PolyToolsShift.UseMirror: bool : Read|Write 
+PolyToolsShift.UseSelectedVerts: bool : Read|Write 
+PolyToolsUVWTweak.BoundryFixed : bool : Read|Write 
+PolyToolsUVWTweak.Falloff : integer : Read|Write 
+PolyToolsUVWTweak.FullStrength : integer : Read|Write 
+PolyToolsUVWTweak.Strength : float : Read|Write 
+ponytail1Links:Integer Default: 0 
+ponytail2Links:Integer Default: 0 
+pop.DisplayType : enum : Read|Write
+pop.NumFrames : integer : Read|Write
+pop.RealWorldScale : float : Read|Write
+popUpMenu <RCMenu> [pos:<Point2>] [rollout:<Rollout>] [align:<key>]
+PopupMenu <RCMenu> [pos:<Point2>] [rollout:<Rollout>] [align:<key>] 
+pos: <Point2> -- default:dialog will center within MAX. 
+pos: <point2> default: varies
+postRendScript (system String): "" 
+pow <number> <number>
+preRendScript (system String): "" 
+preRotate <matrix3> <quat>
+preRotateY <matrix3> <number>
+preRotateZ <matrix3> <number>
+preScale <matrix3> <point3> [<boolean>] -- mapped function
+preTranslate <matrix3> <point3> -- mapped function
+print <value> to:<filestream>
+print <value> to:<stringstream> 
+print <value> to:<windowstream>
+print <value> [to:<file>] 
+print <value> [to:<stream>] [#noMap] -- mappable
+printStack <node> 
+ProCutter.AddStocks <cutter_object> #(<stock_1>{,<stock_2>}) <addMethod> <matMethod>
+ProCutter.CreateCutter #(<object_1>{,<objectr_2>}) <addMethod> <stockOutsideCutter> <stockInsideCutter> <cutterOutsideStock> <autoExtractMesh> <explodeByElements> 
+ProCutter.getDecimationPercent <bool_obj> 
+ProCutter.getDisplayResult <bool_obj> 
+ProCutter.getMakeQuad <bool_obj> 
+ProCutter.getOperandSel <bool_obj> <integer> 
+ProCutter.getPlanarEdgeRemoval <bool_obj> 
+ProCutter.getQuadSizePercent <bool_obj> 
+ProCutter.getShowHiddenOps <bool_obj> 
+ProCutter.getUpdateMode <bool_obj> 
+ProCutter.setDecimationPercent <bool_obj> <float> 
+ProCutter.setDisplayResult <bool_obj> <boolean> 
+ProCutter.setMakeQuad <bool_obj> <boolean> 
+ProCutter.setOperandSel <bool_obj> <integer> <boolean> 
+ProCutter.setPlanarEdgeRemoval <bool_obj> <integer> 
+ProCutter.setQuadSizePercent <bool_obj> <float> 
+ProCutter.setShowHiddenOps <bool_obj> <boolean> 
+ProCutter.setUpdateMode <bool_obj> <integer> 
+productAppID enums: {#none|#max|#viz|#gmax,#vizR} 
+productID enums: {#3dsMax|#3dsMaxDesign} 
+productVersion enums: {#productVersionDevel|#productVersionTrial|#productVersionOrdinary|#productVersionEdu|#productVersionNFR} 
+progressBar <name> [value:<number>] [color:<color>] [orient:<name>] 
+progressUpdate <percent> 
+prompt default value: true 
+prop1: <value> 
+prop1Exists:Boolean Default: False 
+prop2: <value> 
+prop2Exists:Boolean Default: False 
+prop3Exists:Boolean Default: False 
+propertiesOtherEvent: 
+PseudoColorManager.rangeEnd : float : Read|Write 
+PseudoColorManager.rangeStart : float : Read|Write 
+PseudoColorManager.scaleType : enum : Read|Write 
+pushPrompt <string>
+qCompA <prev_quat> <now_quat> <next_quat>
+qorthog <quat> <axis_point3> 
+qsort <array> <function> [start:<integer>] [end:<integer>] [user-defined key args passed to function] 
+quat <degrees_float> <axis_point3>
+quat <x_float> <y_float> <z_float> <w_float>
+quatArrayToEulerArray <quat array>
+quatToEuler <quat> order:<eulertype_integer>
+quatToEuler2 <quat>
+queryBox <message_string> [title:<window_title_string>] [beep:<boolean>] 
+quiet: <bool> 
+radiobuttons <name> [<caption>]	labels:<array_of_strings> \ 
+RadiosityPreferences.autoProcessObjectRefine : boolean : Read|Write 
+RadiosityPreferences.computeAdvancedLighting : boolean : Read|Write 
+RadiosityPreferences.computeRadiosity : boolean : Read|Write 
+RadiosityPreferences.displayInViewport : boolean : Read|Write 
+RadiosityPreferences.displayReflectanceInMEditor : boolean : Read|Write 
+RadiosityPreferences.displayResetWarning : boolean : Read|Write 
+RadiosityPreferences.displayWarningOnGIPropsChange : boolean : Read|Write 
+RadiosityPreferences.saveScene : boolean : Read|Write 
+RadiosityPreferences.updateDataWhenRequiredOnStart : boolean : Read|Write 
+RadiosityPreferences.useAdvancedLighting : boolean : Read|Write 
+RadiosityPreferences.useRadiosity : boolean : Read|Write 
+radius <float> 
+radius1 <float> 
+radius2 <float> 
+radToDeg <number>
+RAMPlayer <filename1_string> <filename2_string>
+random <angleaxis> <angleaxis>
+random <eulerAngles> <eulerAngles>
+random <from_color> <to_color>
+random <number> <number>
+random <point2> <point2> 
+random <point3> <point3>
+random <point4> <point4>
+random <quat> <quat>
+random <time> <time>
+ray <pos_point3> <dir_point3>
+rcmenu <var_name> ( <rcmenu_body> )
+reactor.addDeactivator : boolean : Read|Write 
+reactor.analyzeBeforeSimulation : boolean : Read|Write 
+reactor.angularDrag : float : Read|Write 
+reactor.backupBeforeSimulation : boolean : Read|Write 
+reactor.camera : node : Read|Write 
+reactor.collisionTolerance : float : Read|Write 
+reactor.createListLayer : boolean : Read|Write 
+reactor.deactivatorLongFrequency : float : Read|Write 
+reactor.deactivatorShortFrequency : float : Read|Write 
+reactor.displayUsingDirectX : boolean : Read|Write 
+reactor.endFrame : integer : Read|Write 
+reactor.farCameraClippingPlane : float : Read|Write 
+reactor.filterBodiesForCollisionInfo : boolean : Read|Write 
+reactor.filterVelocitiesForCollisionInfo : boolean : Read|Write 
+reactor.framesPerKeyframe : integer : Read|Write 
+reactor.gravity : point3 by value : Read|Write 
+reactor.lights : node by value array : Read|Write 
+reactor.linearDrag : float : Read|Write 
+reactor.minFilterVelocityForCollisionInfo : float : Read|Write 
+reactor.mouseSpringDamping : float : Read|Write 
+reactor.mouseSpringRestitution : float : Read|Write 
+reactor.mouseSpringRestLength : float : Read|Write 
+reactor.nearCameraClippingPlane : float : Read|Write 
+reactor.reduceAfterSimulation : boolean : Read|Write 
+reactor.reductionThreshold : float : Read|Write 
+reactor.simulateFriction : boolean : Read|Write 
+reactor.startFrame : integer : Read|Write 
+reactor.storeCollisionInfoMethod : integer : Read|Write 
+reactor.substeps : integer : Read|Write 
+reactor.textureQuality : integer : Read|Write 
+reactor.timeScale : float : Read|Write 
+reactor.updateViewports : boolean : Read|Write 
+reactor.useDefaultCameraClippingPlanes : boolean : Read|Write 
+reactor.useDragAction : boolean : Read|Write 
+reactor.worldScale : float : Read|Write 
+reactTo <reactor_controller> ( <controller> | <node> ) 
+readChar <filestream>
+readChar <stringstream> 
+readChars <filestream> <char_count>
+readChars <stringstream> <number> 
+readDelimitedString <filestream> <string>
+readDelimitedString <stringstream> <string> 
+readExpr <filestream>
+readExpr <stringstream> 
+readLine <filestream>
+readLine <stringstream> 
+readValue <filestream> [ignoreStringEscapes:<boolean>]
+readValue <stringstream> [ignoreStringEscapes:<boolean>] 
+rectify <Box2>
+reduceKeys <controller> <threshold> <step> [<range>]
+reference <node> -- mapped 
+referenceReplace <dest_node> <src_node> -- mapped 
+refine <nurbscvcurve> <u_param> 
+refine <nurbscvsurface> <u_param> <v_param> 
+refine <nurbspointcurve> <u_param> 
+refine <nurbspointsurface> <u_param> <v_param> 
+refineSegment <shape> <spline_index_integer> <seg_index_integer> <seg_interp_param_float>
+refineU <nurbscvsurface> <v_param> 
+refineU <nurbspointsurface> <v_param> 
+refineV <nurbscvsurface> <u_param> 
+refineV <nurbspointsurface> <u_param> 
+refs.dependencyLoopTest <MAXWrapper_object> <MAXWrapper_object> 
+refs.dependentNodes <MAXObject> firstOnly: <bool> baseObjectOnly: <bool> 
+refs.dependents&<MAXWrapper_object>[immediateOnly:&<boolean>] 
+refs.dependsOn <MAXWrapper_object> 
+ref_Axis <Point3> 
+registerOLEInterface <array_of_fns>
+registerRedrawViewsCallback <fn>
+registerRightClickMenu <rcmenu>
+registerSelectFilterCallback <filterFunction> <name>
+registerTimeCallback <fn>
+registerViewWindow <MAXScript_dialog | rollout_floater>
+registry.closeKey <HKey> 
+registry.createKey <HKey> <string subKeyName> accessRights:<{#readOnly|#writeOnly|#all| <int>}> newKeyCreated:<&bool>Key:<&HKey>volatile:<bool> 
+registry.deleteKey <HKey> recurse:<bool> 
+registry.deleteSubKey <HKey> <string subKeyName> recurse:<bool> 
+registry.deleteValue <HKey> <string valueName> 
+registry.flushKey <HKey> 
+registry.getParentKey <HKey> 
+registry.getSubKeyName <HKey> <index> name:<&name> 
+registry.getSubKeyNames <HKey> names:<&array> 
+registry.getValueName <HKey> <index> name:<&name> 
+registry.getValueNames <HKey> names:<&array> 
+registry.isKeyConstant <HKey> 
+registry.isKeyOpen <HKey> 
+registry.isParentKeyOpen <HKey> 
+registry.openKey <HKey> <string subKeyName> accessRights:<{#readOnly |#writeOnly|#all| <int>}> key:<&HKey> 
+registry.queryInfoKey <HKey> numSubKeys:<&int> numValues:<&int> 
+registry.queryValue <HKey> <string valueName> type:<&name> value:<&value> expand:<bool> 
+registry.setValue <HKey> <string valueName> <name valueType> <value data> 
+releaseOnClose: <boolean> 
+remap: #(<old param names array>, <new param names array>)
+removeObject <nurbsset> <index> 
+removeRollout <rollout>
+removeRollout <rollout> [<rolloutFloater>]
+removeSubRollout <subrollout> <rollout> 
+renameFile <old_filename_string> <new_filename_string> 
+render rendertype:#bakeSelected
+render [camera: <camera_node>]
+renderMap <textureMap> [into:<bitmap>] [size:<point2>] [filename:<string>] [scale:<float>] [filter:<boolean>] [display:<boolean>] 
+renderMap <TextureMap> [into:<bitmap>] [size:<point2>] [filename:<string>] [scale:<float>] [filter:<boolean>] [display:<boolean>] [time:<time>]
+renderMessageManager.LogDebugMessage : bool : Read|Write 
+renderMessageManager.LogFileAppend : bool : Read|Write 
+renderMessageManager.LogFilename : string : Read|Write 
+renderMessageManager.LogFileON : bool : Read|Write 
+renderMessageManager.OpenOnError : bool : Read|Write 
+renderMessageManager.ShowInfoMessage : bool : Read|Write 
+renderMessageManager.ShowProgressMessage : bool : Read|Write 
+renderPropertiesChanged: 
+reparameterize <nurbscvcurve> (#centripetal | #uniform) 
+reparameterize <nurbscvsurface> (#centripetal | #uniform) 
+replaceInstances <old_MAXWrapper> <new_MAXWrapper> transferCAs: <bool> 
+replaceUI: <boolean>
+replace_CRLF_with_LF <string>
+replace_LF_with_CRLF <string>
+rescaleWorldUnits <factor> [#selOnly] 
+resetEData <Poly poly> <int edChannel>
+resetLattice <FFDBox>
+resetLattice <FFDCyl>
+resetLattice <FFD_2x2x2>
+ResetPivot <node>-- mapped method 
+ResetScale <node>-- mapped method 
+resetShape <shape>
+ResetTransform <node>-- mapped method 
+ResetXForm <node>-- mapped method 
+resumeEditing which:<panel_name> 
+RetimerMan.active : bool : Read|Write
+RetimerMan.bakeThreshold : float : Read|Write
+RetimerMan.numRetimers : index : Read
+return <expr> 
+reverse <shape> <spline_index_integer>
+reverseTime <controller> <interval> [#incLeft] [#incRight] 
+rollout <var_name> <description_string> [rolledUp:<boolean>] [silentErrors:<boolean>]
+rolloutCreator <rollout_name> <rollout_caption> [paramStr:] [paramStr:<string>] [codeStr:<string>] 
+rotate <matrix3> <quat>
+rotate <node> <angle> <axis_point3> -- mapped -- angle in degrees 
+rotate <node> <eulerangles> -- mapped 
+rotate <node> <quat> -- mapped 
+rotate <nurbsselection> <quat_or_other_rotation_form> 
+rotateXMatrix <number> -- all angles in degrees rotateYMatrix <number>
+rotateY <matrix3> <number>
+rotateYPRMatrix <yaw_number> <pitch_number> <roll_number>
+rotateZ <matrix3> <number>
+rotateZMatrix <number>
+rrentMode enums: {#3dsMaxMode|#MayaMode|#CustomizedMode}
+rticalAxis enums: {#x|#y|#z}
+RTT_methods.NetBakeNode <node> frame:<integer>
+run "<script_file_name>" 
+SafeArrayWrapper <data array>
+SafeArrayWrapper <data array> <lBounds array>
+saveMaterialLibrary <filename_string> 
+saveMixFile <filename:string> 
+saveMoFlowFile <moflow> <file_name> 
+scale <Box2> <float>
+scale <matrix3> <point3> [<boolean>] -- mapped function
+scale <node> <point3> -- mapped 
+scale <nurbsselection> <point3> 
+scaleClip <clip:mxclip> <scale:float> 
+ScaledLocalToGlobal <clip:mxclip> <frame:integer> 
+ScaledLocalToLocal <clip:mxclip> <frame:integer> 
+scaleMatrix <point3>
+scaleTime <controller> <interval> <float_scale> 
+scanForNewPlugins includeUnknownSuperclasses:<bool> 
+SceneExposureControl.exposureControl : maxObject : Read|Write|Validated by Validator function 
+SceneRadiosity.radiosity : maxObject : Read|Write|Validated by Validator function 
+SchematicViews.current : Interface : Read 
+seed <number>
+seek <filestream> <integer>
+seek <stringstream> <pos> 
+segs: <integer> 
+select <edgeselection> 
+select <faceselection> 
+select <node> -- mapped 
+select <nurbsselection> 
+select <PathName>
+select <vertexselection> 
+selectBitMap [caption:<open_dialog_title_string>] 
+selectByName [title:<string>] [buttonText:<string>] [filter:<fn>] [showHidden:<boolean>] [single:<boolean>] 
+selectionChanged: 
+selectionSetChanged: undefined 
+selectionSets[<index>]
+selectionSets[<set_name>]
+selectKey <controller> <index_integer> 
+selectKeys <controller> [<interval> | <time>] 
+selectMore <node> -- mapped 
+selectMore <PathName>
+selectReaction <reactor_controller> <index_integer> 
+selectSaveBitMap [caption:<open_dialog_title_string>] [gamma:&gama_value] [metadata:&dataArray]
+separator <name> [filter:<function>]
+set <context> 
+set level <node> -- variant of at level <node> 
+set time <value> | off -- variant of at time <time> 
+setActive <atmos> <boolean> 
+setActive <renderEffect> <boolean>
+setAfterORT <controller> <ORT_type_name>
+setAlpha <boolean>useAlpha 
+setAppData <MAXWrapper_object> <integer_ID> <string> 
+setAsBackground <bitmap> 
+setAtmospheric <index_integer> <atmos> 
+setBackGround [<time>] ( <point3> | <color> ) 
+setBackGroundController ( <color_controller> | <point3_controller> ) 
+SetBaseObjectProperty: <fn>
+setBeforeORT <controller> <ORT_type_name>
+setBkgFrameRange <point3> 
+setBkgImageAnimate <boolean> 
+setBkgImageAspect <name> 
+setBkgORType <start_end_integer> <name> 
+setBkgStartTime <time> 
+setBkgSyncFrame <integer> 
+setclipboardBitmap <bitmap>
+setclipboardText <string>
+setCommandPanelTaskMode [mode:]<panel_name>
+setCurNamedSelSet <string> 
+setCurve <nurbs1railsweepsurface> <index> <curve> 
+setCurve <nurbsuloftsurface> <index> <curve> 
+setCurveByID <nurbs1railsweepsurface> <index> <curveID> 
+setCurveByID <nurbsuloftsurface> <index> <curveID> 
+setCurveStartPoint <nurbs1railsweepsurface> <index> <float> 
+setCV <nurbscvcurve> <cv_index> <NURBSControlVertex> 
+setCV <nurbscvsurface> <u_index> <v_index> <NURBSControlVertex> 
+setCVertMode <node> <boolean> 
+SetDialogBitmap <rollout> <bitmap> 
+SetDialogPos <Rollout> <Point2>
+SetDialogPos <Rollout> <Point2> 
+setDimensions <FFDBox> <Point3>
+setDimensions <FFDCyl> <Point3>
+SetDir <filetype_name> <string> 
+setDisplacementMapping <mesh> <boolean>
+setEdgeSelection <mesh> ( <sel_bitarray> | <sel_array> ) [keep:<boolean>]
+setEdgeSelection <node> [<modifier_or_index>] ( <sel_bitarray> | <sel_array> ) [name:<name>] [keep:<boolean>]
+setEdgeVis <mesh> <face_index_integer> <edge_index_integer> <boolean>
+setEditMode <type as symbolic enum> 
+setEffect <index_integer> <renderEffect>
+setFace <mesh> <face_index_integer> <vert_index_integer> <vert_index_integer> <vert_index_integer>
+setFace <mesh> <face_index_integer> <vert_indices_point3>
+setFaceMatID <mesh> <face_index_integer> <integer>
+setFaceNormal <mesh> <face_index_integer> <point3>
+setFaceSelection <mesh> ( <sel_bitarray> | <sel_array> ) [keep:<boolean>]
+setFaceSelection <node> [<modifier_or_index>] ( <sel_bitarray> | <sel_array> ) [name:<name>] [keep:<boolean>]
+setFaceSmoothGroup <mesh> <face_index_integer> <smoothing_group_integer>
+setFileAttribute <filename_string> <attribute> <boolean> 
+setFilter <trackgroup: mxtrackgroup> <trackid:string> <onOff:boolean> 
+setFirstKnot <shape> <spline_index_integer> <knot_index_integer>
+setFirstSpline <shape> <spline_index_integer>
+setFlip <nurbs1railsweepsurface> <index> <boolean> 
+setFlip <nurbsuloftsurface> <index> <boolean> 
+setFocus <rollout_ui_item>
+SetGridMajorLines <int>
+SetGridSpacing <float>
+setGroupHead <node> <boolean> 
+setGroupMember <node> <boolean> 
+setGroupOpen <group_head_node> <boolean> 
+setImageBlurMultController <node> <controller> 
+setImageBlurMultiplier <node> <time> <number> 
+setIndexedPixels <bitmap> <coord_point2> <number_array> 
+setIndexedProperty <activeXControl : MSDispatch> <propname> <index> <value>
+setIndices <nurbstexturepoint> <u_index> <v_index> 
+setInheritanceFlags <node> (#all|#none| <bitarray>) keepPos:<boolean>-- mapped 
+setInheritVisibility <node> <boolean> 
+setINISetting <filename_string> <section_string> <key_string> <key_value_string> [forceUTF16:<boolean>]
+setInterlaced <boolean>Interlaced 
+setInVec <shape> <spline_index_integer> <knot_index_integer> <point3>
+setKeyFilters enums: {#all | #position | #rotation | #scale | #ikParams | #objParams | #custAttribs | #modifiers | #materials|#other} 
+setKeyStepsPos <boolean> 
+setKeyStepsRot <boolean> 
+setKeyStepsScale <boolean> 
+setKeyStepsSelOnly <boolean> 
+setKeyStepsUseTrans <boolean> 
+setKnotPoint <shape> <spline_index_integer> <knot_index_integer> <point3>
+setKnotSelection <shape> <spline_index_integer> <knot_index_array> [keep: <boolean>]
+setKnotType <shape> <spline_index_integer> <knot_index_integer> (#smooth | #corner | #bezier | #bezierCorner)
+setListenerSel #(<start_integer>,<end_integer>)
+setListenerSelText <replacement_string>
+setMaterialID <splineShape> <spline_index> <seg_index> <matID>
+setMAXFileAssetMetadata <filename> <array of AssetMetadata_StructDef instances>
+setMeditMaterial <slot_index> ( <material> | <textureMap> ) 
+setMeditMaterial <slot_index> <material> 
+setMesh <mesh> <trimesh>
+setMesh <mesh> [length:<integer>] [width:<integer>] [lengthsegs:<integer>] [widthhsegs:<integer>]
+setMesh <mesh> [numverts:<integer>] [numfaces:<integer>]
+setMesh <mesh> [vertices:<array_of_point3s>] [faces:<array_of_point3s>] [materialIDs:<array_of_integers>] [tverts:<array_of_point3s>]
+setMKTime <morph_key> <time>
+setMKWeight <morph_key> <target_index_integer> <pcnt_float> <keep100%_boolean>
+setModContextBBox <node> <modifier> <point3 min> <point3 max> 
+setModContextTM <node> <modifier> <matrix3> 
+setMorphTarget <morph_controller> <target_index_integer> <target_node> <add_method> 
+setMorphTargetName <morph_controller> <target_index_integer> <name_string> 
+setMotBlur <node> <integer> 
+setNeedsRedraw complete:<bool> 
+setNonUniformScale <BipedExportInterface> <boolean>
+setNormal <mesh> <vert_index_integer> <point3>
+setNumCPVVerts <mesh> <integer> [<boolean>]
+setNumFaces <mesh> <face_index_integer> [<boolean>]
+setNumTVerts <mesh> <number> [<boolean>]
+setNumVerts <mesh> <vert_index_integer> [<boolean>]
+setObject <nurbsset> <index> <nurbsobj> 
+setOutVec <shape> <spline_index_integer> <knot_index_integer> <point3>
+setParent <nurbsmulticurvetrimsurface> <index> <curve> 
+setParent <nurbsnblendsurface> <index> <curve> 
+setParentID <nurbsfilletsurface> <index> <curveID> getParentID <nurbsfilletsurface> <index> 
+setParentID <nurbsmulticurvetrimsurface> <index> <curveID> 
+setParentID <nurbsnblendsurface> <index> <curveID> 
+setPatchSteps <editable_patch_node> <integer>
+setPixels <bitmap> <coord_point2> <color_value_array> 
+setPoint <ccCurve> <index> <ccpoint> [checkConstraints:<true>] 
+setPoint <nurbspointcurve> <index> <nurbs_independent_pt> 
+setPoint <nurbspointsurface> <u_index> <v_index> <NURBSIndependentPoint> 
+setPoint <nurbstexturesurface> <u_index> <v_index> <texturepoint> 
+setPosTaskWeight <node> <float> 
+setProdTess <nurbsset> <tessType_name> <NURBSSurfaceApproximation> 
+setProgressCancel <boolean> 
+setProperty <dotNetClass> <prop name> <value>
+setProperty <dotNetControl> <prop name> <value> 
+setProperty <dotNetObject> <prop name> <value> 
+setProperty <obj> <property_name> <value>
+setPropertyController <value> <string_or_name> <controller>
+setQuality <integer>quality
+setReactionFalloff <reactor_controller> <index_integer> <float> 
+setReactionInfluence <reactor_controller> <index_integer> <float> 
+setReactionName <reactor_controller> <index_integer> <string> 
+setReactionState <reactor_controller> <index_integer> <value> 
+setReactionStrength <reactor_controller> <index_integer> <float> 
+setReactionValue <reactor_controller> <index_integer> <value> 
+setRefCoordSys <mode_name> 
+setRendApertureWidth <float> 
+setRenderable <node> <boolean> 
+setRenderID <node> <integer> 
+setRenderType <name> 
+setRotTaskWeight <node> <float> 
+setSaveRequired <boolean> 
+setSegmentType <shape> <spline_index_integer> <seg_index_integer> (#curve | #line)
+setSegSelection <shape> <spline_index_integer> <segment_index_array> [keep: <boolean>]
+setSelectedPts <ccCurve> <bitarray> [#select] [#deSelect] [#clear] 
+setSelectionLevel <maxobject> {#object | #vertex | #edge | #face} 
+setShadeCVerts <node> <boolean> 
+setSilentMode <boolean> 
+setSize <BigMatrix> <rows> <columns>
+setSmoothing <integer>smoothing
+setSplineSelection <shape> <spline_index_array> [keep:<boolean>]
+setSplitMesh <mesh> <boolean>
+setStatusXYZ <format_name> <point3> 
+setSubdivisionDisplacement <mesh> <boolean>
+setSubMtl <material> <index> <material> 
+setSubTexmap (<material> | <texture>) <index> <texture> 
+setSysCur <name> 
+setTaskAxisState <node> <pos_or_rot_integer> <axis_integer> <boolean> 
+setTextureSurface <nurbssurface> <channel_index> <NURBSTextureSurface> 
+setTimeRange <controller> [<interval>] [#linkToKeys] 
+setToolBtnState <name> <boolean> 
+setTrajectoryOn <node> <boolean> 
+setTransformLockFlags <node> (#all|#none| <bitarray>)-- mapped 
+setTVert <mesh> <tvert_index_integer> ( <point3> | <x> <y> <z> )
+setTVFace <mesh> <face_index_integer> <tvert_index_integer> <tvert_index_integer> <tvert_index_integer>
+setTVFace <mesh> <face_index_integer> <vert_indices_point3>
+SetTwOrgTime <index:integer> <otime:timevalue> 
+SetTwWarpTime <index:integer> <wtime:timevalue> 
+setType <enum>type 
+setUCurve <nurbsuvloftsurface> <index> <curve> 
+setUCurveByID <nurbsuvloftsurface> <index> <curveID> 
+SetUIColor <index_integer> <point3>
+setUKnot <nurbscvsurface> <u_index> <float> 
+setupEvents: <boolean> 
+setUseEnvironmentMap <boolean> 
+setUserProp <node> <key_string> <value> 
+setUserPropBuffer <node> <string> 
+setVCFace <mesh> <CPVface_index_integer> <CPVvert_index_integer> <CPVvert_index_integer> <CPVvert_index_integer>
+setVCFace <mesh> <CPVface_index_integer> <CPVvert_indices_point3>
+setVCurve <nurbsuvloftsurface> <index> <curve> 
+setVCurveByID <nurbsuvloftsurface> <index> <curveID> 
+setVert <mesh> <vert_index_integer> ( <point3> | <float> <float> <float> )
+setVertColor <mesh> <CPVvert_index_integer> <color>
+setVertSelection <mesh> ( <sel_bitarray> | <sel_array> )[keep:<boolean>]
+setVertSelection <node> [<modifier_or_index>]( <sel_bitarray> | <sel_array> ) [name:<name>] [keep:<boolean>]
+setViewApproximation <node> <surfaceApproximation> setRenderApproximation <node> <surfaceApproximation> setSurfaceDisplay <node> <nurbsdisplay> 
+setViewTess <nurbsset> <tessType_name> <NURBSSurfaceApproximation> 
+setVKnot <nurbscvsurface> <v_index> <float> 
+setWeight <index:integer> <float:weight> 
+setWeightAtTime <time:timevalue> <float:weight> 
+setWeightTime <index:integer> <time:timevalue> 
+ShadingLimits enums: { #None | #Good | #Best } 
+shape <node> 
+shapeIDs: <boolean> 
+ShapeLibrary Dimension_Type : radiobtnIndex 
+ShellLaunch <filename_string> <parameters_string> 
+Show <MaxObject>--alternative
+showAllActiveXControls [to:<stream>] 
+showClass <pattern_string> [to:<stream>]
+showEvents <axControl>
+showEvents <axControl> [to:<stream>] 
+showEvents <dotNetClass> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [declaredOnTypeOnly:<bool>]
+showEvents <dotNetControl> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [declaredOnTypeOnly:<bool>] 
+showEvents <dotNetObject> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [declaredOnTypeOnly:<bool>] 
+showHidden: <boolean> 
+showHWTextureMap <material> [<texmap>|<material>] <boolean> 
+showInterface <interface> [to:<stream>] 
+ShowInterfaces <MaxObject>
+showInterfaces {<maxwrapper> | <maxclass> | node} [to:<stream>]
+showMethods <axControl>
+showMethods <axControl> [to:<stream>] [showHidden:<false>] 
+showMethods <dotNetClass> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [showSpecial:<bool>] [showAttributes:<bool>] [declaredOnTypeOnly:<bool>]
+showMethods <dotNetControl> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [showSpecial:<bool>] [showAttributes:<bool>] [declaredOnTypeOnly:<bool>] 
+showMethods <dotNetObject> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [showSpecial:<bool>] [showAttributes:<bool>] [declaredOnTypeOnly:<bool>] 
+showProperties <axControl>
+showProperties <axControl> [to:<stream>] [showHidden:<false>] 
+showProperties <dotNetClass> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [showMethods:<bool>] [showAttributes:<bool>] [declaredOnTypeOnly:<bool>]
+showProperties <dotNetControl> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [showMethods:<bool>] [showAttributes:<bool>] [declaredOnTypeOnly:<bool>] 
+showProperties <dotNetObject> ["prop_pat"] [to:<stream>] [showStaticOnly:<bool>] [showMethods:<bool>] [showAttributes:<bool>] [declaredOnTypeOnly:<bool>] 
+ShowProperties <MaxObject>
+showProperties <maxwrapper_object> [<property_pattern>] [to :<stream>]
+showSource <fn>
+showTextureMap <material> [<texmap>|<material>] <boolean>
+showUnlockedIcons : bool : Read|Write 
+silentErrors: <boolean>
+sin <number>
+sinh <number>
+skinOps.addbone <Skin> <Bone_node> <Update_integer> 
+skinOps.addBoneFromViewEnd <Skin> 
+skinOps.addBoneFromViewStart <Skin> 
+skinOps.addCrossSection <Skin> <BoneID_integer> <U_float> <InnerRadius_float> <OuterRadius_float> 
+skinOps.addCrossSection <Skin> <U_float> 
+skinOps.addCrossSection <Skin> <U_float> <InnerRadius_float> <OuterRadius_float> 
+skinOps.bakeSelectedVerts <Skin> 
+skinOps.buttonAdd <Skin> 
+skinOps.buttonAddCrossSection <Skin> 
+skinOps.buttonAddGizmo <Skin> 
+skinOps.buttonCopyGizmo <Skin> 
+skinOps.buttonExclude <Skin> 
+skinOps.buttonInclude <Skin> 
+skinOps.buttonPaint <Skin> 
+skinOps.buttonPasteGizmo <Skin> 
+skinOps.buttonRemove <Skin> 
+skinOps.buttonRemoveCrossSection <Skin> 
+skinOps.buttonRemoveGizmo <Skin> 
+skinOps.buttonSelectExcluded <Skin> 
+skinOps.buttonWeightTable <Skin <Skin> 
+skinOps.closeWeightTool <Skin> 
+skinOps.copySelectedBone <Skin <Skin> 
+skinOps.enableGizmo <Skin> <GizmoID_integer> <Enable_bool> 
+skinOps.GetBoneName <Skin> <bone_integer> <nameflag_index> 
+skinOps.getBonePropEnvelopeVisible <Skin> <BoneID_integer> 
+skinOps.getBonePropFalloff <Skin> <BoneID_integer> 
+skinOps.getBonePropRelative <Skin> <BoneID_integer> 
+skinOps.GetCrossSectionU <Skin> <BoneID_integer> <CrossSectionID_integer> 
+skinOps.getCurrentSelectGizmoType <Skin> 
+skinOps.GetEndPoint <Skin> <BoneID_integer> 
+skinOps.GetInnerRadius <Skin> <bone_integer> <CrossSectionID_integer> 
+skinOps.GetNumberBones <Skin> 
+skinOps.getNumberCrossSections <Skin> <bone_integer> 
+skinOps.getNumberOfGizmos <Skin> 
+skinOps.getNumberOfGizmoTypes <Skin> 
+skinOps.GetNumberVertices <Skin> 
+skinOps.GetOuterRadius <Skin> <bone_integer> <CrossSectionID_integer> 
+skinOps.GetSelectedBone <Skin> 
+skinOps.getSelectedBonePropEnvelopeVisible <Skin> 
+skinOps.getSelectedBonePropFalloff <Skin> 
+skinOps.getSelectedBonePropRelative <Skin> 
+skinOps.getSelectedGizmo <Skin> 
+skinOps.GetStartPoint <Skin> <BoneID_integer> 
+skinOps.GetVertexWeight <Skin> <vertex_integer> <vertex_bone_integer> 
+skinOps.GetVertexWeightBoneID <Skin> <vertex_integer> <vertex_bone_integer> 
+skinOps.GetVertexWeightCount <Skin> <vertex_integer> 
+skinOps.Invalidate <Skin> <integer> 
+skinOps.isBoneSelected <Skin> <BoneID_integer> 
+skinOps.isRigidHandle <Skin> <handle_integer> 
+skinOps.isRigidVertex <Skin> <vertex_integer> 
+skinOps.isUnNormalizeVertex <Skin> <vertex_integer> 
+skinOps.IsVertexModified <Skin> <vertex_integer> 
+skinOps.IsVertexSelected <Skin> <vertex_integer> 
+skinOps.isWeightToolOpen <Skin> 
+skinOps.loadEnvelope <Skin> [<filename_string>] 
+skinOps.loadEnvelopeAsASCII <Skin> 
+skinOps.multiRemove <Skin> 
+skinOps.paintOptionsButton <Skin> 
+skinOps.paintWeightsButton <Skin> 
+skinOps.pasteAllVerts <SkinModifier> <Bool> 
+skinOps.pasteToAllBones <Skin> 
+skinOps.pasteToBone <Skin> <BoneID_int> 
+skinOps.pasteToSelectedBone <Skin> 
+skinOps.removebone <Skin> 
+skinOps.removebone <Skin> <BoneID_integer> 
+skinOps.RemoveCrossSection <Skin> <BoneID_integer> <CrossSectionID_integer> 
+skinOps.RemoveCrossSection$ <Skin> 
+skinOps.ReplaceVertexWeights <Skin> <vertex_integer> ( <vertex_bone_integer> | <vertex_bone_array> ) ( <weight_float> | <weight_array> ) 
+skinOps.resetAllBones <Skin> 
+skinOps.resetSelectedBone <Skin> 
+skinOps.resetSelectedVerts <Skin> 
+skinOps.rigidHandle <Skin> <handle_integer> 
+skinOps.rigidVertex <Skin> <vertex_integer> 
+skinOps.saveEnvelope <Skin> [<filename_string>] 
+skinOps.saveEnvelopeAsASCII <Skin> [<filename_string>] 
+skinOps.SelectBone <Skin> <bone_integer> 
+skinOps.selectCrossSection <Skin> <CrossSectionID_integer> <Inner_Outer_integer> 
+skinOps.selectEndPoint <Skin> 
+skinOps.selectGizmo <Skin> <gizmoID_int> 
+skinOps.selectGizmoType <Skin> <gizmoTypeID_int> 
+skinOps.selectNextBone <Skin> 
+skinOps.selectPreviousBone <Skin> 
+skinOps.selectStartPoint <Skin> 
+skinOps.SelectVertices <Skin> ( <vertex_integer> | <vertex_array> | <<vertex_bitarray> ) 
+skinOps.setBonePropEnvelopeVisible <Skin> <BoneID_integer> <Visible_integer> 
+skinOps.setBonePropFalloff <Skin> <BoneID_integer> <Falloff_integer> 
+skinOps.setBonePropRelative <Skin> <BoneID_integer> <Relative_integer> 
+skinOps.SetCrossSectionU <Skin> <BoneID_integer> <CrossSectionID_integer> <U_float> 
+skinOps.SetEndPoint <Skin> <BoneID_integer> <EndPointPos_point3> 
+skinOps.SetInnerRadius <Skin> <bone_integer> <CrossSectionID_integer> <Radius_float> 
+skinOps.SetOuterRadius <Skin> <bone_integer> <CrossSectionID_integer> <Radius_float> 
+skinOps.setSelectedBonePropEnvelopeVisible <Skin> <Visible_integer> 
+skinOps.setSelectedBonePropFalloff <Skin> <Falloff_integer> 
+skinOps.setSelectedBonePropRelative <Skin> <Relative_integer> 
+skinOps.SetStartPoint <Skin> <BoneID_integer> <EndPointPos_point3> 
+skinOps.SetVertexWeights <Skin> <vertex_integer> ( <vertex_bone_integer> | <vertex_bone_array> ) ( <weight_float> | <weight_array> ) 
+skinOps.SetWeight <Skin> <weight_float> 
+skinOps.unNormalizeVertex <Skin> <vertex_integer> <boolean> 
+skinOps.WeightTool <Skin> 
+skinOps.ZoomToBone <Skin> <All_boolean> 
+skinOps.ZoomToGizmo <Skin> <All_boolean> 
+skipSpace <CharStream> 
+skipToNextLine <filestream>
+skipToNextLine <stringstream> 
+skipToString <filestream> <string>
+skipToString <stringstream> <string> 
+sleep <time_in_seconds>
+slerp <start_quat> <end_quat> <number>
+slider <name> [<caption>] [range:[min,max,val]] [type:<#float |	#integer>] [ticks:10] [orient:<#horizontal |	#vertical>] [controller:(<controller>)] [toolTip:<string>] 
+sme.activeView : index : Read|Write 
+sme.SetMtlInParamEditor <maxObject> 
+snapMode.getOSnapItemActive <int osnap_index> <int osnap_item_index> 
+snapMode.getOSnapItemName <int osnap_index> <int osnap_item_index> 
+snapMode.getOSnapItemToolTip <int osnap_index> <int osnap_item_index> 
+snapMode.getOSnapName <int osnap_index> 
+snapMode.getOSnapNumItems <int osnap_index> 
+snapMode.setOSnapItemActive <int osnap_index> <int osnap_item_index> <boolean> 
+snapshot <node> -- mapped
+snapshot <node> -- mapped 
+snapshotAsMesh <node> 
+sort <array> 
+sortKeys <controller> 
+sortKeys <key_array> 
+sortNoteKeys <NoteKeyArray> 
+sound type:#string
+spineLinks:Integer Default: 4 
+spinner <name> [<caption>] [range:[min,max,val]] [type:<name>] [scale:<float>] [fieldWidth:<integer>] [toolTip:<string>] [indeterminate:<boolean>] [controller:(<controller>)] [setKeyBrackets:<boolean>] 
+spinner cost "Cost" type: #float
+spinner hits "Hit Points" type: #float
+splayStatusOverrideenums: {#always|#never|#perContainer} 
+splineOps.attachMultiple <editable_spline_or_line_node_or_modifier>
+splineOps.close <editable_spline_or_line_node_or_modifier>
+splineOps.cycle <editable_spline_or_line_node_or_modifier>
+splineOps.delete <editable_spline_or_line_node_or_modifier>
+splineOps.detach <editable_spline_or_line_node_or_modifier>
+splineOps.divide <editable_spline_or_line_node_or_modifier>
+splineOps.explode <editable_spline_or_line_node_or_modifier>
+splineOps.fuse <editable_spline_or_line_node_or_modifier>
+splineOps.hide <editable_spline_or_line_node_or_modifier>
+splineOps.intersect <editable_spline_or_line_node_or_modifier>
+splineOps.makeFirst <editable_spline_or_line_node_or_modifier>
+splineOps.mirrorBoth <editable_spline_or_line_node_or_modifier>
+splineOps.mirrorHoriz <editable_spline_or_line_node_or_modifier>
+splineOps.mirrorVert <editable_spline_or_line_node_or_modifier>
+splineOps.reverse <editable_spline_or_line_node_or_modifier>
+splineOps.selectByID <editable_spline_or_line_node_or_modifier>
+splineOps.startAttach <editable_spline_or_line_node_or_modifier>
+splineOps.startBind <editable_spline_or_line_node_or_modifier>
+splineOps.startBreak <editable_spline_or_line_node_or_modifier>
+splineOps.startChamfer <editable_spline_or_line_node_or_modifier>
+splineOps.startConnect <editable_spline_or_line_node_or_modifier>
+splineOps.startCopyTangent <editable_spline_or_line_node_or_modifier>
+splineOps.startCreateLine <editable_spline_or_line_node_or_modifier>
+splineOps.startCrossInsert <editable_spline_or_line_node_or_modifier>
+splineOps.startExtend <editable_spline_or_line_node_or_modifier>
+splineOps.startFillet <editable_spline_or_line_node_or_modifier>
+splineOps.startInsert <editable_spline_or_line_node_or_modifier>
+splineOps.startOutline <editable_spline_or_line_node_or_modifier>
+splineOps.startPasteTangent <editable_spline_or_line_node_or_modifier>
+splineOps.startRefine <editable_spline_or_line_node_or_modifier>
+splineOps.startRefineConnect <editable_spline_or_line_node_or_modifier>
+splineOps.startSubtract <editable_spline_or_line_node_or_modifier>
+splineOps.startTrim <editable_spline_or_line_node_or_modifier>
+splineOps.startUnion <editable_spline_or_line_node_or_modifier>
+splineOps.unbind <editable_spline_or_line_node_or_modifier>
+splineOps.unhideAll <editable_spline_or_line_node_or_modifier>
+splineOps.weld <editable_spline_or_line_node_or_modifier>
+sqrt <number>
+squad <p_quat> <a_quat> <b_quat> <q_quat> <number>
+squadrev <angle_number> <axis_point3> <start_quat> <start_tangent_quat> <end_tangent_quat> <end_quat> <number>
+stack threadID:<int> showLocals:<bool> firstFrameOnly:<bool> to:<stream>
+start <float> 
+startObjectCreation <maxobjclass> [returnNewNodes:<flag>] [newNodeCallback:<fn>] 
+startTool <tool_name> [prompt:<string>] [snap:#3D|#2D] [numPoints:<number>]
+startU <float> 
+startV <float> 
+StatusPanel.visible : boolean : Read|Write 
+SteeringWheelsOps.AlwaysShowWelcome : bool : Read|Write 
+SteeringWheelsOps.ConstrainWalk : bool : Read|Write 
+SteeringWheelsOps.HaveShownWelcome : bool : Read|Write 
+SteeringWheelsOps.IncrementalZoom : bool : Read|Write 
+SteeringWheelsOps.InvertVerticalAxis : bool : Read|Write 
+SteeringWheelsOps.IsActive : bool : Read|Write 
+SteeringWheelsOps.LargeWheelOpacityFactor : double : Read|Write 
+SteeringWheelsOps.LargeWheelSize : integer : Read|Write
+SteeringWheelsOps.MiniWheelOpacityFactor : double : Read|Write 
+SteeringWheelsOps.MiniWheelSize : integer : Read|Write 
+SteeringWheelsOps.PreserveSceneUp : bool : Read|Write 
+SteeringWheelsOps.SelectionSensitivity : bool : Read|Write 
+SteeringWheelsOps.ShowHUDMessages : bool : Read|Write 
+SteeringWheelsOps.ShowToolTips : bool : Read|Write 
+SteeringWheelsOps.SpeedFactor : double : Read|Write 
+stopCreating <node> 
+stopTool <tool_name>
+stringStream <initial_string> 
+struct <struct_name> ( <member> , <member> )
+struct <struct_name> ( <member> { , <member> } )
+style: <array>
+style: <array> -- default:#(#style_titlebar, #style_border, #style_sysmenu) 
+styleMgr.numCategories : integer : Read 
+styleMgr.numInstances : integer : Read 
+subdivideSegment <splineShape> <spline_index> <seg_index> <divisions>
+subMenu <label> [filter:<function>] ( <submenu_body> )
+subobjectSelectionChanged: 
+substituteString <source_string> <from_string> <to_string> 
+superClassOf <value>
+supportsTimeOperations <ctrl> 
+SurfaceArriveBhvr.getPos <Surface_Arrive_Behavior> <delegate_node> 
+SurfaceArriveBhvr.Getstate <Surface_Arrive_Behavior> <delegate_node> 
+suspendEditing which:<panel_name> 
+swap <destination> <destination> 
+sweep <float> 
+symbolicPaths.addUserPath <string> <filepath>
+symbolicPaths.expandFileName <filename>
+symbolicPaths.getPathName <index>
+symbolicPaths.getPathValue {<index> | <string>}
+symbolicPaths.getUserPathName <index>
+symbolicPaths.getUserPathValue {<index> | <string>}
+symbolicPaths.isPathName <string>
+symbolicPaths.isUserPathName <string>
+symbolicPaths.removeUserPath {<index> | <string>}
+symbolicPaths.setUserPathValue {<index> | <string>} <filepath>
+sym_Axis <Point3> 
+sysinfo.getLanguage [user:<bool>] 
+systemTools.getEnvVariable <string> 
+tabbedDialogs.CancelDialog <tabbedDialogSpec>
+tabbedDialogs.CloseDialog <tabbedDialogSpec>
+tabbedDialogs.CommitPages <tabbedDialogSpec>
+tabbedDialogs.getPageTitle <tabbedDialogSpec> <tabPageSpec>
+tabbedDialogs.invalidate <tabbedDialogSpec>
+tabbedDialogs.invalidatePage <tabbedDialogSpec> <tabPageSpec>
+tabbedDialogs.setCurrentPage <tabbedDialogSpec> <tabPageSpec>
+tailLinks:Integer Default: 0 
+tan <number>
+tangentBezier3D <splineShape> <spline_index> <segment_index> <param_float> pathParam:<boolean>
+tangentCurve3D <splineShape> <spline_index> <param_float> [pathParam:<boolean>]
+tanh <number>
+Targa.setAlphaSplit <boolean>alphaSplit 
+Targa.setColorDepth <integer>colorDepth 
+Targa.setCompressed <boolean>compression 
+Targa.setPreMultAlpha <boolean>preMultAlpha 
+TCB_float : floatControllerTCB_point3 : point3Controller TCB_position : positionController TCB_rotation : rotationController TCB_scale : scaleController
+terrainOps.addOperand <terrain> <node> 
+terrainOps.deleteOperand <terrain> <index_integer> 
+terrainOps.getOperand <terrain> <index_integer> 
+terrainOps.getOperandTM <terrain> <index_integer> 
+terrainOps.setOperandTM <terrain> <index_integer> <matrix3> 
+terrainOps.update <terrain> 
+theHold.Accept <string> 
+theHold.setMaxUndoLevels <int> 
+theHold.SuperAccept <string> 
+themixer.addMixerToDisplay <biped_controller> 
+themixer.lockTransitions SystemGlobal:lockTransitionsboolean default:false 
+themixer.removeMixerFromDisplay <biped_controller> 
+themixer.showClipBounds SystemGlobal:showClipBounds boolean default:true 
+themixer.showClipNames SystemGlobal:showClipNames boolean default:true 
+themixer.showClipScale SystemGlobal:showClipScaleboolean default:false 
+themixer.showGlobalFrames SystemGlobal:showGlobalFramesboolean default:true 
+themixer.showInpoints SystemGlobal:showInpointsboolean default:true 
+themixer.showOutpoints SystemGlobal:showOutpointsboolean default:false 
+themixer.showTgRangebars SystemGlobal:showTgRangebarsboolean default:true 
+themixer.showTimeWarps SystemGlobal:showTimeWarpsboolean default:true 
+themixer.showWgtCurves SystemGlobal:showWgtCurvesboolean default:true 
+themixer.snapFrames SystemGlobal:snapFrames boolean default:true
+themixer.snapToClips SystemGlobal:snapToClips boolean default:false 
+thePainterInterface.additiveMode : boolean : Read|Write 
+thePainterInterface.buildNormals : boolean : Read|Write 
+thePainterInterface.dragStrLimitMax : float : Read|Write 
+thePainterInterface.dragStrLimitMin: float : Read|Write
+thePainterInterface.drawNormal : boolean : Read|Write 
+thePainterInterface.drawRing : boolean : Read|Write 
+thePainterInterface.drawTrace : boolean : Read|Write 
+thePainterInterface.getHitPointData <void> <&point3>localHit <&point3>localNormal <&point3>worldHit <&point3>worldNormal <&float>radius <&float>str <integer>tabIndex 
+thePainterInterface.marker : float : Read|Write 
+thePainterInterface.markerEnable : boolean : Read|Write 
+thePainterInterface.maxSize : float : Read|Write|Validated by Range: 0.0 to 1e+006 
+thePainterInterface.maxStr : float : Read|Write|Validated by Range: 0.0 to 1e+006 
+thePainterInterface.minSize : float : Read|Write|Validated by Range: 0.0 to 1e+006 
+thePainterInterface.minStr : float : Read|Write|Validated by Range: 0.0 to 1e+006 
+thePainterInterface.mirrorAxis : integer : Read|Write|Validated by Range: 1 to 3 
+thePainterInterface.mirrorEnable : boolean : Read|Write 
+thePainterInterface.mirrorGizmoSize : float : Read|Write|Validated by Range: 0.0 to 1e+006 
+thePainterInterface.mirrorOffset : float : Read|Write|Validated by Range: -1e+006 to 1e+006 
+thePainterInterface.normalScale : float : Read|Write 
+thePainterInterface.offMeshHitPos : point3 : Read|Write 
+thePainterInterface.offMeshHitType : integer : Read|Write 
+thePainterInterface.offMeshHitZDepth : float : Read|Write 
+thePainterInterface.pointGatherEnable : boolean : Read|Write 
+thePainterInterface.predefinedSizeEnable : boolean : Read|Write 
+thePainterInterface.predefinedStrEnable : boolean : Read|Write 
+thePainterInterface.pressureAffects : integer : Read|Write|Validated by Range: 1 to 4 
+thePainterInterface.pressureEnable : boolean : Read|Write 
+thePainterInterface.treeDepth : integer : Read|Write|Validated by Range: 2 to 10 
+thePainterInterface.updateOnMouseUp : boolean : Read|Write 
+threads showLocals:<bool> firstFrameOnly:<bool> to:<stream> 
+throw <error_message_string> [<value>] throw() 
+timer <name> [interval:<number>] [active:<boolean>] 
+tmGizmos.arcRotateSnapAngle : float : Read|Write 
+tmGizmos.centerBoxType : enum : Read|Write 
+tmGizmos.dragX : float : Read|Write 
+tmGizmos.dragY : float : Read|Write 
+tmGizmos.freeRotate : boolean : Read|Write 
+tmGizmos.intersectMode : boolean : Read|Write 
+tmGizmos.moveGizmoRelativeSize : float : Read|Write 
+tmGizmos.movePlaneHandleOffset : float : Read|Write 
+tmGizmos.movePlaneHandleSize : float : Read|Write 
+tmGizmos.perpsectiveSensitivity : float : Read|Write 
+tmGizmos.planeOpacity : float : Read|Write 
+tmGizmos.rotateGizmoRelativeSize : float : Read|Write 
+tmGizmos.rotationIncrement : float : Read|Write 
+tmGizmos.rotationMode : integer : Read|Write 
+tmGizmos.rotationPlanarThreshold : float : Read|Write 
+tmGizmos.scaleGizmoRelativeSize : float : Read|Write 
+tmGizmos.screenHandle : boolean : Read|Write 
+tmGizmos.showAngleData : boolean : Read|Write 
+tmGizmos.showMiniTripod : boolean : Read|Write 
+tmGizmos.ShowMultipleTransformGizmos : boolean : Read|Write 
+tmGizmos.showPieSlice : boolean : Read|Write 
+tmGizmos.size : integer : Read|Write 
+tmGizmos.uniformPlaneScaling : boolean : Read|Write 
+tmGizmos.uniformScaleHandleSize : float : Read|Write 
+tmGizmos.useCenterBox : boolean : Read|Write 
+tmGizmos.useGizmo : boolean : Read|Write 
+tmGizmos.useLabels : boolean : Read|Write 
+tmGizmos.usePlanes : boolean : Read|Write 
+tmGizmos.vecX : float : Read|Write 
+tmGizmos.vecY : float : Read|Write 
+to: <stream> 
+toeLinks: Integer Default: 3 
+toes: Integer Default: 5 
+toLower <string>
+tool <tool_name> [prompt:<string>] [numPoints:<number>]( <tool_body> )
+toolMode.coordsys { <mode_name> | <node> } 
+tooltip: {<string>|<array_of_strings>}
+tooltip:"Face Area Checker Display Mode"
+tooltip:{<string>|<array_of_strings>}
+topologyChanged: 
+toUpper <string>
+TrackSelectionSets.count : integer : Read 
+trackView.clearFilter "name_string" {<filter_flag_name>} [#noRedraw]
+trackView.close <name_string>
+trackView.getTrackViewName <index_integer>
+trackView.open <name_string>
+trackView.pickTrackDlg [#multiple] [<filter function>] [options:<integer>]
+trackView.pickTrackDlg [#multiple] [<filter_function>] [options:<integer>]
+trackView.setFilter "name_string" {<filter_flag_name>} [#noRedraw]
+trackView.zoomSelected <name_string>
+trackviews.close <fpvalue>name or index 
+trackviews.current: Interface : Read 
+trackviews.currentTrackView : Interface : Read 
+trackviews.getTrackView <fpvalue>name or index 
+trackviews.getTrackViewByIndex <index as int>
+trackviews.getTrackViewByName <name as string> 
+trackviews.getTrackViewName <index>index 
+trackviews.isCurrent <fpvalue>name or index 
+trackviews.isOpen <fpvalue>name or index 
+trackviews.lastUsedTrackViewName : string : Read 
+trackviews.open <fpvalue>name or index 
+trackviews.setCurrent <fpvalue>name or index 
+transform <node> <nurbsId_or_Id_array> <matrix3> 
+transform <quat> <matrix3>
+translate <Box2> <point2>
+translate <matrix3> <point3> --mapped function
+transMatrix <point3>
+transpose <BigMatrix>
+treeCopy "<from>" to "<to>" [noReplace] 
+treeMove "<from>" to "<to>" [noReplace] 
+triangleNeck:Boolean Default: false 
+trianglePelvis:Boolean Default: True 
+trimextend <fixed_node_array> <alterable_node_array> [trim: <boolean>] [extend: <boolean>] [infinite: <boolean>] [project: view|#3D|#grid] 
+try <protected_expr> catch <on_err_expr> 
+turbulence <color> <frequency_float>
+turbulence <point3> <frequency_float>
+type enums: {#noType|#paletted|#true24}
+unBindKnot <shape> <spline_index_integer> <isEnd_boolean>
+unDisplay <bitmap> 
+undo ["undo_item_label" | label:<string_operand> | variable_name] <bool_expr> <expr> 
+unfreeze <node> [doLayer:<boolean>] -- mapped 
+ungroup <group_head_node> -- mapped 
+unhide <node> [doLayer:<boolean>] -- mapped 
+unhidesegments <shape>
+uniqueName <prefix> [numDigits:<integer>] 
+units.decodeValue <string> 
+units.formatValue <float> 
+unmaz <filename>archiveFile <string>outputDir
+unRegisterRedrawViewsCallback <fn>
+unRegisterRightClickMenu <rcmenu>
+unregisterSelectFilterCallback <filterFunction>
+unRegisterTimeCallback <fn>
+unRegisterViewWindow <MAXScript_dialog | rollout_floater>
+unsupportedRenderEffectAction: <actions> 
+unsupportedRenderEffectList: &variable 
+update <mesh> [geometry:<boolean>] [topology:<boolean>] [normals:<boolean>] -- mapped
+updateBindList <shape>
+updateMTLInMedit ( <material> | <texture> ) 
+updateShape <shape>
+updateSurfaceMapper <surface_mapper>
+UpdateWindow <activexcontrol>
+updateXRef <XRefObject> 
+updateXRef <XRefScene> 
+usedMaps [<MAXWrapper>] 
+usePBValidity: <boolean>
+userPropertiesChanged: 
+useState enums: {#mouseIdle|#mouseDragging|#mouseOverManip} 
+utility <var_name> <description_string> [rolledUp:<boolean>] [silentErrors:<boolean>]
+uvwMappingHeightManip - superclass: helper; super-superclass:Node 
+uvwMappingLengthManip - superclass:helper; super-superclass:Node 
+uvwMappingUTileManip - superclass: helper; super-superclass:Node
+uvwMappingVTileManip - superclass: helper; super-superclass:Node 
+validModifier [<node> | <objectset> | <group>] <modifier |modifier_class> 
+validModifier( <node> | <objectset>) (<modifier | <modifier_class>)
+veAsPreviousAccessType enums: {#noAccess | #onlyEditInPlace | #onlyAddNewObjects | #anythingUnlocked} 
+version <number> 
+version: <integer>
+Vertical_Horizontal_Turn : Matrix3Controller
+ViewCubeOps.All3DViewportsDisplay : bool : Read|Write 
+ViewCubeOps.AngleOfNorth : float : Read|Write 
+ViewCubeOps.AnimatedTransition : bool : Read|Write 
+ViewCubeOps.DragSnapping : bool : Read|Write 
+ViewCubeOps.DrawCompass : bool : Read|Write 
+ViewCubeOps.FitToView : bool : Read|Write 
+ViewCubeOps.KeepSceneUp : bool : Read|Write 
+ViewCubeOps.MinOpacity : float : Read|Write 
+ViewCubeOps.Size : integer : Read|Write 
+ViewCubeOps.Visibility : bool : Read|Write
+viewport.getBlowupRect <viewport index> 
+viewport.getRegionRect <viewport index> 
+viewport.setBlowupRect <viewport index> <box2> 
+viewport.setCanvasNavigationMode <boolean>
+viewport.setRegionRect <viewport index> <box2> 
+ViewportButtonMgr.EnableButtons : bool : Read|Write 
+ViewportSSB.AreaShadow : Boolean : Read|Write 
+ViewportSSB.CubeBias : float : Read|Write 
+ViewportSSB.EVSMConfig : point3by value: Read|Write 
+ViewportSSB.ShadowMapSize : Integer : Read|Write 
+ViewportSSB.TransAreaShadow : Boolean : Read|Write 
+visitedColor: Color default:(color 0 0 192) 
+walkThroughOps.accelerate : bool : Read|Write 
+walkThroughOps.invertVertical : bool : Read|Write 
+walkThroughOps.isActive : bool : Read 
+walkThroughOps.isEnabled : bool : Read 
+walkThroughOps.lockHorizontal : bool : Read|Write 
+walkThroughOps.lockVertical : bool : Read|Write 
+walkThroughOps.sensitivity : float : Read|Write 
+walkThroughOps.stepSize : float : Read|Write 
+wControllersAutoTangentAlgorithm enums: {#unsupported | #legacy | #unified}
+weldCore: <boolean> 
+weldSpline <splineShape node> <tolerance>
+when <attribute> <objects> change[s] [id:<name>] 
+when <objects> deleted [id:<name>] 
+while <expr> do <expr>
+width: <number> default: varies
+windows.addChild <int_HWND> <int_HWND>
+windows.getChildHWND {<int HWND>| #max} <string> parent:{<int HWND>|#max}
+windows.getChildrenHWND {<int HWND>|#max} parent:{<int HWND>| #max}
+windows.getHWNDData {<int HWND>|#max}
+windows.postMessage <int HWND> <int message> <int messageParameter1> <int messageParameter2> 
+Windows.sendMessage <int HWND> <int message> <int messageParameter1> <int messageParameter2>
+windows.setWindowPos <int HWND> <Box2 rect> <bool repaint>
+windows.setWindowPos <int HWND> <int x> <int y> <int width> <int height> <bool repaint>
+wireColorChanged: 
+with defaultAction <action> <expression> 
+with macroRecorderEmitterEnabled <bool_expr> <expr>
+with printAllElements <bool> <expr>
+with quiet <bool> <expression> 
+WM3_AddProgressiveMorphNode <Morpher_Class>Morpher <Integer>morph_channel <Node>morph_target 
+WM3_CreateMarker <Morpher_Class>Morpher <Integer>morph_channel <String>marker_name 
+WM3_DeleteMarker <Morpher_Class>Morpher <Integer>marker_index 
+WM3_DeleteProgressiveMorphNode <Morpher_Class>Morpher <Integer>morph_channel <Integer>prog_morph_index 
+WM3_GetCurrentMarker <Morpher_Class>Morpher 
+WM3_GetMarkerIndex <Morpher_Class>Morpher <Integer>marker_index 
+WM3_GetMarkerName <Morpher_Class>Morpher <Integer>marker_index 
+WM3_GetProgressiveMorphNode <Morpher_Class>Morpher <Integer>morph_channel <Integer>prog_morph_index 
+WM3_GetProgressiveMorphTension <Morpher_Class>Morpher <Integer>morph_channel 
+WM3_GetProgressiveMorphWeight <Morpher_Class>Morpher <Integer>morph_channel <Node>prog_morph_node 
+WM3_MoveMorph <Morpher_Class>Morpher <Integer>old_pos <Integer>new_pos 
+WM3_NumberOfMarkers <Morpher_Class>Morpher 
+WM3_NumberOfProgressiveMorphs <Morpher_Class>Morpher <Integer>morph_channel 
+WM3_SetCurrentMarker <Morpher_Class>Morpher <Integer>marker_index 
+WM3_SetMarkerData <Morpher_Class>Morpher <Integer>marker_index <Integer>morph_channel <String>marker_name 
+WM3_SetProgressiveMorphTension <Morpher_Class>Morpher <Integer>morph_channel <Float>tension 
+WM3_SetProgressiveMorphWeight <Morpher_Class>Morpher <Integer>morph_channel <Node>prog_morph_node <Float>weight 
+WM3_SwapMorph <Morpher_Class>Morpher <Integer>first_pos <Integer>second_pos 
+WorkingPivot.AxisSize : float : Read|Write 
+WorkingPivot.EditMode : boolean : Read|Write 
+WorkingPivot.UseMode : boolean : Read|Write 
+WorldAlignObject <node>-- mapped method 
+WorldAlignPivot <node>-- mapped method 
+WSMApplyFC <WSM_node_array> <pos_point3_array> <vel_point3_array> <force_point3_array> interval:<interval> stepsize:<time>
+xformMat <transform_matrix3> <space_matrix3>
+XMLMaterial.bitmapURL : string : Read|Write 
+XMLMaterial.catalogFormat : bool : Read|Write 
+XMLMaterial.thumbnails : bool : Read|Write 
+XMLMaterial.thumbnailURL : string : Read|Write 
+XMLMaterial.transformURL : string : Read|Write 
+XMLMaterial.transformWithXSLT : bool : Read|Write 
+xref <max_file_name> 
+xrefPaths.add <path_string> 
+xrefPaths.delete <index> 
+xrefPaths.get <index> 
+xrefPaths.getFullFilePath <filename> 
+xrefs.addNewXRefFile <filename_string> [#noLoad] [root: <XRefScene>] 
+xrefs.addNewXRefObject <filename string> <object name>dupMtlNameAction: {#prompt|#useXRefed|#useScene|#autoRename} 
+xrefs.addNewXRefObject <filename> {<objectname> | <objectname_array>} [#proxy]modifiers:{#xref | #merge | #drop}	manipulators: { #xref | #merge } dupMtlNameAction: {#prompt |	#useXRefed |	#useScene |	#autoRename}
+xrefs.attemptUnresolvedXRefs [root: <XRefScene>] 
+xrefs.deleteAllXRefs [root: <XRefScene>] 
+xrefs.findUnresolvedXRefs [root: <XRefScene>] 
+xrefs.getXRefFile <index> [root: <XRefScene>] 
+xrefs.getXRefFileCount [root: <XRefScene>] 
+xrefs.updateChangedXRefs [#noRedraw] [root: <XRefScene>] 
+xViewChecker.activeIndex : index : Read|Write 
+xViewChecker.autoUpdate : bool : Read|Write 
+xViewChecker.displayTextUpTop : bool : Read|Write 
+xViewChecker.on : bool : Read|Write 
+xViewChecker.seeThrough : bool : Read|Write 
+yesNoCancelBox <message_string> [title:<window_title_string>] [beep:<boolean>] 
+zero <matrix3> -- mapped function
+[<expr>, <expr>, <expr>, <expr>]
+[<expr>, <expr>] 
+[<object_parameter>] do <expr> 
+[bgcolor:<color>] [fgcolor:<color>]
+[bitmap:<bitmap>] {bmpstyle:<bmpstyle>
+[escapeEnable:<boolean>] [lockHeight:<boolean>] [lockWidth:<boolean>] [parent:<HWND>]
