@@ -1,3 +1,3 @@
 [
-    { "caption": "Show Maxscript Functions Tooltip: Show Panel", "command": "mxs_tooltip" }
+    { "caption": "MxsTooltip: Show", "command": "mxs_tooltip" }
 ]
