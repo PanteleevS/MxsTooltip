@@ -1,5 +1,7 @@
 import sublime, sublime_plugin, re, os
 
+functionArgsFilename = os.path.dirname(os.path.realpath(__file__)) + "\maxscript_functions_with_args.txt"
+
 def getCurrentWord(self):
     doc = self.view.substr(sublime.Region(0, self.view.size()))
     offset = (self.view.sel())[0].begin()
@@ -30,7 +32,7 @@ class MxsTooltipCommand(sublime_plugin.TextCommand):
             header = "<style>html { background-color:#223344; } body {color: #bbb;margin: 10px;font-size: 14px;font-family: monospace;}span {display:block;}</style>"
             lines = ""
             regex = re.compile(r'(^[^\s]+)', re.M|re.I)
-            with open('C:\\files\\3D_soft\\scripts\\maxscript_functions_with_args.txt', 'r') as searchfile:
+            with open(functionArgsFilename, 'r') as searchfile:
                 for line in searchfile:
                     if re.search( r'' + word + '', line, re.M|re.I):
                         line = re.sub(r"&","&amp;",line)
