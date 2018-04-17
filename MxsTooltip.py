@@ -16,7 +16,7 @@ def getCurrentWord(self):
         if doc[i] in excludedChars:
             break
         else:
-            x -= 1
+            x -= 1    
     return (doc[x:y]).strip()
     
 
@@ -48,7 +48,19 @@ class MxsTooltipCommand(sublime_plugin.TextCommand):
                     if i % 2 != 0:
                         lines[i] = "<span style='background-color:#283848;'>" + lines[i] + "</span>"
                     else:
-                        lines[i] = "<span>" + lines[i] + "</span>"
+                        lines[i] = "<span>" + lines[i] + "</span>"                
                 lines = ''.join(lines)
                 lines = re.sub(r"\n","<br>",lines)
                 self.view.show_popup( header + lines, max_width = 1024, max_height = 300, flags=sublime.HTML )
+				
+class OnHoverEventCommand(sublime_plugin.EventListener):
+    def on_hover(self, view, point, hover_zone):
+        # run hover only if its text
+        if hover_zone == sublime.HOVER_TEXT:
+            a = MxsTooltipCommand(view);
+            a.run('');
+
+class TextInputCommand(sublime_plugin.TextCommand):
+    
+	def run( self, edit):
+	    print( ">>>" )
