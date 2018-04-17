@@ -26,6 +26,8 @@ def getCurrentWord(self):
 class MxsTooltipCommand(sublime_plugin.TextCommand):
 
     def run(self, view):
+        if not self.view.scope_name(self.view.sel()[0].begin()).lower().find("maxscript") > -1:
+            return
         atMouse = False
         if lastWord != "":
             word = lastWord;global lastWord;lastWord="";
