@@ -1,6 +1,8 @@
 import sublime, sublime_plugin, re, os
 
 functionArgsFilename = os.path.dirname(os.path.realpath(__file__)) + "\maxscript_functions_with_args.txt"
+lastWord = ""
+lastPoint = None
 
 def getCurrentWord(self):
     doc = self.view.substr(sublime.Region(0, self.view.size()))
@@ -24,8 +26,12 @@ def getCurrentWord(self):
 class MxsTooltipCommand(sublime_plugin.TextCommand):
 
     def run(self, view):
-        # print('\n'*100)
-        word = getCurrentWord( self )
+        atMouse = False
+        if lastWord != "":
+            word = lastWord;global lastWord;lastWord="";
+            atMouse = True
+        else:
+            word = getCurrentWord( self )
 
         # print("query: " + word)
         if len(word) > 0:
@@ -51,16 +57,17 @@ class MxsTooltipCommand(sublime_plugin.TextCommand):
                         lines[i] = "<span>" + lines[i] + "</span>"                
                 lines = ''.join(lines)
                 lines = re.sub(r"\n","<br>",lines)
-                self.view.show_popup( header + lines, max_width = 1024, max_height = 300, flags=sublime.HTML )
+                if not atMouse:
+                    self.view.show_popup( header + lines, max_width = 1024, max_height = 300, flags=sublime.HTML )
+                else:
+                    global lastPoint
+                    self.view.show_popup( header + lines, location = lastPoint, max_width = 1024, max_height = 300, flags=sublime.HTML )
 				
 class OnHoverEventCommand(sublime_plugin.EventListener):
     def on_hover(self, view, point, hover_zone):
         # run hover only if its text
-        if hover_zone == sublime.HOVER_TEXT:
-            a = MxsTooltipCommand(view);
+        if hover_zone == sublime.HOVER_TEXT:            
+            global lastWord;lastWord = view.substr(view.word(point))
+            global lastPoint;lastPoint = point
+            a = MxsTooltipCommand(view);            
             a.run('');
-
-class TextInputCommand(sublime_plugin.TextCommand):
-    
-	def run( self, edit):
-	    print( ">>>" )
