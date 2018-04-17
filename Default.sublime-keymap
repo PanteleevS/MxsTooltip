@@ -1,3 +1,7 @@
 [
-    { "keys": [ "ctrl+space", "ctrl+space" ], "command": "mxs_tooltip" }
+    { 
+		"keys": [ "ctrl+space" ],
+		"command": "mxs_tooltip" 
+	}
+
 ]
